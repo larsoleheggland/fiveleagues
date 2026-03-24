@@ -1,0 +1,47 @@
+# Five Leagues from the Borderlands — v2.0 Clarifications (Official)
+
+## Non-Human Characters and the Will Limit
+In a few rare cases, it's possible for a non-human character to roll more than 1 point of Will. In these cases, the character now begins with 1 Will and 3 XP instead (text box on p.19).
+
+## Line of Sight and Cover
+Archers within 1" of terrain and shooting over it no longer have to count their targets as being in cover (p.36).
+
+## Spell Casting
+Casting has been added to the Non Combat Actions list on p.38. Casting allows a full move.
+
+Spells with a duration of "Activation" last until the caster has finished their next activation (p.46).
+
+The Guidance spell has a target of "1 Ally" (p.48).
+
+The Summon spell allows the creature to act immediately (p.50). This can be extrapolated to any other cases where a new combatant is placed on the table, unless the rules specifically state when they will act.
+
+Mystics get the full skill bonus from Alchemy (p.52).
+
+## Morale
+Unknown enemy markers (all scenarios) and Unaware enemies (Site battles) are not affected by morale dice (p.51).
+
+## Equipment
+Torches were rewritten since the way they worked ended up being far too fiddly. The new version allows a character to use a torch unless they are carrying a shield or bulky weapon. It produces light within 6".
+
+If you prefer the older version, use whichever you prefer (or both).
+
+## The Campaign Map
+It is now clearer that you don't travel hex by hex. A single travel roll always allows you to reach any location (p.111).
+
+## Site Battles
+Text has been clarified to avoid groups of unaware enemies "joining up" by being near each other (p.144).
+
+## Enemy Changes
+The Silenced (p.161) have been changed to receive +2/+0 damage when their ability triggers. (Piercing Blows was a proposed trait that didn't make it).
+
+The "Not worth the risk" rule for roadside encounters does not trigger if an Unknown Enemy marker is on the table (p.177).
+
+On the Aberrations list, Wraiths, Wights, Death knights and Undead constructs are all considered to be Undead (p.185).
+
+Rolling the "The enemy is gathering weapons" result on the Enemy Plans table gives +1/+0 to damage (p.207).
+
+## Campaign Rewards
+Clarification has been added that you can earn Adventure Points in any scenario, not just Threat battles (the only reward that is Threat scenario specific is the 1D6 award) (p.187).
+
+## Follower Advancement
+The Follower advancement roll is supposed to be a D100 (p.195).

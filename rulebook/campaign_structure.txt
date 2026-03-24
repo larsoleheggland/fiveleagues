@@ -1,0 +1,99 @@
+# Campaign Structure
+
+## Starting the Campaign
+
+### Step 1: Set Up the Region
+Name the region.
+
+### Step 2: Establish Settlements
+Roll D100 on Settlement Population Table:
+01-10: 0H, 1V, 1T | 11-30: 1H, 1V, 1T | 31-45: 2H, 0V, 1T | 46-60: 0H, 2V, 1T | 61-75: 1H, 2V, 1T | 76-90: 2H, 1V, 1T | 91-100: 2H, 2V, 1T
+
+Roll Settlement Type Table for each (D100, -10 hamlet, +10 town):
+10 or lower: Scattered Farming Community (Upkeep max 2GM)
+11-20: Military Outpost (+1 Recruit roll)
+21-30: Nomadic Camp (can Hunting Expedition here)
+31-40: Monastery (+1 Study roll)
+41-55: Manor (blacksmith repairs 2 items)
+56-80: Market Town (first visit +1 AP)
+81+: Trading Hub (pay 1GM for extra Rare Goods roll/turn)
+
+Quick Play: First=Town(Market), Second=Hamlet(Monastery), Third=Hamlet(Manor), Fourth=Village(Market)
+
+### Step 3: Create Your Map
+Mark settlements, fill 4-5 place names. Map Areas (not fixed size). Wilderness = unexplored. Locations = interactable points.
+- Hidden Locations: not on map until found via Adventure Milestone
+- Unexplored Locations: known but not investigated (cap at 4 optional)
+- Moving: Travel roll required between Map Areas. Within same Map Area = no Travel needed.
+
+### Step 4: Determine Threats
+Foes Within (select 2): Ruin Within, Whispers from Beyond, Gnawling Horde, Ice-heart Court
+Foes Without (select 1, or roll D100): 01-25 Duskling, 26-50 Oldest Kin, 51-75 Curse of War, 76-100 Faceless Kingdom
+
+### Step 5: Establish Threat Levels
+Primary enemy = Threat Level 6. Other two = Threat Level 5. Goal: reduce all to 0.
+
+### Step 6: Place Additional Points of Interest
+1 Delve (away from settlements), 1 Unexplored Location, 1 Camp per Threat (in Wilderness).
+
+### Step 7: Note Down Hideouts
+Each Threat has 1 Hidden Hideout (not on map until discovered).
+
+### Step 8: Select Start Point
+Edge of map. Travel roll needed to reach first location.
+
+## The Campaign Structure
+4 stages per turn: Preparation → Adventuring → Encounter → Resolution
+
+## Adventure Points
+Track for warband. Region-specific (reset when leaving).
+Earning: Victorious Threat/Raid=D6, Patrol=1, Aberration=1 each, Unique Foe=2, Lt/Captain=1, Contract=1.
+Plus various event bonuses.
+
+## Adventure Milestones
+Spend 1-6 AP from pool. Roll D6: if ≤ points spent = achieved. Points lost either way.
+Uses: Locate Hidden Location, Gather Money, Upgrade settlement, Reduce Threat, Promote Follower.
+Each type once per turn, multiple types OK.
+
+## Preparation Stage
+In Town (same Map Area as settlement) or In Camp (no settlement or Wilderness).
+First turn: skip Preparation, go to Adventuring for Travel roll.
+
+### Step 1: Local Events
+Roll D100 on Town Events or Camp Events table.
+
+### Step 2: Hard Times
+- Upkeep Costs: 1-6 warband=D3, 7-8=D3+1, 9-10=D6, 11+=D6+1
+  If can't pay: random member becomes Disgruntled (or loses Loyal, or Disgruntled leaves)
+- Healing: If paid upkeep, all recovering reduce by 1 turn. If not paid, only 1 character reduces. Tonics cut 1 additional turn.
+
+### Step 3: Campaign Activities (choose 2)
+Settlement only: Blacksmith, Gamble, Hard Work, Help Town Guard, Meet Locals, Recruit, Visit Healer
+Camp only: Forage Herbs, Hunting Expedition, Live off Land, Mystic Expedition, Scout
+Either: Pray, Study, Train
+
+(Each activity's details are extensive - see the full rulebook for specific mechanics)
+
+### Step 4: Trade (Settlement only)
+Buy from Common Goods (1 of each per turn). Village=1 Rare Goods roll, Town=2. Sell items for 1GM (enchanted in Town = D6 GM). Sell valuables at listed value. Can attempt 2 Adventure Milestones (Gather Money, Invest in Community).
+
+### Step 5: Research
+Roll for connections (D100). Discover Hidden Locations via Adventure Milestone.
+
+### Step 6: Decide Your Adventure
+Options: Explore location, Battle Enemy Threat, Ride Patrol, Carry out Contract, Rest Up, Quest (if applicable).
+
+### Step 7: Outfit for Adventure
+Backpack holds 8 items. Anything not packed = Stashed. Weapons/armor on characters don't count.
+
+## Town Events Table (abbreviated - full table in roll_tables.txt)
+## Camp Events Table (abbreviated - full table in roll_tables.txt)
+
+## Two Battles in One Turn
+If battle while traveling:
+- Complete Resolution normally
+- May use healing items
+- Select 1 injured character, reduce recovery by 1 turn
+- Must complete all encounters before next turn
+- Enemy numbers -1 for second battle
+- Ignore suggested 3rd battle while traveling

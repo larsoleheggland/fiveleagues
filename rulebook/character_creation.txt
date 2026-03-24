@@ -1,0 +1,180 @@
+# Character Creation & Origins
+
+## Character Types
+- Heroes (cornerstone of warband, increased survival, can use any weapons, improve quickly)
+- The Avatar (stand-in for the player, acts as Hero with additional benefits)
+- Mystics (spell-casting character, always Heroes, additional Casting ability starting at +0)
+- Followers (hired hands, less initiative/skill, less permanent, come and go)
+- Friends (don't take battlefield except rare circumstances, can be called upon for aid, may have types like merchant/noble)
+- Enemies (controlled by game system, leaders ranked: Sergeant, Lieutenant, Captain)
+
+## Ability Scores
+- Agility: determines when character acts during round
+- Speed: two values - base movement (inches) and Dash bonus. Modifiers expressed same way.
+- Combat Skill: fighting ability, added to D6 roll
+- Toughness: resilience to harm. Rolling greater than Toughness = incapacitating injury
+- Typical profile: Agility 1, Speed 4"/+3", Combat Skill +0, Toughness 3
+- Enemies don't have Agility but have Armor rating
+- Mystics have additional Casting score starting at +0
+
+## Skills
+Characters start with skills from origin/background. Skills grant +2 bonus to proficiency tests.
+
+Skills Table (D100):
+01-07: Battlewise - battlefield objectives, Seizing Initiative
+08-16: Crafting - repairs, manual labor, haggling
+17-23: Devotion - blessings, rituals, resisting hostile spells
+24-33: Expertise - dexterity, discretion, avoiding hazards
+34-41: Leadership - inspiring action/trust, recruiting
+42-49: Pathwise - navigate, avoid obstacles while traveling
+50-56: Scholar - obscure knowledge
+57-65: Scouting - awareness of enemies and terrain
+66-75: Speech - negotiation, persuasion, understanding motivations
+76-85: Traveling - overcoming wilderness hazards
+86-94: Wilderness - hunting, foraging for herbs
+95-100: Wits - deception, guile, risk-taking, trap evasion
+
+Rolling a skill you already have = choose any skill from table.
+
+## Character Origins
+
+### Character Origin Table (for random selection - use D100 or choose)
+
+### Human
+- Background options: Townsfolk, Noble, Frontier, or Zealot
+- Skill expertise: +1 to all [Speech] tests
+- Driven: Only characters that can ever attain more than 1 Will. If Human Hero obtains Will increase from Advancement, immediately gain 2 XP.
+
+### Fey-blood
+- Background: must select Outsider
+- Skill expertise: +1 to all [Wits] tests
+- Foresight: If assigned initiative die above Agility, may reroll. New roll must stay assigned.
+- Aura of Winter: Melee opponents cannot gain Combat Bonus for allies.
+- Cursed: Cannot ever attain Luck points. Treat Luck increase as skill instead.
+
+### Duskling
+- Background: must select Outsider
+- Skill expertise: +1 to all [Traveling] tests
+- Brute charge: When moving into melee: Cannot Parry; May choose to reroll die in first exchange.
+- Oath of life: In melee against undead, receive Counter Attack ability.
+- Distrust: Cannot have spells cast on them by warband. May carry only single magical item at any time.
+
+### Preen
+- Background: must select Townsfolk
+- Skill expertise: +1 to all [Crafting] tests
+- Outburst: Become Angry if ally within 6" becomes casualty or Hit by ranged/targeted by spell. When Angry and selected to act, must move full Speed+Dash towards nearest enemy, engage melee. If weapon is -1/+0 or +0/+0, treat as +0/+1. Ceases being Angry at end of activation.
+- Swift-footed: Increase Speed by +0"/+1"
+- Slight: Cannot use higher ground for Counter Attack.
+
+### Halfling
+- Background: must select Frontier
+- Skill expertise: +1 to all [Wilderness] tests
+- Lucky shot: When shooting, Hit concealed/Cover target on 5+
+- Slip away: Never roll on Flight in the Dark Table
+- Lacking strength: Cannot use warhammers, bastard swords, or long bows.
+
+### Feral
+- Background: must select Outsider
+- Skill expertise: +1 to all [Scouting] tests
+- Hunting instincts: +1 to Defensive Battle spotting roll. -1 to enemy spotting roll during Raid Sneak Up if character is Feral.
+- Loping run: May move full move and still make ranged attacks (half if weapon normally prohibits movement)
+- Alien: Only +1 bonus (not +2) from Leadership, Speech, and Scholar skills on proficiency tests.
+
+## Generating Heroes
+
+### Backgrounds
+Roll D20 for each subtable. Non-Humans must select specific background. Mystics must select Mystic background regardless of origin.
+
+Background table entries grant:
+- Capabilities: +1 to Combat Skill, Agility, Toughness, or Casting, or +2/+0 to Speed
+- Mentality: Will or Luck points. Non-humans with 2 Will = 1 Will + 3 XP.
+- Possessions: Gold Marks pooled together. Items can go to any character.
+  - Quality weapon: bastard sword, crossbow, fencing sword, longbow, throwing knives, warhammer, war spear
+  - Basic weapon: self bow, sling, standard weapon, staff
+  - Fine basic weapon: staff, standard weapon, self bow, sling (Fine trait)
+  - Full armor: set of full armor
+  - Item: bandages(3), ranger's cloak, silvertree leaf(2), tonics(2), torches(3)
+  - Mystic Item: Congealed Strands(2) or Mystic trinket(3)
+- Training: Skills or bonus XP
+
+### Frontier Background Tables
+D20 Capabilities: 1-4 Agility, 5-8 Combat Skill, 9-12 Speed, 13-16 Toughness, 17-18 Agility+Combat, 19-20 Combat+Toughness
+D20 Mentality: 1 +2Will, 2-3 +1Will, 4-16 +1XP, 17-18 +1Luck, 19-20 +1Will+1Luck
+D20 Possessions: 1-4 1GM, 5-8 2GM, 9-11 Quality weapon, 12-15 Fine basic, 16-20 Item
+D20 Training: 1-12 1skill, 13-15 2skills, 16-20 +1XP
+
+### Mystic Background Tables
+D20 Capabilities: 01-05 Agility, 06-13 Casting, 14-17 Speed, 18-20 Toughness
+D20 Mentality: 01-05 +2Will, 06-09 +1Will, 10-20 +1XP
+D20 Possessions: 01-04 1GM, 05-14 Mystic Item, 15-20 Item
+D20 Training: 01-05 Alchemy skill, 06-11 1skill, 12-20 +1XP
+
+(Noble, Outsider, Townsfolk, Zealot backgrounds exist but detailed tables were not fully visible in the text)
+
+## Selecting Hero Equipment
+In addition to background-generated equipment:
+Weapons: 2 quality weapons + 2 basic weapons distributed among Heroes.
+- Quality: bastard sword, crossbow, fencing sword, longbow, throwing knives, warhammer, war spear
+- Basic: self bow, sling, standard weapon, staff
+- Max 2 Heroes with ranged weapons (marked *). Ranged Hero auto-receives Light Weapon.
+
+Armor distribution:
+- 2 partial armor, 2 light armor, 1 helmet, 1 shield
+- OR: 1 full armor, 1 partial armor, 1 light armor
+
+## Generating Followers
+2 Followers - generic soldiers/scoundrels. Same base profile as Heroes but no ability improvements. Must be Human initially.
+
+Follower Table (D100):
+01-05 Aspiring scholar, 06-13 Brave villager, 14-18 Deranged wretch, 19-25 Faithful servant, 26-33 Former soldier, 34-40 Hired guide, 41-45 Hopeful youth, 46-51 Militia man, 52-58 Outcast drifter, 59-64 Quiet forester, 65-71 Roving traveler, 72-77 Stout yeoman, 78-81 Street urchin, 82-87 Studious apprentice, 88-93 Wandering monk, 94-100 Wily rogue
+
+Follower Equipment: standard weapon or staff. If less than 2 ranged Heroes, one Follower may take self bow + Light Weapon. One Follower wears light armor, rest no armor.
+
+## Warband Resources
+Start with 3 Gold Marks + any from creation tables. 2 doses silvertree leaf additional.
+
+## Spell Selection (for Mystics)
+Select 2 spells from main list. Roll 3 times for additional known spells. Reroll duplicates.
+
+## Finishing Touches
+- 3 Story Points
+- Select one Hero as Avatar: gains 1 Will + 1 Luck (added to existing)
+- Roll D100 on Avatar History Table
+
+### Avatar History Table (D100)
+01-08: +1 Story Point
+09-17: +3 XP
+18-22: Fine standard weapon
+23-28: Mystical ring
+29-34: Map making kit
+35-40: Scout's cloak
+41-49: Adventurer Friend
+50-58: 3 Gold Marks at random settlement (when first arrive)
+59-66: First Quest = immediate Quest Find roll
+67-71: 3 Adventure Points
+72-78: Select Follower as Loyal
+79-85: Add Hidden Delve to campaign
+86-89: Potion of Fortune
+90-95: Unexplored Location in Wilderness
+96-100: Talisman
+
+## The Avatar in the Campaign
+- Begin with 1 Luck + 1 Will additional
+- Never leaves warband involuntarily
+- If Avatar dies: no new Avatar until new campaign. Roll 2D6 at start: on 9+, Avatar returns.
+
+## New Recruits
+- May select Human or any non-Human origin not currently in warband
+- New Heroes: base profile + origin adjustments only (no background roll)
+- New Followers: roll on Follower Table as normal
+
+## Will Points
+Some Heroes may have Will. Humans can have 1+, non-humans max 1.
+Regained at end of encounter. Spend 1 Will to:
+- Move additional 4" after normal move
+- Activate in Quick Actions Phase regardless of initiative
+- Remove Stunned and gain initiative at end of melee exchange
+- Add +2 to proficiency test (declare before rolling, cumulative with all other bonuses)
+
+## Luck
+Characters with Luck points apply when rolling post-game injuries. Each point saves from one result (permanent expenditure).

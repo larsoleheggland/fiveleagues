@@ -1,0 +1,1184 @@
+================================================================================
+ENEMY TABLES
+================================================================================
+
+This section presents the many enemy tables, which offer the profiles and special
+rules for each type of enemy you may fight. The encounter rules will have directed
+you to which specific table to use for a battle. There are two methods you can use
+to determine the exact types you encounter: the escalating difficulty method, and
+the random encounter method.
+
+--------------------------------------------------------------------------------
+ESCALATING DIFFICULTY METHOD
+--------------------------------------------------------------------------------
+The first time you have an encounter from a specific enemy table, you will
+encounter the first entry that is listed. Each subsequent time you have an
+encounter from a given table, select the next entry on the table that you have
+not already encountered, moving down the table as you play. Once you have worked
+through the entire table, begin using the random encounter method instead.
+
+The escalating difficulty method provides a gentle increase in enemy power and
+capability. This is the best option if you want a more gradual difficulty curve,
+or if you prefer to know in advance what to paint up.
+
+--------------------------------------------------------------------------------
+RANDOM ENCOUNTER METHOD
+--------------------------------------------------------------------------------
+Roll D100 and consult the appropriate table. Generally, a higher roll will
+indicate a more difficult opponent. This method does not distinguish between
+stronger or weaker warbands: You may meet a powerful enemy on your first outing,
+or you may face an easy fight.
+
+This is the best option for players who want the feel of a living world, or who
+prefer a more unpredictable game.
+
+--------------------------------------------------------------------------------
+THE ENEMY PROFILE
+--------------------------------------------------------------------------------
+Each of the enemy profile tables includes the following column headings:
+
+  Enemy    The name of the enemy type.
+  Num.     When rolling for the number of enemies you will face, add this
+           number to the die roll.
+  Speed    Enemy movement speed, given as base movement / Dash bonus.
+           All distances are in tabletop inches.
+  Combat   Enemy Combat Skill.
+  Damage   The bonus added to Overcome Armor / Overcome Toughness rolls,
+           for melee combat only. Ranged attacks always use the standard
+           for the weapon instead.
+  Tough.   The enemy's Toughness rating.
+  Armor    The enemy Armor rating.
+  Ranged   The number of enemies that carry ranged weapons, and which
+           weapons they carry.
+
+
+================================================================================
+UNIVERSAL ENEMY TRAITS
+================================================================================
+
+Enemies can exhibit all manner of abilities and talents on the battlefield.
+While some are unique to a particular creature or type of enemy, the most
+universal traits are listed below. Note that some weapons, items, and abilities
+confer effects equivalent to traits from this list.
+
+Awareness
+  You cannot attempt to Seize the Initiative against this enemy, even if the
+  scenario would allow the attempt.
+
+Brave
+  The enemy only fails Morale checks when rolling a 1, instead of the
+  customary 1-2.
+
+Counter Attack
+  If the enemy wins a melee exchange, they will inflict a Hit even if they
+  were the defender.
+
+Crawling
+  The enemy may Dash during Site Battles.
+
+Fearless
+  The enemy does not take Morale checks.
+
+Fey
+  When targeted by a spell, the enemy may roll D6. The spell is canceled on
+  a 4-6. If a spell would affect multiple figures, roll individually for each
+  figure: The spell is canceled if any roll succeeds.
+
+Flying
+  The enemy ignores all terrain penalties and may move across obstacles, even
+  if they would be otherwise Impassable. Flying figures are assumed to land or
+  be hovering just over ground level at the end of their move, and can be
+  engaged normally in melee. Foes do not receive a Combat Bonus from higher
+  ground against Flying characters.
+
+Gruesome
+  A character who is removed as a casualty from battle must make a modification
+  of -5 when rolling for post-game injuries. This does not affect rolls on the
+  Flight in the Dark Table.
+
+Hang Back
+  An enemy with Hang Back should always be set up in or behind a terrain
+  feature. They will not move from that feature, except to engage foes within
+  one move. If targeted by ranged weapons, they will move to get out of sight,
+  if possible.
+
+Monster
+  They cannot Dash and always move as directly as possible towards their foes.
+
+Outflank
+  When deploying, the enemy may roll to Outflank, if the scenario permits it.
+  See individual scenario types for more on Outflanking.
+
+Parry
+  The enemy may Parry in melee combat (see p.42).
+
+Poison
+  A natural 6 on a ranged attack or a natural 6 as the attacker in a melee
+  exchange will automatically remove the target as a casualty, unless the blow
+  fails to penetrate Armor.
+
+Poor Shot
+  This enemy does not add their Combat Skill to ranged attacks.
+
+Regeneration
+  Each Tracking Phase, any enemy with a Wound will heal. Two Wounds during
+  the same battle round will kill them, as normal.
+
+Relentless
+  Warband members cannot use or gain the Parry and Counter Attack abilities
+  in melee against this enemy.
+
+Slippery
+  The enemy does not suffer movement reductions due to difficult terrain, may
+  move through water features at normal speed, and may ignore obstacles up to
+  1" tall when moving.
+
+Skirmisher
+  The enemy may make ranged attacks even if they moved a full move. Weapons
+  that normally allow no movement (such as crossbows) will allow a half move
+  instead.
+
+Terrifying
+  The enemy has Counter Attack when fighting Followers (but not Heroes).
+
+Tough
+  The enemy cannot be Stunned.
+
+Undead
+  The enemy cannot Dash. Undead are always Tough and Fearless as well.
+
+Unknown Enemies
+  The enemy always uses the rules for Unknown Enemy markers unless the
+  scenario would not permit it.
+
+
+================================================================================
+FACTION 1: THE RUIN WITHIN
+================================================================================
+
+The land crawls with those who would bring destruction and death for a few
+blood-stained coins or to sate the whims of their madness. As the Ruin takes
+hold, it spreads across the towns and communities like an invisible sickness,
+tainting all that it touches.
+
+Adventurers and agents of the law notice that many outlaws often come to believe
+in the supernatural patron known as the Mistress of the Mist. Adherents believe
+she guides their steps and hides them from prying eyes, but she is said to
+demand payment in coin and blood for her services.
+
+--- Faction Special Rules ---
+
+Bloodstained Shillings
+  Foes from this encounter table are often known to the local nobility, who is
+  eager to have wandering adventurers rid them of the pests. You may claim
+  1 Gold Mark for any Leader figure slain when fighting foes from this
+  encounter list.
+
+Payment for the Mistress
+  If you are in over your head, you may buy your way out of a battle in the
+  Tracking Phase. Pay 1 Gold Mark per enemy figure still on the table, and end
+  the battle immediately. This does not count as defeating the Threat, but at
+  least you are able to walk away alive.
+
+--- Ruin Within Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-08   Desperate mob            +3    4" / +2"   +0      +0 / +0   3       0     2 slingers
+  A cruel world took everything they had and driven to madness by desperation,
+  they are preying on travelers for resources.
+  Break point: The mob does not roll Morale dice normally. In the Tracking Phase,
+  if casualties exceed half the initial number, they flee, and the battle ends.
+
+09-18   Sneaky thieves           +1    6" / +2"   +0      +0 / +0   3       0     2 self bows
+  Scoundrels looking to fill their purses through thievery and robbery.
+  Sneak attack: A thief that begins the Enemy Actions Phase in or immediately
+  behind a terrain feature receives a Combat Bonus in melee that phase.
+  Looted loot: Each Loot roll that awards Valuables also grants 1 Gold Mark
+  worth of petty coin.
+
+19-24   Slave raiders            +2    4" / +3"   +0      +0 / +0   4       1     2 slingers
+  Whether they are looking to press their victims into naval service, draft them
+  to fight some war, or sell them for coin, these people are the lowest of the low.
+  Craven: If the Leader is slain, roll 2 additional Morale dice.
+  Just in time: If you Hold the Field, you rescue a local villager (forester, if
+  in the Wilderness). Add a Friend.
+
+25-31   Grim-faced rebels        +1    5" / +2"   +1      +0 / +0   4       2     2 self bows
+  The world is full of pretenders to titles and thrones. To fund their wars, they
+  often extort peaceful folk "for the cause".
+  Uprising: If you have a noble Friend, or are carrying out a Contract for a
+  noble, they become Brave.
+
+32-43   Outlaw gang              +2    5" / +3"   +1      +0 / +0   4       1     2 slingers
+  Not all outlaws are romantic fighters against oppression. These folk are simply
+  mean and violent.
+  Traits: Outflank.
+
+44-53   Deserter squad           +3    4" / +2"   +0      +0 / +0   4       2     2 self bows
+  Whatever army these came from is irrelevant. They've figured out that pillaging
+  the countryside is more profitable than fighting in the field.
+  Hardened fighters: After determining if any Leaders are present, swap 1 basic
+  Melee Trooper for a Sergeant.
+
+54-61   Blood-stained renegades  +1    5" / +2"   +1      +0 / +0   4       1     2 self bows
+  Bandits, deserters, and other low-lifes who burn and loot for the heck of it.
+  Often outcasts so unpleasant even the outlaw gangs and slavers won't deal
+  with them.
+  Traits: Brave. Sergeants are also Tough.
+
+62-73   Well-armed brigands      +2    5" / +2"   +1      +0 / +0   4       2     2 self bows
+  Some outlaw groups begin to stock up on weapons and armor, allowing them to
+  go toe-to-toe with soldiers and guards.
+  Lie in wait: At the start of the first Enemy Actions Phase in the game, each
+  brigand archer will shoot at a visible target before any Actions are carried
+  out. This shot does not prevent them from acting normally during this Enemy
+  Actions Phase.
+
+74-81   Hired murderers          +1    5" / +2"   +1      +0 / +1   4       2     3 throwing knives
+  Your deeds have attracted the attention of someone who wants you dead and is
+  willing to pay well for the privilege.
+  Traits: Outflank, Slippery.
+
+82-88   Murder cultists          +2    5" / +3"   +1      +1 / +0   5       1     3 throwing knives
+  In a violent world, some become obsessed with the act of violence itself and
+  seek to perpetuate it in ever more arcane and intricate ways.
+  Traits: Brave, Counter Attack.
+
+89-94   Penitent zealots          +3    4" / +3"   +1      +0 / +0   5       1     None
+  Roaming groups that believe the world will be reborn, once it has been drowned
+  in the blood of the innocent and guilty alike.
+  Battle Zeal: The zealot currently closest to the player's battlefield edge
+  receives a Combat Bonus in melee.
+  Traits: Fearless.
+
+95-100  Order of the snake       +1    6" / +3"   +2      +0 / +0   5       2     3 throwing knives
+  A secretive society of assassins identified by a snake tattoo on the underside
+  of their wrists. Their goals and agenda are unknown, but they never kill for coin.
+  Traits: Brave, Poison, Crawling, Counter Attack.
+
+
+================================================================================
+FACTION 2: THE WHISPERS FROM BEYOND
+================================================================================
+
+The dead and the sinful have always roamed the lands by moonlight, as do those
+who seek to wrest control over life and death from ancient tomes. With every
+sinner that attempts to break open the barriers between this life and the next
+world, the veil grows thinner, and the shadows begin to move.
+
+Many scholars believe that a malign power rules over these denizens of the gloom,
+directing them for some ulterior motive inimical to the survival of day-dwellers.
+Cultists speak of a voice that whispers in their fevered dreams, declaring the
+insignificance of their mortal lives.
+
+--- Faction Special Rules ---
+
+Patterns Unseen
+  Whether it is securing scraps of documents from practitioners of the dark
+  arts, or simply ridding the land of Threats, fighting the Whispers can only
+  further the cause of the light. In any battle where you defeat 5+ figures
+  from this encounter list, you may add +1 Adventure Point.
+
+The Fog that Shrouds the Land
+  When fighting the Whispers, visibility for warband members is limited to 9".
+  If another game rule or event would restrict visibility, use the lower score.
+  Note that enemies from this list are not themselves affected by the 9"
+  limitation, nor are any Unique Foes accompanying them.
+
+--- Whispers from Beyond Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-08   The taken                +3    4" / 0"    +0      +0 / +0   4       0     None
+  The remains of people lured into dark rituals or forbidden pacts. Only husks
+  remain, driven by a malevolent force.
+  Traits: Fearless, Monsters.
+
+09-17   Broken fanatics          +1    4" / +3"   +0      +0 / +0   4       0     1 crossbow
+  When you listen to the whispers for too long, your sanity is unlikely to remain.
+  Driven to fury: Fanatics receive a Combat Bonus when Wounded.
+  Traits: Fearless.
+
+18-26   Roaming dead             +4    3" / 0"    +0      +0 / +0   5       0     None
+  On a moonless night, the dead may rise to vent their hatred of those who still
+  walk in the light.
+  Swarming: Every time a warband member becomes a casualty, place another Roaming
+  Dead on a random battlefield edge.
+  Traits: Undead, Unknown Enemy.
+
+27-34   The outcast               +2    5" / +3"   +0      +0 / +0   3       0     2 slings
+  In a harsh winter, it is said a village may turn to Human flesh for survival.
+  The guilty are exiled and the taint takes what Humanity remained.
+  Bounty on their heads: Roll a D6 for every Leader slain. On a 6, you are
+  awarded 1 Gold Mark after the battle in bounties.
+  Traits: Outflanking.
+
+35-46   Cultist whisperers       +3    5" / +3"   +0      +0 / +0   3       0     1 self bow
+  Shady, cloaked worshippers hoping to bring forth He Who Whispers.
+  Traits: All Leaders have Poison, Outflank, Brave.
+
+47-53   Coven of the half-dead   +2    4" / +3"   +1      +0 / +0   4       1     None
+  A secretive cult looking to bridge the gap between life and death, achieving
+  a form of immortality in the process.
+  Pained ascension: During the Tracking Phase, roll D6 for any Wounded Coven
+  member, including Leaders and Unique Foes. On a 5-6, they are transformed to
+  a Maddened Revenant (see the next entry on this table). This is a spell ability.
+  Traits: Brave.
+
+54-59   Maddened revenants       +2    4" / 0"    +1      +0 / +0   5       1     None
+  When a summoning ritual goes wrong, the earth itself will revolt, and those
+  who have died there will rise to exact vengeance above.
+  Traits: Undead, Gruesome.
+
+60-68   Collector mob             +4    4" / +3"   +1      +0 / +0   4       1     3 slings
+  Macabre scavengers who roam the land searching for trinkets and Human remains
+  to stockpile in their caves and pits.
+  Morbid pack: When rolling Morale dice, a roll of 1-2 removes a Collector as
+  normal. However, a roll of a 6 causes 1 additional Melee Trooper Collector to
+  be placed on the table in or by the terrain feature closest to the center of
+  the table.
+  Traits: Outflank.
+
+69-77   The Corrupt              +3    4" / 0"    +1      +0 / +0   5       2     None
+  Mutated wretches that roam the outskirts of civilization. The whispers
+  tormented their physical form and shaped their minds towards evil.
+  Twisting forms: Warband members do not gain Combat Bonuses from allies against
+  the Corrupt.
+  Traits: Monsters.
+
+78-85   Fog Born                 +2    5" / +2"   +1      +0 / +0   4       2     None
+  When the fog is so thick you can feel it on your skin, the Fog Born creep from
+  the mist. Vaguely humanoid creatures with metallic claws, they are said to have
+  once been men who committed crimes so terrible that even the old gods took notice.
+  Fog bound: All ranged attacks against the Fog Born will Hit only on a natural 6.
+  Servants of the Mistress: Slaying a Fog Born Leader grants +1 Adventure Point.
+  Traits: Gruesome, Brave.
+
+86-93   Grave Walkers            +2    4" / 0"    +2      +1 / +0   5       2     None
+  The skeletal remains of knights and champions slain through betrayal or treason.
+  They yearn for destruction against a worthy adversary.
+  Traits: Undead.
+
+94-100  Night Folk               +1    5" / +3"   +2      +0 / +0   4       2     2 throwing knives
+  A strange, insular breed, the Night Folk are shrouded in swirling fog. They
+  never communicate with outsiders, but raise blood-soaked battle sacrifices to
+  the Whispers.
+  Traits: Poison, Outflank, Fey.
+
+
+================================================================================
+FACTION 3: THE GNAWLING HORDE
+================================================================================
+
+Stories say that when settlers arrived in this region, it was empty of life, but
+those settlers were not the first to live here. In the old times, a great war was
+fought over these lands, between what scholars call the 'Morning People', and a
+far more ancient force that resided here.
+
+The war ended with the Morning People being cursed and banished from the surface
+world, dwelling underground as the curse ate away at their sanity and their very
+form. Now, their bestial forms have returned to reclaim the surface world, by
+blade and by spell.
+
+--- Faction Special Rules ---
+
+Driven by Hatred
+  When taking Morale checks for Gnawlings, a 6 on the Morale dice causes a
+  figure to rush forward. The Gnawling furthest from your battlefield edge
+  immediately takes a full move directly towards the nearest warband member.
+  They will stop 1" away from making contact.
+
+Mob Tactics
+  Gnawlings are practiced in fighting while densely packed together. When
+  fighting a Gnawling that has an ally within 1" of itself, you cannot claim
+  a Combat Bonus from your allies in melee combat.
+
+--- Gnawling Horde Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-09   Skirmisher pack          +4    7" / +3"   +0      +0 / +0   3       0     4 slings
+  Lightly equipped Gnawlings that range ahead of the horde during war. They
+  often function as scouts and spies.
+  Traits: Skirmisher, Crawling.
+
+10-19   Gibbering horde          +6    6" / +3"   +0      +0 / +0   3       0     None
+  As age takes them, the curse claims their minds. Their comrades push them
+  forward in a final battle as their senses begin to fail.
+  Ignore Wounds: In the Tracking Phase, the Wounded Horde figure closest to
+  your battlefield edge recovers from being Wounded.
+  Traits: Unknown Enemy.
+
+20-28   Gnawling raiders         +5    6" / +3"   +0      +0 / +0   3       0     3 slings
+  The Gnawlings often supplement their weaponry and supplies with the products
+  of surface raids.
+  Traits: Skirmisher, Crawling.
+
+29-35   Curse-Bound              +4    5" / +2"   +0      +0 / +0   4       1     None
+  Some the curse deforms even more, their limbs ending in grotesque claws fit
+  only for rending.
+  Traits: Gruesome.
+
+36-45   Gnawling warriors        +4    6" / +3"   +0      +0 / +0   4       1     2 crossbows
+  A war party of Gnawlings, prowling the surface world for a fight.
+  Traits: Skirmisher, Counter Attack.
+
+46-53   Knife-breakers           +5    6" / +3"   +0      +0 / +0   3       0     None
+  Knife-breakers specialize in snapping blades, to deny the enemy the ability
+  to scavenge.
+  Break the knife: Any character that becomes a casualty must make an 8+
+  [Crafting] test or have a random weapon Damaged.
+  Traits: Outflank.
+
+54-63   Tunnel fighters          +4    6" / +3"   +1      +1 / +0   4       2     2 crossbows
+  Gnawling fighters are battle-hardened veterans from years of fighting their
+  foes underground.
+  Traits: Slippery.
+
+64-72   Seething infiltrators    +5    7" / +3"   +0      +0 / +0   4       1     3 slings
+  Infiltrators rely on swarm tactics and sling shots imbued with foul magics
+  to disable their foes.
+  Traits: Outflank, Unknown Enemy, Poison, Crawling.
+
+73-80   The Silenced             +4    6" / +4"   +1      +0 / +0   4       1     None
+  A secretive cult of assassination experts among the Gnawlings.
+  Traits: Silenced receive the Poison trait and increase damage to +2/+0 when
+  fighting a warband member that has no allies within 3".
+
+81-87   Shield-bearers           +4    5" / +2"   +1      +0 / +0   4       2     2 crossbows
+  Common in siege fighting, the shield-bearers use sharp, angled shields for
+  close combat, while their ranged troops use them for protection.
+  Carries Shields (+1 to armor vs ranged)
+  Traits: Parry.
+  Return shots: Shield-bearer ranged troops will immediately shoot back if they
+  are Hit by a ranged attack that is saved by their Armor.
+
+88-94   Hate-sworn               +4    6" / +3"   +1      +0 / +0   5       1     2 crossbows
+  Gnawlings that are unable to resist the madness that engulfs their people may
+  swear themselves to die in battle. The intensity of the oath drives them to
+  furious attacks.
+  Death Frenzy: When slain, the Hate-sworn enter a death frenzy. They immediately
+  make a standard move if not in base contact with a foe, then enter melee combat
+  as normal. Ignore all Wounds on the Hate-sworn while they are in a death frenzy.
+  They die immediately if "slain" a second time, or when the 3rd exchange has been
+  resolved.
+  Traits: Counter Attack.
+
+95-100  The Ascended             +3    6" / +3"   +2      +0 / +0   5       1     None
+  The Gnawlings constantly experiment with sorcery to break their curse. For some,
+  infusions of fey magic promise a path to great power.
+  Bolts of energy: At the start of each Enemy Actions Phase, select the Ascended
+  furthest from your battlefield edge. Ignore figures that have no Line of Sight
+  to any members of the warband. The Ascended will then begin chanting a spell.
+  Place a marker by the figure to remind you. If the figure becomes Wounded or
+  Stunned before the start of the next Enemy Actions Phase, the spell is
+  disrupted. If not, when the figure activates next, they will unleash the spell
+  against the closest warband member they can see at that point (the spell
+  fizzling if none are visible). The target must make a 10+ [Devotion] test or
+  be thrown D6" directly backwards and Wounded.
+  Traits: Fey.
+
+
+================================================================================
+FACTION 4: THE ICE-HEART COURT
+================================================================================
+
+It is believed that in the primordial times, the ancient Fey Courts held wind and
+sun in their power. With a word, a Fey queen could ravage a land with storms, or
+scorch it with sun. However, as the old gods emerged, the Fey had to relinquish
+more and more of their power, driving them back into the deep forests and the
+snow-capped mountains.
+
+Across the land, the Ice-heart Court seeks to reclaim their ancient rights. Their
+terrible queen seeks to plunge the world into a perpetual winter where she would
+become powerful enough to challenge the gods themselves.
+
+--- Faction Special Rules ---
+
+Entrancing Lights
+  When rolling for Initiative at the start of the battle round, you must roll
+  one die less than the number of characters you have on the table (though you
+  may always roll at least one die). The character not assigned a die has been
+  Entranced, and must act in the Slow Actions Phase.
+
+Elfin Trickery
+  When Outflanking, the Court will roll 2D6-1 instead of 2D6 to determine the
+  initial, non-flanking force. When playing a Defensive Battle, roll 2D6+9 to
+  determine setup distance instead of 2D6+12.
+
+--- Ice-heart Court Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-11   Goblin raiders           +5    5" / +3"   +0      +0 / +0   3       0     None
+  Small, long-limbed fiends that lurk in forest caves. They are said to be
+  former fey that succumbed to their cruel impulses.
+  Goblin cruelty: If multiple targets are in range for melee or ranged attacks,
+  they will always prioritize Wounded foes as targets.
+  Traits: Outflank, Fey.
+
+12-23   Forest folk              +2    5" / +2"   +0      +0 / +0   4       0     2 self bows
+  A number of people live in the fey-woods, fighting for their otherworldly lords.
+  Forest fighting: Forest and bush features do not provide Cover against Forest
+  Folk archery.
+
+24-32   Elfin hounds             +4    6" / +4"   +0      +0 / +0   4       0     None
+  Sleek and fierce, these hunting dogs have an unnatural cunning, and a thirst
+  for war.
+  Unpredictable movements: Ranged attacks against Elfin hounds do not add Combat
+  Skill to the attack roll.
+  Traits: Awareness, Outflank, Fey.
+
+33-40   Spider-touched           +3    5" / +3"   +0      +0 / +0   3       1     2 self bows
+  An old sect that worships the great spiders of the forest. They swear personal
+  oaths of fealty to the Fey Queen herself.
+  Traits: Poison, Outflank, Brave.
+
+41-49   Time-lost warriors       +2    4" / +2"   +1      +0 / +0   4       2     2 crossbows
+  The fey have little use for the constraints of time, and some of their allies
+  are warrior clans long consigned to forgotten history.
+  Traits: Brave.
+
+50-57   War dryads               +3    6" / +2"   +0      +0 / +0   4       2     None
+  Dryads are known to pull hapless wanderers into the fey realm. The results are
+  often fatal.
+  Painful Lure: A character Wounded by a Dryad must make a 7+ [Devotion] test.
+  Failure causes them to be removed from the table.
+  Forest whispers: All characters removed from the table due to Painful Lure or
+  as casualties must roll on the Flight in the Dark Table, instead of the Injury
+  Table.
+  Traits: Counter Attack, Fey.
+
+58-63   Tree wardens             +2    5" / +2"   +1      +0 / +1   5       2     None
+  The fey grant sentience to young, small trees, imbuing them with mobility and
+  a fierce hatred for outsiders.
+  Traits: Tough, Regeneration, Fey.
+
+64-71   Fey spirits              +3    6" / +3"   +1      +0 / +0   5       1     3 self bows
+  Faerie-kind that linger too long in the otherworld tend to lose their grip on
+  reality, as well as sanity. When they take to the field, it is as howling,
+  half-ethereal forms, lingering for just one more battle.
+  Traits: Terrifying, Flying, Fey.
+
+72-81   Fey soldiers             +3    6" / +3"   +1      +1 / +0   4       3     3 crossbows
+  The ranks of the Faerie Court armies are a sight to behold, clad in armor of
+  Elven silver.
+  Traits: Skirmisher, Fey.
+
+82-89   Winter Legion            +3    6" / +2"   +1      +0 / +0   5       3     3 crossbows
+  Part of the Queen's armies have been tasked with finding ways to weaken the
+  hold of the gods on the mortal realms. Frozen winds envelop them in battle.
+  Winter Mist: Ranged attacks against the Winter Legion do not add Combat Skill
+  to the Hit roll.
+  Traits: Brave, Fey.
+
+90-95   Fey knights              +2    6" / +2"   +2      +1 / +0   4       3     None
+  While they often fight dismounted (faerie horses persisting only briefly in
+  the mortal realms), Fey knights are a terrifying force on the battlefield.
+  Traits: Fearless, Tough, Fey.
+
+96-100  Queen's own              +2    6" / +2"   +2      +1 / +1   4       3     3 crossbows
+  The hand-picked guard of the Eternal Queen.
+  A worthy struggle: Add +1 Story Point and +1 Adventure Point if you Hold
+  the Field.
+  Traits: Parry, Counter Attack, Fey.
+
+
+================================================================================
+FACTION 5: DUSKLING WARBANDS
+================================================================================
+
+The far reaches nominally ruled by the Dusklings are notoriously inaccessible to
+travelers, but groups setting out as raiders, mercenaries, or simply adventurers
+are a common sight around the lands.
+
+A war-like culture, Dusklings worship animalistic gods that are said to predate
+even the Old Gods, yet refuse any call from an outsider that has not undergone
+the "Ritual of Strife and Scar".
+
+The Dusklings themselves rarely speak of their origins, placing little value in
+it, but feel a strong affinity for the night. Duskling priests emphasize the role
+of their people in maintaining the balance between the physical world and the fey
+realms.
+
+--- Faction Special Rules ---
+
+Pain-fury
+  Dusklings receive the Counter Attack trait while Wounded.
+
+Hatred of Magic
+  Dusklings have a particular hatred of Fey-blood and spell-casting characters.
+  When choosing ranged attack targets, they will always target such characters,
+  if visible and in range. If within two moves of such a character, a Duskling
+  will advance as fast as possible towards the character to engage them in melee
+  (regardless of armaments, personal safety, or other considerations).
+
+The Long Walk
+  If a Duskling warband is accompanied by a spell-casting Unique Foe, they are
+  assumed to have taken the "Long Walk" and abandoned Duskling ways. The enemy
+  is NOT subject to the Hatred of Magic rule listed above.
+
+--- Duskling Warband Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-09   Unforgiven warband       +3    5" / +3"   +0      +0 / +0   3       0     2 self bows
+  A band of wretched Dusklings that have fallen into disgrace and been cast out.
+  Traits: Unknown Enemy.
+
+10-20   Aspiring war party       +1    5" / +3"   +0      +0 / +0   3       1     2 self bows
+  Young raiders hoping to gain status by slaying a particularly worthy opponent
+  in battle.
+  Aspire to glory: The Aspiring receive a Combat Bonus in melee against foes
+  with a Combat Skill of +1 or greater.
+  Traits: Brave.
+
+21-30   Warband remnants         +2    5" / +3"   +0      +0 / +0   4       1     1 self bow
+  The stragglers of a failed raid, limping away with the meager spoils they have
+  acquired. Scattering these bands before they can regroup will help your
+  long-term prospects.
+  Gather the spoils: Holding the Field awards +1 Adventure Point and +1 Gold
+  Mark in petty coin.
+
+31-39   Hunting band             +1    6" / +3"   +1      +1 / +0   4       1     3 self bows
+  Duskling hunters are relentless and talented, often acting both as hunters,
+  foragers and raiding forces.
+  Hunters: If you Hold the Field, you may add 1 ration.
+  Traits: Slippery.
+
+40-48   Blood-streaked band      +3    5" / +4"   +0      +0 / +1   4       1     2 self bows
+  Some warbands believe that warpaint made from the blood of their comrades
+  grants them resilience to strikes in battle.
+  Traits: Tough.
+
+49-57   Maddened wave            +4    6" / +2"   +0      +0 / +1   4       1     None
+  Consumed by some mania, the attack has lost all cohesion. The Dusklings simply
+  hurl themselves at you, eager to sate their blood-mad ambitions.
+  Status through glory: Whenever a non-Leader figure knocks out a foe in melee
+  combat, roll D6. On a roll of a 1, immediately promote them to a Sergeant.
+  Increase their Toughness to 5 and grant the Parry trait.
+
+58-65   Mist-clad warband        +1    6" / +3"   +1      +0 / +0   4       0     2 self bows
+  A warband worshipping a canine predator of their homelands known for hunting
+  in the morning fog. The members often decorate themselves with pelts and
+  animal fangs.
+  Hard to spot: In Defensive battles, modify spotting rolls against them by -1.
+  Traits: Poor shots, Unknown Enemy.
+
+66-75   Prowling renegades       +2    5" / +3"   +1      +0 / +1   4       1     2 self bows
+  A warband that has transgressed against a war leader and struck out on their
+  own, until they can return in blood-soaked glory.
+  Traits: Skirmisher, Brave, Poor Shots, Crawling.
+
+76-82   Death-sworn warriors     +2    5" / +3"   +1      +1 / +1   4       2     None
+  Whether from a great disgrace or a boast gone out of hand, the Death-sworn
+  don heavy coats of mail, and hurl themselves at the strongest foes they can find.
+  Traits: Parry, Terrifying.
+
+83-87   Winding Path warband     +2    6" / +4"   +1      +0 / +1   5       1     2 self bows
+  A secretive cult distrusted by their comrades for their adherence to the Old
+  Gods instead of the Duskling ways.
+  Bitter determination: If at the start of the Tracking Phase, a Winding Path
+  member is within 6" of a warband member, they all become Fearless.
+  Traits: Poisoned, Poor Shots, Crawling.
+
+88-94   Notched blades           +1    5" / +4"   +2      +1 / +0   5       1     None
+  Highly skilled warriors that disdain a ranged attack, preferring to engage
+  their foes up close.
+  Traits: Parry, Relentless.
+
+95-100  Skull-taker warband      +1    6" / +3"   +2      +1 / +1   4       2     2 self bows
+  The elite of the Duskling forces, they have forsaken any semblance of
+  individuality to pursue the ways of war. Even other Dusklings view them
+  with fear.
+  Traits: Poor Shots, Gruesome, Relentless, Terrifying. Leaders receive
+  Regeneration.
+
+
+================================================================================
+FACTION 6: THE OLDEST KIN
+================================================================================
+
+The priests of the reptilian Oldest Kin tell of once raising their clawed hands
+to stars that no longer exist, beseeching forgotten gods for great power. The gods
+responded terribly, destroying the Oldest Kin empire with fire, and scattering the
+survivors throughout time.
+
+Now, their eyes turn to the lands of the warm-blooded, to conquer, and rebuild a
+realm in which to compose their rituals, and claim final revenge.
+
+--- Faction Special Rules ---
+
+Old Kin Javelins
+  Javelins are ranged weapons, 9" range, -1 / +0 damage. The thrower may move
+  and add their Combat Skill to the attack roll. Moving over half speed prevents
+  ranged attacks, as normal.
+
+Slow-moving Blood
+  All Old Kin have the Brave trait. They are immune to any form of poison,
+  regardless of the source.
+
+Clad in Scales and Silver
+  The Old Kin place great emphasis on fine things. If you obtain Valuables from
+  the Loot Table, increase the value of each such item by 1 Gold Mark.
+
+--- Oldest Kin Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-11   Spawned brood            +1    4" / +2"   +0      +0 / +0   4       1     2 javelins
+  Those who have never witnessed battle before attack eagerly, though they lack
+  much of the toughness and brute strength of their more battle-hardened cousins.
+  Traits: Skirmisher.
+
+12-24   Kin-blooded              +1    5" / +2"   +0      +0 / +0   4       1     2 self bows
+  While appearing Human in form and physique, their unblinking eyes and scaly
+  skin suggests an ancient connection to the Oldest Kin.
+  Thin blood: Kin-Blooded are not subject to the Old Kin special rules.
+  Traits: Unknown Enemy.
+
+25-35   Warrior brood            +2    5" / +2"   +0      +0 / +0   4       1     2 javelins
+  The rank and file of the Kin armies, wielding weapons of bone, with leather
+  harnesses strapped over their scaly hides.
+  Silver jewelry: Collect 1 Gold Mark for every Leader slain.
+
+36-40   Relict brood             +2    5" / +2"   +0      +0 / +1   5       1     None
+  A brood reeking of sorcery, their crude humanoid forms were conjured from
+  times long past.
+  Traits: Regeneration.
+
+41-47   Needle Fang pack         +4    5" / +3"   +1      +0 / +0   4       2     None
+  Long-limbed lizards with a mouth full of fangs, they seem to share a primitive
+  pack intelligence.
+  Traits: Awareness.
+
+48-55   Raider brood             +2    4" / +2"   +0      +0 / +0   4       1     3 javelins
+  Skulking foes that hurl venom-tipped darts at their foes, they are at their
+  most dangerous in cramped conditions and close quarters.
+  Traits: Crawling. Ranged attacks have Poison.
+
+56-65   Ravager brood            +1    5" / +2"   +1      +0 / +0   5       2     2 javelins
+  These broods are employed specifically to harry and hunt. Their scales have an
+  iron-like sheen that is like a coat of steel maille.
+  Traits: Awareness.
+
+66-73   Hunter beast pack        +4    5" / +3"   +1      +0 / +0   4       1     None
+  These ferocious war-beasts share the reptilian ancestry of their masters. They
+  are unrelenting hunters used to harass and demoralize foes before a raid.
+  Jungle tactics: Hunter Beasts receive a Combat Bonus in melee if they or their
+  opponent is within 1" of a terrain feature.
+  Traits: Slippery.
+
+74-82   War-strong brood         +2    4" / +2"   +1      +1 / +0   5       2     None
+  Battle-hardened veterans of many campaigns, the War-strong have grown to
+  monstrous bulk and power.
+  Traits: Relentless.
+
+83-88   Deep coven               +2    4" / +2    +1      +0 / +1   5       1     None
+  Advancing with chants of the old oceans, the Covens are wreathed in the heavy
+  stench of salt and magic.
+  Call the kindred: In each Tracking Phase, roll D6 for every coven member within
+  8" of a warband member. For every roll of 6, place a Kin-Blooded figure (from
+  the above entry on this table) adjacent to the coven-member in question. This
+  ability is a spell, cast by all coven figures in range.
+  Traits: Terrifying, Poison.
+
+89-94   Cold blooded priest band +2    4" / +2"   +2      +0 / +0   5       2     2 sorcerous bolts (equal to crossbows)
+  The war-priests of the Kin have gazed into worlds beyond. As such, the mortal
+  realms hold no terrors to cow their cold hearts.
+  Traits: Tough, Fearless, Skirmisher.
+
+95-100  Battle champion band     +2    5" / +2"   +2      +1 / +1   5       2     2 javelins
+  The most scarred and battle-worn of the Old Kin, these warriors have seen all
+  and slain most of those the warm-blooded can muster.
+  Traits: Relentless, Fearless.
+
+
+================================================================================
+FACTION 7: THE CURSE OF WAR
+================================================================================
+
+Warfare scorching the land is hardly unusual, leaving desolation and smoldering
+ruins in its wake. When a war has been going on for too long, it starts to acquire
+a sinister presence, as if the war itself has become sentient and malign. Strange
+things crawl around the battlefields after night falls, and the fighting troops
+begin to lose any sense of why they were fighting. Empty-eyed patrols stagger
+around the blood-soaked land, perpetuating the war for its own sake, long-lost to
+the world of the living or the sane.
+
+While the curse descends upon the land, those caught in the whirlwind of conflict
+try to eke out an existence as they always have.
+
+--- Faction Special Rules ---
+
+The Slow Grind of War
+  If an objective has a time limit, it is increased by +1 battle round.
+
+Tattered Banners, Bloody Flags
+  If at the beginning of a battle round, two or more enemies have fled the
+  battlefield, the rest become Fearless for the remainder of the battle.
+
+--- Curse of War Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-09   Craven deserters         +3    4" / +2"   +0      +0 / +0   3       0     2 slings
+  Wayward soldiers who have forsaken the war and resorted to looting travelers.
+  Not dying today: Morale dice fail on a 1-3.
+
+10-19   Opportunistic pillagers  +3    5" / +2"   +0      +0 / +0   3       1     2 slings
+  Foragers for one of the warring armies. They seem more concerned with acquiring
+  loot than any military purpose.
+  Pillagers: If you Hold the Field, roll 2D6. For each of the dice showing a 5
+  or 6, you receive looted foodstuffs worth 1 ration.
+  Traits: Slippery.
+
+20-28   Cruel deserters          +3    4" / +2"   +0      +0 / +0   3       1     2 self bows
+  In a few more weeks, the war will take their minds too, but for now, they
+  cling to the few shreds of base Human emotion they can still muster.
+  Traits: Skirmisher, Gruesome.
+
+29-35   Torch bearers            +3    5" / +2"   +0      +0 / +0   4       1     3 slings
+  A frantic cult devoted to the purifying torch. Rarely good news near
+  settlements.
+  The tip of the spear: If accompanied by a Unique Foe, a roll on the Enemy
+  Plans Table (p.207) is triggered after the battle, unless you slay the
+  Unique Foe.
+  Traits: Outflank.
+
+36-45   Gibbering corpse-crawlers +4   5" / +3"   +1      +0 / +0   4       0     None
+  It is hard to tell what is worse: Their manic laughter, or how they swarm at
+  the smell of fresh blood.
+  Drawn by blood: Every time a warband member is knocked out, place 2 more
+  Corpse-Crawlers randomly along the edge of the battlefield.
+
+46-53   Soot-stained fiends      +2    6" / +2"   +1      +0 / +1   4       2     None
+  With blackened wings, these imp-like devils descend on the dying.
+  Dampening aura: Each Tracking Phase, roll 2D6. If the roll is equal to or
+  below the battle round number just finished, any Mystic becomes unable to
+  cast spells for the rest of the battle.
+  Traits: Fly.
+
+54-64   Forsaken infantry        +3    4" / +2"   +0      +1 / +0   4       1     2 crossbows
+  While they still resemble the people they once were, the war has taken their
+  minds. They remember nothing but the slaughter.
+  Traits: Tough, Gruesome.
+
+65-70   War-mad roamers          +3    4" / +3"   +1      +0 / +0   4       2     3 self bows
+  Animalistic in mind, these war-taken cling to life so they might hunt the prey
+  of those who have not yet seen their light.
+  Hunted in the gloom: Characters forced to roll on the Flight in the Dark Table
+  cannot reroll or negate the result in any way.
+  Traits: Awareness.
+
+71-80   Battlefield stalkers     +3    6" / +3"   +1      +0 / +0   4       2     None
+  Hunched over, these semi-intelligent creatures prowl the battlefields for
+  flesh to consume. They reek with filth.
+  Dark blood: Any Wounds sustained by the warband cannot be healed or removed
+  during the battle, regardless of methods.
+
+81-87   War cultists             +3    4" / +2"   +1      +1 / +0   5       2     None
+  Drenched in the death-stained soil, their keening wails call to the war-beasts
+  of the fog.
+  Calling the sons of the earth: In the Tracking Phase, roll 2D6. If the roll is
+  equal to or below the number of the battle round just finishing, their chanting
+  summons a Minotaur (from the Aberration Table, p.182). Place the monster in the
+  center of the table. This can happen only once per battle. While this is a
+  spell-like ability, the spell was cast prior to the battle, and cannot be
+  prevented except by killing every cultist.
+  Traits: Brave.
+
+88-93   Torn flags               +2    5" / +2"   +2      +1 / +0   4       2     None
+  The Torn Flags have renounced all allegiance except to the war itself. They
+  leave no survivors.
+  Traits: Parry, Counter Attack.
+
+94-100  Forsaken elite           +2    5" / +2"   +2      +0 / +1   5       2     2 crossbows
+  Beneath their steel helmets, unblinking eyes stare from pale faces. Before
+  the war took their minds, they were the brightly clad elite of an army.
+  Traits: Relentless, Tough, Gruesome.
+
+
+================================================================================
+FACTION 8: THE FACELESS KINGDOM
+================================================================================
+
+A great and terrible kingdom is preparing to unleash its armies across the land.
+Wearing closed-face helmets, the grim legions advance under flags devoted to their
+animal totems. Their warriors are relentless and devoted, believing that their
+bestial war-gods will reward the valiant and condemn the craven.
+
+This relentless invasion will only lead to enslavement and subjugation if the
+initial advance guard cannot be defeated, but the petty nobility ruling the border
+regions are too divided to make a coherent defense.
+
+--- Faction Special Rules ---
+
+For the Beast Totems
+  Faceless Kingdom figures that initiate a melee will receive the Counter Attack
+  trait for the duration of the melee.
+
+Iron Discipline
+  Whenever a figure is removed due to Morale Failure, the enemy figure furthest
+  from the players' battlefield edge takes a full move as directly forward as
+  possible. This rule does not apply in a dungeon environment.
+
+--- Faceless Kingdom Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-12   Unmarked legion          +3    6" / +2"   +0      +0 / +0   4       0     2 slings
+  The Unmarked legion consists of soldiers who have not yet been admitted into
+  any of the beast legions. They will go to great lengths to earn their
+  admittance in battle.
+  Traits: Brave.
+
+13-22   Legion of the Weasel     +3    6" / +2"   +0      +0 / +0   3       1     2 slings
+  A legion selected for speed and agility, its soldiers are often shorter than
+  their counterparts.
+  Traits: Slippery.
+
+23-29   Legion of the Owl        +2    5" / +2"   +0      +0 / +0   4       1     2 crossbows
+  The legion is deployed to act as sentries and guards, intercepting threats
+  before they can strike at vital points.
+  Traits: Awareness.
+
+30-36   Legion of the Raven      +2    5" / +2"   +0      +0 / +0   4       1     3 crossbows
+  A sinister legion specializing in hit-and-run tactics.
+  Hit and run: Legionaries that survive losing a melee exchange will immediately
+  withdraw a full move directly away from the winner. This ends the melee
+  engagement.
+
+37-46   Legion of the Swine      +2    4" / +2"   +1      +0 / +1   4       1     2 crossbows
+  A tough legion that prides itself on violent tactics and self-determination.
+  We stand alone: Crossbow legionaries cannot provide a Combat Bonus to melee
+  troops.
+
+47-53   Legion of the Ox         +2    4" / +2"   +1      +0 / +0   4       2     2 crossbows
+  The Legion of the Ox accompanies the vanguard, focusing on a flexible fighting
+  style combined with staying power.
+  Traits: Outflank.
+
+54-67   Legion of the Lion       +3    4" / +2"   +1      +0 / +0   4       2     2 crossbows
+  One of the primary legions, the lions are stout, front-line troops emphasizing
+  a steady advance on the enemy position. Their great chain of victories is
+  marked on their banners.
+  Traits: Parry.
+
+68-75   Legion of the Viper      +2    4" / +2"   +1      +0 / +0   4       2     3 crossbows
+  Clad in coats of scale armor, the vipers rely on mobile firepower to back up
+  the infantry attack.
+  Traits: Skirmisher.
+
+76-83   Legion of the Wolverine  +2    4" / +2"   +1      +0 / +0   4       2     3 crossbows
+  Snarling like their totems, the legionaries hurl themselves forward in
+  battle-lust.
+  Traits: Awareness, Counter Attack.
+
+84-89   Legion of the Mole       +2    4" / +2"   +1      +0 / +0   4       2     4 crossbows
+  Renowned for its stubbornness and defensive fighting, the Legion of the Mole
+  is obstinate in the extreme.
+  Combined arms: Each Melee Trooper must remain within 1" of a Ranged Trooper
+  if possible, and will only move to attack foes within one move.
+  Traits: Brave.
+
+90-95   Legion of the Eagle      +2    5" / +2"   +2      +1 / +0   4       2     2 crossbows
+  The most valorous of the legions, the Eagles carry the finest weapons in the
+  kingdom.
+  Traits: Brave.
+
+96-100  Legion of Iron           +2    4" / +2"   +2      +0 / +0   5       3     3 crossbows
+  The only legion not carrying an animal totem. To join the guard, a legionary
+  must put loyalty above even the spirits.
+  Belt purse: Defeating a Leader figure accompanying the Guard always awards
+  +1 Gold Mark above and beyond any normal rewards.
+  Traits: Relentless, Brave.
+
+
+================================================================================
+FACTION 9: ROADSIDE ENCOUNTERS
+================================================================================
+
+Without strong central authorities to maintain the peace, travel can be hazardous,
+with robbers, bands of villains, and more sinister things roaming the land, looking
+for coin or easy prey. Travelers are encouraged to travel with armed company,
+banding together for protection.
+
+--- Faction Special Rules ---
+
+Poor Prospects
+  Any valuables generated from the Loot Tables are worth 1 Gold Mark less than
+  normal (to a minimum of 1 Mark per item).
+
+Not Worth the Risk
+  If, during the Tracking Phase, the enemy force is reduced to only one or two
+  remaining figures after Morale checks, the remaining foes will flee the
+  battlefield. This rule does not trigger while an Unknown Enemy marker is
+  present. This rule does not apply to Undead.
+
+--- Roadside Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-08   Dust Hounds              +3    6" / +3"   +0      +0 / +0   3       0     None
+  Fierce and highly aggressive canines, packs of Dust Hounds prowl the land,
+  looking for prey. While normally they would not attack a group of Humans, it
+  seems the dark whispers in the foggy forests affect them too.
+  Traits: Awareness.
+
+09-16   Petty robbers            +3    4" / +2"   +0      +0 / +0   3       0     2 slings
+  When armies prey on the common folk, the common folk prey on each other.
+  Untrained rabble: Morale dice will fail on a 1-3.
+
+17-23   Roving fiends            +4    4" / +2"   +0      +0 / +0   3       2     None
+  Flocks of humanoid beasts with rudimentary intelligence, they live off
+  carcasses and what they can kill with their clawed hands.
+  Traits: Regenerate.
+
+24-31   Rag-tag brigands         +4    5" / +2"   +0      +0 / +0   3       1     1 self bow
+  More successful bands of brigands often have a reward on their heads.
+  The duke pays a bounty: Roll D6 for every Leader or Unique Foe slain. On a
+  5-6, receive 1 Gold Mark extra.
+
+32-41   Goblin war party         +3    5" / +3"   +0      +0 / +0   3       1     3 slings
+  The twisted goblins are a common sight near deep forests, hunting for anything
+  that will give them sport.
+  Traits: Skirmisher, Fey.
+
+42-53   Stumbling dead           +4    4" / 0"    0       +0 / +0   4       1     None
+  The villagers say that they resent those who did not yet perish.
+  They rarely come alone: Set aside three D6, and roll them in every Tracking
+  Phase. Every 6 causes another Stumbling Dead to appear at a random battlefield
+  edge point. Every 1 causes that die to be removed from the pool for the rest
+  of the battle. If the battlefield is clear of enemies at the end of a Tracking
+  Phase, the battle ends.
+  Traits: Undead.
+
+54-61   Organized robbers        +3    5" / +2"   +1      +0 / +0   3       1     2 self bows
+  More ambitious criminals can often become quite adept at skirmish tactics.
+  Crime does pay a little: If you Hold the Field, you find 1 Gold Mark in
+  petty coin.
+  Traits: Skirmisher.
+
+62-69   Northern wolves          +2    6" / +3"   +1      +0 / +1   4       1     None
+  Unlike normal wolves, the wolves of the North are malign and aggressive
+  creatures driven by a cruel cunning. In recent years, packs have escaped
+  South, driven from their lands by some unknown horror.
+  Traits: Awareness, Outflank.
+
+70-79   Robber baron patrol      +2    4" / +3"   +1      +0 / +0   4       2     2 crossbows
+  A petty noble has decided to do a bit of tax collection by shaking down
+  whoever can't resist.
+  Tax the taxman: If you Hold the Field, you find 1 Gold Mark in petty coin.
+
+80-86   Strange troops           +2    5" / +2"   +1      +0 / +0   4       2     2 self bows
+  Unknown soldiers with strange markings on their equipment. They attack as
+  soon as you hail them, and do not seem to speak a language you have ever
+  heard before.
+  Traits: Brave, Parry.
+
+87-94   Infamous marauders       +1    5" / +3"   +1      +0 / +0   4       1     2 self bows
+  Brutal raiders from a far-away land, their reputation precedes them.
+  Raiders: If playing a defensive battle scenario, all rolls to spot infiltrators
+  are at a -1 penalty, and the enemy strength is increased by 1 melee figure.
+  Traits: Counter Attack.
+
+95-100  Half-Fey raiders         +1    6" / +3"   +1      +0 / +0   4       1     3 longbows
+  The fey madness occasionally strikes those of half-fey heritage. Such bands
+  will roam the land, howling, and laughing as they search for blood.
+  Traits: Fey, Parry.
+
+
+================================================================================
+FACTION 10: LURKING FOES
+================================================================================
+
+The land is dotted with withered ruins, reeking swamps, and crumbling keeps, many
+of which were used as Hideouts, Lairs, or Camps by entities in the past. While
+this makes them popular with treasure hunters and explorers, they are almost always
+inhabited by an array of dangerous and unpleasant creatures. Whether encountering
+vermin cursed to unusual size, the magical wards of past rulers, or threats from
+beyond our reality, those who delve at these locations often meet shrieking horrors
+in the gloom.
+
+Some scholars even say such places are saturated with ill magic, attracting
+monsters to lurk among the rubble.
+
+--- Faction Special Rules ---
+
+The Lure of Magic
+  During the Tracking Phase, roll D6 if any warband member cast a spell during
+  that battle round. On a 6, place an additional enemy at a random entry point
+  or point on the edge of the battlefield.
+
+--- Lurking Foes Enemy Table ---
+
+D100    Enemy                    Num.  Speed      Combat  Damage    Tough.  Armor  Ranged
+01-14   Giant rats               +5    6" / +4"   +0      +0 / +0   3       0     None
+  It's disputed whether they even really exist.
+  Traits: Slippery, Crawling.
+
+15-24   Giant bugs               +4    6" / +3"   +0      +0 / +0   3       1     None
+  Too many legs and too many mandibles, these beasts express little fear of death.
+  Traits: Brave, Crawling.
+
+25-31   Winged Imps              +3    5" / 0"    +0      +0 / +0   4       2     None
+  Minions of a powerful Aberration struggling to enter our realms, these
+  sniveling beings rejoice in inflicting injury and pain.
+  Traits: Flying, Monster.
+
+32-44   Skeletal defenders       +4    4" / 0"    +0      +0 / +0   4       1     None
+  While the curses and injustices of the world are quite capable of animating
+  the undead, these defenders seem to have been created specifically for the
+  purpose.
+  Traits: Undead.
+
+45-50   Decrepit worshippers     +3    4" / +3"   +1      +0 / +0   3       1     None
+  Blood-soaked followers of some minor Aberration. They huddle in filth and
+  gibberish while chanting insane oaths in the gloom.
+  Soaked in blood: A worshipper that knocks out a warband member raises their
+  Combat Skill and Toughness by +1 each for the rest of the battle. This can
+  only apply once per figure.
+  Traits: Crawling.
+
+51-61   Goblin infestation       +5    5" / +3"   +0      +0 / +0   3       1     None
+  Twisted cousins of the Ice-Court, it is said that they were cursed to bear a
+  visage that matches their vile hearts.
+  Gremlin aura: Any character assigned a 1 on the initiative dice cannot use any
+  enchanted item or cast any spells for the duration of the battle round.
+  Traits: Fey, Gruesome, Crawling.
+
+62-69   Cave Runners             +3    7" / +2"   +1      +0 / +0   4       2     None
+  Large and dangerous beasts, clad in thick, mottled hides and rushing to the
+  attack.
+  Charge: Cave runners moving at least 4" in a straight line before entering
+  melee combat do +0 / +1 damage in the first exchange.
+  Traits: Brave, Crawling.
+
+70-75   Gargoyle sentries        +2    4" / +4"   +1      +0 / +1   4       2     None
+  A sorcerer of old conjured these demon-like beings and bound them as guards.
+  Over the decades, they slowly turn more stone-like until they lose their final
+  form and memories. As such they are fearless in battle, preferring death to
+  decay.
+  Traits: Fearless, Tough, Crawling.
+
+76-81   Tomb shades              +2    5" / 0"    +1      +1 / +0   4       2     None
+  Ghostlike visages that cling to the last places of the living world. Their
+  attacks are accompanied by bone-chilling howls.
+  Traits: Undead, Regeneration, Terrifying.
+
+82-90   Delve crawlers           +2    6" / +3"   +1      +0 / +0   4       2     None
+  A horror often only whispered about, these multi-legged hell creatures attack
+  by trap and by poisoned fang.
+  Webbed: When a moving warband member enters Line of Sight of one or more Delve
+  crawlers they could not see at the start of their move, roll D6. If the roll
+  exceeds the Agility score of the warband figure, they are encumbered by webs,
+  and must halt moving immediately. The webs have no further effect.
+  Traits: Poison, Slippery, Crawling.
+
+91-94   Crystal wards            +1    4" / +2"   +2      +1 / +0   5       2     None
+  The greatest of wizards are said to have been able to bind sentience and
+  life-force inside statues of hard, rock-like crystal.
+  Hardened shells: If the roll to Overcome Toughness in melee combat against a
+  Crystal ward is a natural 1, the weapon becomes Damaged.
+  Traits: Relentless, Fearless, Crawling.
+
+95-100  Eternal Guard            +2    4" / 0"    +2      +0 / +1   4       2     None
+  A grim-faced oath of eternal service to a long-forgotten master still echoes
+  when these fell warriors challenge an intruder.
+  Guardian legion: Every time a warband member becomes a casualty for any reason,
+  place a Tomb Shade (from earlier on this table) in the place they fell. The
+  shade cannot act this battle round.
+  Traits: Undead, Counter Attack.

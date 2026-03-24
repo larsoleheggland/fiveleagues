@@ -1,0 +1,83 @@
+# Spells & Magic
+
+## Spell Nature
+All spells designed for battle encounters only. Each has an Incantation score (higher = harder to cast).
+
+## Strands
+Casting requires energy from Strands of magical energy (slivers of sunlight, congealed shadow, etc.).
+Mystic begins each battle with 3 Strands. Unused Strands evaporate at end of battle.
+Congealed Strands can be saved until used.
+
+## Enemy Spellcasters
+Always use their own profile rules, not subject to casting rolls or this chapter's mechanics.
+
+## Casting Spells
+Requires Casting Non-Combat Action. Only one spell per round even with multiple Actions.
+Target must be in sight unless spell says otherwise.
+
+Roll 2D6 + Casting ability:
+- Natural 2: spell fails, 1 Strand expended
+- Below Incantation score: fails, no Strands expended
+- Equal or above Incantation: succeeds, 1 Strand expended (unless "Simple" spell)
+- Natural 12: succeeds, no Strands expended
+
+### Desperation Casting
+If casting fails, may spend 1 Will to add +2 retroactively.
+
+### Ether Burn
+If must spend Strand with none available, Mystic is Wounded instead.
+
+## Target Types
+- Ally: Any warband figure or ally (can be the Mystic)
+- Personal: Only the Mystic
+- Enemy: Any enemy figure
+- Ground: Any point on ground
+- None: No target selected
+
+## Spell Durations
+- Immediate: Takes effect when cast, no lasting effect
+- Activation: Until caster finishes next activation
+- Full Round: Until Tracking Phase of following battle round
+- Battle: Rest of the battle
+
+## Simple and Taxing
+- * Simple: No Strand cost (natural 2 still costs 1 Strand)
+- † Taxing: Can only cast once per battle
+
+## Complete Spell List
+
+D100 | Spell | Incant. | Target | Effects | Duration
+01-03 | Antidote | 7+ | 1 ally | Unaffected by Poison or Venom traits | Battle
+04-06 | Barrier | 6+ | Ground | Place 4" line of fire 0.5" wide (no touching characters). Prevents movement except Flying. Can shoot across, provides Cover. | Full round
+07-09 | Bind | 8+ | Up to 3 enemies within 1" of each other | Each rolls D6 (+Monster Points), break free on 6+. If fail: can't move, may fight/shoot | Activation
+10-12 | Bleed | 8+ | 1 enemy | Loses Regeneration. If Wounded, roll D6 each Tracking Phase: on 6 = dies | Battle
+13-15 | Compel* | 7+ | 1 enemy | Must move directly toward Mystic when next activated (won't risk terrain damage) | Activation
+16-18 | Confuse | 7+ | 1 enemy | Loses Parry and Counter Attack traits | Full round
+19-21 | Darts† | 6+ | 1 ally | Restock ammo for character out of ranged weapon ammo (not single-use weapons) | Immediate
+22-24 | Distract | 7+ | 1 enemy Ranged Trooper | Remains in place, won't shoot | Activation
+25-27 | Escape | 6+ | 1 ally | Remove from battle, no Flight in the Dark roll | Immediate
+28-30 | Explore† | 7+ | 1 marker | Resolve Unknown Enemy/Exploration/Unusual Location marker. No LoS required. | Immediate
+31-33 | Fog | 6+ | Ground | Place 3" circle. Figures move through, blocks all LoS. | Full round
+34-36 | Foresee† | 7+ | - | If time limit on Objective, +1 battle round | Immediate
+37-39 | Fortune* | 5+ | Personal | May reroll: ranged Hit, melee Hit, proficiency test; force enemy reroll successful Overcome Armor | Full round
+40-42 | Frighten | 7+ | - | If enemy took casualties this turn, roll 1 extra Morale die. No LoS required. | Next Tracking Phase
+43-45 | Guidance | 7+ | 1 ally | Select one reroll: shooting Hit, melee Hit, proficiency test, or force enemy reroll Overcome Armor. No LoS required; any ally may use. | Full round
+46-48 | Heal† | 6+ | 1 ally | Remove a Wound | Immediate
+49-51 | Illuminate* | 6+ | Personal | All within 12" of Mystic visible from any distance | Battle
+52-54 | Infuse | 6+ | 1 ally (not Wounded) | Counter Attack ability while un-Wounded | Until Wounded
+55-57 | Manipulate* | 6+ | 1 item | Move item on ground/Mystic's/ally's possession up to 8". If contacts character, pick up without Action. Must be within LoS. | Immediate
+58-60 | Mark | 7+ | 1 enemy | +1 bonus to Hit on all ranged attacks | Full round
+61-63 | Meekness | 7+ | 1 enemy | Melee attacks do +0/+0 damage | Full round
+64-66 | Mobility | 7+ | 1 ally | Ignore movement reductions from Difficult terrain | Battle
+67-69 | Premonition | 7+ | - | Reroll 2 dice when rolling for Initiative | Next Initiative Roll
+70-72 | Repel | 7+ | 1 enemy | Push D6+1" directly away (Aberrations subtract Monster Points). Can push into danger. | Immediate
+73-75 | Shadows | 6+ | 1 ally | Immediately move to any location within 4". Can pass through Impassable obstacles/walls, but both positions must be visible to Mystic. | Immediate
+76-78 | Shield | 6+ | 1 ally | Ranged attacks at target or within 3" Hit only on natural 6 | Full round
+79-81 | Slow | 8+ | Up to 3 enemies within 1" | Reduce Speed -2", no Dashing. Negates Flying and Slippery. | Full round
+82-84 | Spellbreak† | 7+ | 1 enemy | Cannot cast spells | Full round
+85-87 | Steelbreak† | 7+ | 1 enemy | Counts as Armor 0 | Full round
+88-90 | Summon† | 7+ | Ground | Summon creature in base contact with Mystic: Agility 2, Speed 6"/+0", Combat +0, Toughness 4, Armor 0, +0/+0 damage. Can't use equipment. Acts immediately. Only usable if <6 warband+allies on table. | Battle
+91-93 | Tinker | 6+ | 1 ally | +2 to any proficiency test | Full round
+94-96 | Torment | 8+ | 1 enemy | If engaged melee while Wounded, opponent gets Combat Bonus | Battle
+97-98 | Waylay | 8+ | 1 enemy patrol | Patrol doesn't move this round. Next activation, moves toward random Exploration Marker. No effect on Aware. | Full round
+99-100 | Weaken | 8+ | 1 enemy | Negates Tough trait | Battle

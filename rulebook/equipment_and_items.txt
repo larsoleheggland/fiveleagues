@@ -1,0 +1,617 @@
+===========================================================
+EQUIPMENT & ITEMS
+===========================================================
+
+-----------------------------------------------------------
+EQUIPMENT STORAGE
+-----------------------------------------------------------
+
+In addition to the weapons, armor, and some other equipment that your
+characters wear, your warband has a pool of items that they are either
+carrying with them collectively, or that they have in reserve back at
+the settlements they frequent. The additional items they choose to bring
+with them when they leave their settlement is referred to as the
+'Backpack', while the reserve store is referred to as the warband's
+'Stash'.
+
+THE BACKPACK
+The 'Backpack' is a term for the store of items not specifically
+strapped to a character and ready to use. However, it represents items
+kept with the warband as a whole, rather than that carried by a specific
+character. At any given time, any character in the warband can access the
+Backpack through the Use or Ready Non-Combat Actions, as appropriate.
+
+The Backpack can hold 8 items in total.
+
+As your warband would always have a few pouches empty for loot, items
+found during or after a battle can exceed the Backpack's carry limits,
+but you must reorganize things after you get back to town.
+
+Note that characters fighting alongside the warband temporarily, through
+a random event or scenario rule, cannot use any Backpack items.
+
+THE STASH
+The warband may well own more than is in their Backpack. Settlements on
+the map can house the warband's permanent Stash. This is a collection of
+any items and equipment you decide to leave there. You can move items
+between your Stash and your Backpack when you are outfitting your
+warband.
+
+There is no limit to how many items can be kept in your Stash. For
+simplicity, track a single Stash, which is reachable in any settlement,
+but if you want a more realistic experience, keep a separate Stash for
+each location.
+
+-----------------------------------------------------------
+EQUIPMENT DAMAGE
+-----------------------------------------------------------
+
+Weapons, armor, and equipment may be Damaged or broken during play.
+While Damaged, an item cannot be used. If you possess a repair kit, it
+may be used to repair an item. Alternatively, Damaged weapons and armor
+can be repaired by a blacksmith in town, and the rules for this can be
+found on page 82.
+
+Weapons and armor of Fine quality are resilient, and ignore the first
+time they would become Damaged. However, they are no longer considered
+to be Fine after that point.
+
+-----------------------------------------------------------
+WEAPONS
+-----------------------------------------------------------
+
+Weapons are divided into basic and quality weapons for game purposes.
+
+ENCUMBRANCE LIMITS
+A character may carry the following: Two weapons of any type, plus
+either a shield or a third light weapon.
+A character may wear one suit of armor as well as a helmet.
+Weapons and armor pieces that are not currently wielded or Worn by a
+character can be carried as Backpack items.
+
+A character with a ranged weapon may have special ammunition types
+available. Each time a character shoots, they may select one such type
+to use. Once a ranged weapon runs out of ammunition, it is out of all
+available ammunition types for the rest of the battle.
+
+-----------------------------------------------------------
+COMMON WEAPON TRAITS
+-----------------------------------------------------------
+
+Parry
+  The item allows the use of the Parry rule (p.42).
+
+Ranged X"
+  A character with this weapon can make ranged attacks up to the
+  distance indicated.
+
+Bulky
+  The character cannot use a shield.
+
+Limited Ammunition
+  The weapon is subject to the Limited Ammunition rule (p.39).
+  A natural 1 on the roll to Hit means the weapon is out of ammo
+  (unless it is the character's first shot of the battle).
+
+-----------------------------------------------------------
+WEAPON TYPES
+-----------------------------------------------------------
+
+Each weapon listed below details the Type (melee or ranged), Range
+(if ranged), and its Overcome Armor / Overcome Toughness scores.
+
+IMPROVISED WEAPONS
+  Melee, +0/+0
+  Nobody wants to be in this situation. Use this for characters using
+  an improvised weapon such as a rock, stick, chair leg, saucepan, or
+  simply kicking and punching.
+
+BASIC WEAPONS
+  Basic weapons encompass the majority of fighting implements. They are
+  the only weapons a Follower can utilize properly.
+
+  Light weapon         Melee, -1/+0
+    A dagger, cudgel, working tool, or similar.
+
+  Self bow             Ranged 18", +0/+0
+    A light bow often used for hunting.
+    Notes: Bulky; Limited Ammunition
+
+  Sling                Ranged 12", -1/+0
+    A cheap weapon popular with rebels and skirmish infantry, slings
+    can be deadly, but are not very effective against armor.
+    Notes: As slings can use simple rocks, characters do not run out
+    of ammunition.
+
+  Staff                Melee, +0/+0
+    A walking stick that doubles as a defensive implement.
+    Notes: Parry
+
+  Standard weapon      Melee, +0/+0
+    A typical short sword, mace, hunting spear, or hatchet, easily
+    wielded with one hand and requiring only modest skill.
+
+QUALITY WEAPONS
+  Quality weapons require additional training to be used effectively in
+  battle. Only Hero characters can benefit from the quality weapon rules
+  given below.
+
+  If a game situation results in a Follower ending up with a quality
+  weapon for some reason, they can swing it around enough to count as
+  a standard weapon (+0/+0) in melee but cannot use a ranged weapon.
+
+  Bastard sword        Melee, +1/+0
+    A heavy sword suitable for use single- or double-handed. This
+    profile can also be used for large war axes.
+
+  Crossbow             Ranged 24", +1/+0
+    A mechanical weapon capable of launching a bolt at great velocity.
+    Notes: Bulky; Limited Ammunition. The character cannot move and
+    shoot in the same Action.
+
+  Fencing sword        Melee, +0/+0
+    A quick blade typically intended for single-handed thrusting
+    attacks.
+    Notes: Parry
+
+  Longbow              Ranged 24", +0/+0
+    A powerful bow, requiring a great deal of strength and training
+    to use.
+    Notes: Bulky; Limited Ammunition
+
+  Throwing knives      Ranged 9", -1/+0
+    Specially-balanced knives for throwing.
+    Notes: Characters may add their Combat Skill, even if they moved.
+    Single-use, but recovered after the battle if you Hold the Field.
+
+  Warhammer            Melee, +1/+0
+    A spiked hammer, capable of punching through steel plate. This
+    profile can also be used for heavy, thrusting swords.
+
+  War spear            Melee, +0/+0
+    A long spear or other pole arm or long-hafted weapon, often
+    suitable for slashing as well as stabbing.
+    Notes: The wielder may always Counter Attack in melee combat.
+
+-----------------------------------------------------------
+SUPERIOR WEAPONS
+-----------------------------------------------------------
+
+Weapons can often be of superior build or material. A weapon can have
+only one of the improvement traits below.
+
+Fine                 Any weapon
+  If the weapon would be Damaged, ignore the damage, but the weapon
+  is no longer Fine.
+
+Balanced             Melee only
+  The enemy cannot gain a Counter Attack for any reason.
+
+Quick                Melee only
+  The enemy cannot use the Parry ability.
+
+Fey Steel            Standard weapon, fencing sword, or bastard sword only
+  This weapon cannot be Damaged or broken.
+
+-----------------------------------------------------------
+ARMOR
+-----------------------------------------------------------
+
+A character can only wear one type of body armor. If a character would
+have more than one source of Armor rating due to magic, special rules,
+or character abilities, they receive the benefit of the single highest
+Armor rating +1.
+
+BODY ARMOR
+
+  Unarmored
+    The character has an Armor rating of 0.
+
+  Light armor
+    The character receives an Armor rating of 1.
+
+  Partial armor
+    The character receives an Armor rating of 2.
+    Movement is reduced by -0"/-1".
+
+  Full armor
+    The character receives an Armor rating of 3.
+    Movement is reduced by -0"/-2".
+
+  Knight armor
+    The character receives an Armor rating of 3, but cannot Dash.
+    Enemies cannot benefit from any bonus to the Overcome Armor roll.
+
+ADDITIONAL ARMOR
+  These items may be worn in addition to any regular type of armor.
+
+  Helmet
+    If a character wearing a helmet rolls a double on the post-game
+    Injury Table (11, 22, 33, etc.), they are simply knocked out.
+    The Injury does not take effect, but the helmet is Damaged (see
+    p.59). This applies even if the Injury roll would have resulted
+    in no negative effects.
+
+  Shield
+    Characters with a shield receive +1 to Armor against ranged
+    attacks, and may Parry against melee strikes.
+
+IMPROVED ARMOR
+  Armor may have any of the following improvements:
+
+  Fine                 Any
+    If Damaged, ignore the damage, but the armor is no longer Fine.
+
+  Fey Steel            Partial or full armor only
+    The armor cannot be Damaged.
+
+ENEMY ARMAMENTS
+  To speed up play, enemy armaments are not usually detailed. If nothing
+  else is stated, enemies are armed with standard weapons, while archers
+  carry a self bow and light weapon. An enemy may be listed as carrying
+  a specific type of weapon, in which case they receive the normal
+  bonuses associated with it. Some foes may also receive inherent bonuses
+  in combat that are not weapon-specific.
+
+  Enemies with an Armor rating are assumed to have any armor (or natural
+  protections such as scales or fur) that fits your miniature. They
+  always move according to the normal rules, with no adjustments for
+  armor worn (or not).
+
+-----------------------------------------------------------
+ASSORTED ITEMS
+-----------------------------------------------------------
+
+Characters have restrictions about where assorted items can be stored:
+
+  B = Items marked with a B must be stowed in your Backpack to be used.
+  C = Campaign items. Campaign items may be used even if they are Stashed.
+  W = Worn, but must be assigned to a specific character, who cannot
+      wear two of the same general type (i.e. two cloaks).
+  S = Single-use. Discard after use.
+
+Bandages (B, S)
+  An assortment of bandages, ointments, and other medical supplies.
+  Take a Use Action during battle to negate the effects of 1 Wound.
+  If you have to fight two battles in one campaign turn, using bandages
+  will allow a character to take the field even if they have to recover
+  from injuries. If they are injured in the second battle, add the
+  recovery times together. (This rule cannot be used under any other
+  circumstances.)
+
+Brave mule (C)
+  A loyal animal, strong and stout, if slightly stubborn.
+  The warband can carry 1 additional backpack item for a total of 9
+  items (you cannot use multiple mules - you are an adventuring warband,
+  not a caravan!)
+
+Camp gear (B)
+  The well-prepared traveler frequently finds themselves grateful for
+  such preparations. When in camp, add +1 to all proficiency tests
+  required by campaign activities or camp events.
+
+Coil of rope (B, S)
+  You never know when a good length of rope ends up coming in handy.
+  When making a [Wilderness] test, you may use the rope to reroll one
+  or both dice.
+
+Fine black iron (B, S)
+  Fine oils and fragments of black iron to improve the quality of a
+  weapon. A skilled smith treats some of these materials as
+  semi-mystical. Give any one weapon or armor piece the Fine quality.
+
+Dungeoneering kit (B, S)
+  A supply of odd pieces of kit such as wooden poles, marbles, and small
+  mirrors. Experienced delvers insist you'll find a use for all this
+  stuff. Automatically pass a failed [Wits] or [Expertise] test during
+  a Site Battle.
+
+Foreign wine (C)
+  The difference between this and the local swill is that this won't
+  make you wish you had died the next morning. Also the price. Give to
+  a Disgruntled character to remove the status, or sell for D3 Gold
+  Marks.
+
+Hard liquor (B, S)
+  Potent booze of foreign make. Gives the drinker 1 point of Will,
+  usable any time during a battle. If the character already has Will,
+  add it to their current pool. When the battle ends, the extra point
+  is lost.
+
+Fine arrows/bolts (B)
+  Paying special attention to the ammunition can make all the difference
+  for a sharpshooter. The carrier may increase the range of a self bow,
+  longbow, or crossbow by +3".
+
+Congealed Strand (B, S)
+  The spell flinger says it is a chunk of "cosmic vibration under
+  considerable static entropy, allowing its facilitation in dweomer and
+  arcana". Whatever. Used to cast spells, a Congealed Strand can be
+  used in place of a normal Strand at any time, but does not expire
+  until used.
+
+Holy water (B, S)
+  Both the old gods and the new abhor those that transgress against
+  reality. Requires a Use Action. Only usable against Fey or Undead.
+  The user may select a target within 6" to be struck by the vial of
+  holy water. The attack Hits automatically with +3/+1 to Overcome
+  Armor/Toughness.
+
+Icon (W)
+  An engraved icon of one of the gods. A sign of devotion and
+  dedication. Add +1 to [Devotion] tests.
+
+Large quiver (B)
+  Nobody ever ended a battle wishing they'd carried fewer arrows.
+  A character who would have run out of ranged weapon ammunition may
+  make one additional shot during the battle if they have a large
+  quiver.
+
+Map making kit (C)
+  As few maps exist (let alone reliable ones), travelers often draw
+  their own. After traveling from one Map Area to another, use the kit
+  to chart a secure route between them. When traveling between those
+  two locations in either direction, you may opt not to make a Travel
+  roll.
+
+Misty water-flower (B, S)
+  The petal of the misty water-flower can be boiled into a remedial
+  tea. A character that became a casualty due to a Poison attack or
+  similar recovers without needing to roll on the post-battle Injury
+  Table. The Herb has no effect mid-battle.
+
+Mystic trinket (B, S)
+  Mystics tend to be loaded down with all manner of talismans, bones,
+  potions, and other miscellanea. A Mystic may use this to cast a
+  second spell in the same battle round.
+
+Mystical ring (W)
+  Some old rings were made by the gods, and only show their true nature
+  to the worthy. Others are just old rings. The ring must be worn by a
+  Hero to have any effect. Each time the Hero gains an experience
+  advancement roll, roll 2D6. On a roll of 11 or 12, you receive a
+  vision granting you a Quest. On any other score, nothing happens.
+  Once worn by a Hero, the ring will have no effect if given away,
+  traded or otherwise used by another character.
+
+Potion of Fortune (B, S)
+  A bubbling, purple brew that smells a little bit like berries. The
+  first time the character suffers any ill effect from a combat Hit,
+  trap, fall, or other source of harm (Stun, Wound, or casualty),
+  ignore it completely. The potion has no effect on magical attacks,
+  only physical damage.
+
+Potion of Endurance (B, S)
+  A slightly bitter root that dulls the ability to feel pain and
+  weariness. Use before an encounter to give a character a +1 Toughness
+  bonus (to a maximum of 6) for the duration of the battle.
+
+Ranger's cloak (W)
+  A sturdy green cloak originally worn by an old military order from
+  the North. Grants a +1 bonus to [Wilderness] and [Scouting] tests.
+  If the character has either or both skills, the bonus is not
+  cumulative, and only the skill bonus applies.
+
+Rations (C, S)
+  Reserve nutrition for uncertain moments. When rolling for Upkeep
+  Costs (p.81), you may consume rations to reduce the cost by 3 Gold
+  Marks. Only one set of rations can be eaten each time.
+
+Repair kit (B, S)
+  Basic tools and spare bits of wood, metal, and leather. Use this to
+  fix any one Damaged item.
+
+Scout's cloak (W)
+  A dark, hooded cloak for clandestine work. When moving during the
+  Sneak Up step of a Raid scenario, rolls to spot this character are
+  at a -2 modifier.
+
+Set of alarm traps (B)
+  Nothing says professional assassin like stepping on a string attached
+  to a jar full of rocks. When playing a Defensive Battle, you may add
+  +1 to every spotting roll made during the Enemy Infiltration step.
+
+Spell-breaker herb (B, S)
+  An acrid-smelling herb. Crushing it will dilute magical energies in
+  the vicinity. When targeted by a spell, you may use these herbs to
+  nullify the effect. The character avoids all effects of the spell.
+  If a spell would affect multiple characters, other targets are
+  affected normally.
+
+Starberry (B, S)
+  While they are usually used for baked goods, consuming a handful of
+  these berries raw boosts vitality and energy. Use before an encounter.
+  The character increases Speed by +1"/+1" for the duration of the
+  encounter.
+
+Strange map (C, S)
+  It's not clear who drew this, but it marks an area you have missed
+  in your travels. Add an Unexplored Location to the Wilderness of
+  your campaign map.
+
+Study manual (B, S)
+  Scholars often feel compelled to leave behind their expertise in
+  written form. This manual describes the finer details of a particular
+  skill (selected randomly from the table on p.24). If a character
+  studies the manual, they receive a +1 bonus to any proficiency test
+  using that skill. The character does not need to have the skill to
+  benefit, but the bonus is cumulative with the normal +2 skill bonus.
+  The bonus is permanent. The book falls apart after someone reads it.
+
+Silvertree leaf (B, S)
+  Warriors always keep a few leaves from the silvertree on hand. One
+  dose allows you to reroll the result of post-game Injuries. If the
+  character would originally have died, increase recovery time by +D3
+  campaign turns. They have no effect on rolls on the Flight in the
+  Dark Tables.
+
+Talisman (W, S)
+  "Good luck is guaranteed with this," said the merchant. If a roll on
+  the post-battle Injury or Flight in the Dark Table would result in the
+  character dying, roll D6. On a 5-6, they miraculously survive by the
+  grace of the old gods. On any other roll, they perish as normal. In
+  either case, the talisman is lost.
+
+Thief's tools (W)
+  A belt loaded with various long pieces of metal, tiny blades and
+  other clandestine implements. Grants +1 bonus to all [Expertise]
+  tests. This is cumulative with a skill bonus.
+
+Tonic (B, S)
+  A surprisingly pleasant-tasting mixture of herbs, designed to improve
+  recovery and prevent infections. Use this at any time to reduce the
+  recovery time of a character by 1 campaign turn, though a character
+  can only benefit from one tonic per campaign turn.
+
+Torch (B, S)
+  It's really just a stick with cloth soaked in sticky, flammable
+  material. But why overcomplicate something like this? During battle,
+  a warband member who is not using a shield or a Bulky weapon may
+  carry a torch. This creates visibility within 6", allowing shots to
+  be taken at illuminated figures despite visibility limitations (from
+  darkness, fog, or during site battles). Requires a hand (no shield
+  or Bulky weapon).
+
+Cache of documents (B, S)
+  You have found a cache of documents that may prove of considerable
+  help. Roll D6:
+    1 - You may immediately reveal and place a single Hidden location.
+    2 - Add D6+1 Adventure Points.
+    3 - The next time you undertake a Quest, you may roll on the Quest
+        Find Table immediately. This may be used immediately, if
+        acquired while on a Quest.
+    4 - You may negate the next Enemy Plans Table result in the campaign.
+    5 - Add a Map Area with a Delve to the Wilderness.
+    6 - The information may be sold off. Treat it as a valuable from
+        the Loot Table worth D6+1 Gold Marks.
+
+-----------------------------------------------------------
+TRADE TABLES
+-----------------------------------------------------------
+
+TRADE RULES
+During the Trade step (Settlement only) you can buy and sell equipment
+in any order you like. You can buy anything listed on the Common Goods
+Table, but only one of each item can be bought per campaign turn. You
+may buy multiple different items.
+
+Some items can only be purchased in a settlement of a certain size or
+above: "Any" means any size of settlement. "Village/Town" means only in
+a village or town. "Town" means only in an actual town.
+
+Item Types: Any character can use weapons from the basic weapon list
+(standard weapon, sling, light weapon, staff, self bow), while only
+Heroes can use quality weapons. Armor and equipment are not restricted.
+
+COMMON GOODS TABLE (one of each per turn)
+
+  Item                      Cost (GM)   Availability
+  ------------------------------------------------
+  Standard weapon               1       Any
+  Standard weapon (Fine)        3       Village/Town
+  Light weapon                  1       Any
+  Staff                         2       Any
+  Sling                         2       Any
+  Self bow                      5       Any
+  Bastard sword                 8       Village/Town
+  Warhammer                     8       Village/Town
+  War spear                     8       Village/Town
+  Fencing sword                 6       Village/Town
+  Longbow                      10       Town
+  Crossbow                     10       Town
+  Light armor                   2       Any
+  Light armor (Fine)            4       Village/Town
+  Partial armor                 6       Village/Town
+  Partial armor (Fine)         10       Town
+  Helmet                        3       Any
+  Shield                        4       Any
+  Bandages*                     2       Any
+  Brave mule                   12       Any
+  Camp gear                     5       Any
+  Coil of rope*                 4       Any
+  Congealed Strand*             6       Town
+  Misty water-flower*           6       Any
+  Rations*                      3       Any
+  Silvertree leaf*              6       Any
+  Tonic*                        4       Any
+  Torch*                        1       Any
+
+  * Single-use
+
+RARE GOODS TABLE
+If you are in a village, you may roll once on the Rare Goods Table. If
+you are in a town, you may roll twice. If you like, you can buy either
+or both items for the cost listed. Hamlets do not receive Rare Goods
+unless an event grants extra rolls, in which case they can be taken as
+normal.
+
+  D100 Result    Item                     Cost (GM)
+  -------------------------------------------------
+  70-71          Ranger's cloak               6
+  72-74          Scout's cloak                6
+  75-78          Set of alarm traps           4
+  79-82          Spell-breaker herb           4
+  83-88          Strange map                  5
+  89-93          Talisman                     5
+  94-97          Thief's tools                8
+  98-100         Item of choice              +2
+                 (Select any item from the Rare Goods Table,
+                  but pay the normal cost +2.)
+
+  Note: D100 results 01-69 include additional items such as Fine black
+  iron, Dungeoneering kit, Foreign wine, Hard liquor, Fine arrows/bolts,
+  Holy water, Icon, Large quiver, Mystic trinket, Mystical ring, Potion
+  of Fortune, Potion of Endurance, Starberry, Study manual, and other
+  items at various price points. Consult the full rulebook (p.89) for
+  the complete D100 ranges.
+
+SELLING
+Items can be sold for 1 Gold Mark per item. If in a Town (only)
+enchanted items can be sold for 1D6 Gold Marks. This may be far below
+their actual value, but between wear-and-tear and no average peasant
+needing a two-handed fire demon-sword of slaying, it's the best you
+can do.
+
+If you have found valuables as Loot, you may sell them for their Gold
+Marks value. In a hamlet or village, you can sell one per campaign turn,
+while in a Town you can sell any number.
+
+-----------------------------------------------------------
+OUTFITTING FOR ADVENTURE (Step 7)
+-----------------------------------------------------------
+
+Once you know where you are going, select which equipment you will need
+going on your belts and in your packs.
+
+The warband may bring up to 8 items in their collective Backpack. These
+are the items you can utilize during an Encounter this campaign turn.
+Note that, for simplicity, Backpack items are not carried by a specific
+character. Anyone can use them if the need arises.
+
+Anything not packed is Stashed somewhere safely in town or on your draft
+horse, and can be retrieved when you return.
+
+Each character can carry their weapons and armor without counting them
+as an item. Any spare weapons must be in the Backpack if you want access
+to them.
+
+-----------------------------------------------------------
+REALISM AND WEAPONRY
+-----------------------------------------------------------
+
+While these rules were compiled with respect for the realism of how
+these weapons perform in real life, players with a keen interest in the
+accurate portrayal of medieval weaponry may find the rules fall short.
+These rules are first and foremost written with game-function and
+available miniatures in mind. As such, we hope military historians will
+forgive us!
+
+-----------------------------------------------------------
+REALISM AND COSTS
+-----------------------------------------------------------
+
+Costs and availability are based entirely around keeping the game
+interesting and challenging. They should not be taken as indicative of
+how a pre-industrial economic system might work, and closer scrutiny
+would soon yield the relative costs as unrealistic. However, remember
+that this is a game of adventure, not economics!

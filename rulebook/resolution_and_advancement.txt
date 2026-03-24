@@ -1,0 +1,147 @@
+# Resolution & Advancement
+
+## The Resolution Stage
+Skip if no battle this turn. Steps in order:
+
+## Step 1: Collect Adventure Points
+Activity | AP Gained
+Victorious Enemy Threat or Raid | D6
+Victorious Ride Patrol | 1
+Defeat an Aberration | 1 per Aberration
+Defeat a Unique Foe | 2
+Defeat a Lieutenant or Captain | 1
+Finish a Contract | 1
+
+### Reduce Threats
+If fought Threat and Achieved Objective, attempt Adventure Milestone. If achieved, Threat -1. At 0 with all Hideouts destroyed = Threat eliminated.
+
+## Step 2: Check for Injuries / Flight in the Dark
+Characters removed as casualties roll D100 on Injury Table. Retreating may require Flight in the Dark roll.
+
+### Injury Table (Heroes) D100
+01-20: Dead (Sorry, +1 SP)
+21-30: Serious (Roll 2D6, pick highest)
+31-40: Moderate (D6)
+41-60: Light (D3)
+61-75: Item damage (-)
+76-100: Knocked out (0)
+
+### Injury Table (Followers) D100
+01-30: Dead (Sorry)
+31-60: Moderate (D6)
+61-75: Item damage (-)
+76-100: Knocked out (0)
+
+### Flight in the Dark Table (Heroes) D100
+01-05: Slain while fleeing (Sorry)
+06-20: Injured while fleeing (D6)
+21-35: Lost equipment (-)
+36-50: Item damage (-)
+51-100: Escaped unscathed (-)
+
+### Flight in the Dark Table (Followers) D100
+01-10: Slain while fleeing (Sorry)
+11-30: Injured while fleeing (D6)
+31-45: Lost equipment (-)
+46-60: Item damage (-)
+61-100: Escaped unscathed (-)
+
+### Injury Results
+- Dead: Character perishes. Items recovered, random weapon/armor Damaged. +1 SP if Hero.
+- Slain while fleeing: Lost with all carried items.
+- Serious/Moderate/Light/Injured while fleeing: Roll indicated die for recovery turns.
+- Lost equipment: Random weapon/shield/helmet lost.
+- Item damage: Random weapon/armor becomes Damaged.
+- Knocked out/Escaped unscathed: No lasting effects.
+
+### Lucky Characters: Spend Luck point to ignore result (permanent).
+### Silvertree Leaf: Reroll Injury Table (not Flight in Dark). New result counts. If would have died, +D3 recovery turns.
+### Helmet: Double roll (11,22,33...) = knocked out, helmet Damaged.
+
+## Step 3: Check for Advancement
+
+### Experience Points
+Survived encounter: +1 XP (all participants)
+Enemy Leader slain: +1 XP (Hero delivering killing blow)
+Heroic slayer: XP = Aberration Reward Rating (distributed)
+Held Field* or Achieved Objective*: +1 XP (all Heroes on table) *not both
+
+### Advancement Table (XP thresholds)
+4=1st, 9=2nd, 15=3rd, 22=4th, 30=5th (become Loyal), 39=6th, 50=7th, 65=8th (Enemy Plans roll), 80=9th, 95=10th (Quest obtained), 110=11th, 125=12th (+1 Recruit), 140=13th, then +15 per advancement
+
+### Advancement Subtable (non-Mystic) D100
+01-30: Speed increase or skill
+31-50: Agility increase or Toughness increase
+51-85: Combat Skill increase
+86-100: Luck increase or Will increase
+
+### Advancement Subtable (Mystic) D100
+01-20: Skill
+21-40: Agility increase or Speed increase
+41-55: Casting increase or Will increase
+56-80: Casting increase
+81-100: Spell improvement
+
+### Advancement Details
+Speed: 1st 6"/+3, 2nd 6"/+4, 3rd 7"/+4
+Agility: 1st→2, 2nd→3, 3rd→4
+Toughness: 1st→4, 2nd→5, 3rd→6
+Combat Skill: 1st→+1, 2nd→+2, 3rd→+3 (melee or ranged only)
+Casting: 1st→+1, 2nd→+2, 3rd→+3
+Luck: each increase = 1 point (can be lost)
+Will: 1st→1, 2nd→2 (Human only), 3rd→3 (Human only)
+Spell improvement: 1st new random spell, 2nd known spell -2 Incantation, 3rd start with 4 Strands, 4th new random spell
+If maxed one option, must pick other. If both maxed, skill of choice.
+
+### Follower Advancement (Flash of Insight) D100
+01-55: Nothing
+56-70: Skill if character has none
+71-85: Skill of choice
+86-95: Becomes Hero (no other changes)
+96-100: Becomes Hero + one Advancement roll
+
+Promoted Heroes become Loyal. Can also promote via Adventure Milestone.
+
+## Step 4: Roll for Loot
+If Achieved Objective: 1 Loot Table roll. Aberration: rolls = Reward Rating.
+Some scenarios/enemies grant extra rolls.
+
+## Step 5: Roll for Unusual Finds
+If Held Field: D100 on Unusual Finds Table (by scenario type).
+Results include: nothing, battered weapons, coins, victim remains, captive, excellent weapon, valuable goods, tracks, strange sack, personal item, key individual slain, lead to location, grateful volunteer, evidence of plot.
+
+## Step 6: Settle In
+Same Map Area as settlement: begin next turn In Town or In Camp. Elsewhere: In Camp.
+
+## Step 7: News Travels
+Roll D100 on News Table. Various results including unexplored locations, monster sightings, Threat changes, quests, etc.
+
+## Enemy Plans (D100)
+Triggered at various points. If all Threats eliminated, ignore.
+Cannot be affected by Story Points.
+Results range from gathering weapons (01-07) to dark rituals (96-100).
+Include all entries with full effects.
+
+## Victory and Defeat
+
+### Clearing a Threat
+Reduced to 0 + all Hideouts destroyed. Rewards: 1 Loot roll, +1 SP.
+
+### Clearing the Region
+All Threats cleared = campaign won. Additional: +1D6 SP, +2D6 GM.
+
+### Player Victory
+Can declare victory at any point for any reason.
+
+### Player Defeat
+All warband dead, or all settlements destroyed.
+
+## The Next Campaign
+Step 1: Carry over GM, equipment, SP. AP reset to 0.
+Step 2: Dead Avatar: 2D6, 9+ = returns. Remove Avatar status.
+Step 3: Heroes: D6 each (-1 if Disgruntled). 0-2=retire, 3-6=available. Loyal don't roll.
+Step 4: Followers: D6 each (-1 Disgruntled). 0-3=retire, 4-6=available. Loyal don't roll.
+Step 5: Friends: D6 each. 1-3=gone, 4-6=remain.
+Step 6: Under-strength: fill with past settled characters or new Followers.
+Step 7: Appoint new Avatar.
+Step 8: Create new region.

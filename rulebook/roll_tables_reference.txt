@@ -1,0 +1,124 @@
+# Roll Tables Reference
+
+This file catalogs all random tables in Five Leagues from the Borderlands for quick reference. Detailed table contents are in the relevant split files.
+
+## Character Creation Tables
+- Character Origin Table (D100 or choose) - determines race/origin
+- Frontier Background Tables (D20 x4) - Capabilities, Mentality, Possessions, Training
+- Mystic Background Tables (D20 x4)
+- Noble Background Tables (D20 x4)
+- Outsider Background Tables (D20 x4)
+- Townsfolk Background Tables (D20 x4)
+- Zealot Background Tables (D20 x4)
+- Skills Table (D100) - random skill selection
+- Follower Table (D100) - follower type
+- Avatar History Table (D100) - starting bonus
+
+## Campaign Setup Tables
+- Settlement Population Table (D100) - number of hamlets/villages/towns
+- Settlement Type Table (D100, modified by size) - settlement characteristics
+
+## Preparation Stage Tables
+- Town Events Table (D100) - local events in town
+- Camp Events Table (D100) - events while camping
+- Upkeep Costs Table (warband size) - Gold Marks owed
+- Blacksmith Table (item type vs settlement size) - repair costs
+- Foraging for Herbs Table (D6) - herb type found
+- Gambling Table (D6) - gambling outcomes
+- Hunting Expedition Table (D6) - hunting results
+- Meet the Locals Table (D100, by settlement size) - social outcomes
+- Connections Table (D100) - research connections
+
+## Adventure Tables
+- Enemy Threat Location Table (D6)
+- Enemy Threat Activity Table (D6)
+- Enemy Threat End Goal Table (D6)
+- Patrol Encounter Table (D100)
+- Unexplored Locations Table (D100)
+- Delve Depth Table (Depth level) - enemy/leader/marker adjustments
+
+## Travel Tables
+- Travel Events Table (D100)
+- Obstacle Table (D100)
+
+## Contract Tables
+- Contract Source Table (D100)
+- Contract Type Table (D100)
+- Contract Locate Item Table (D6)
+
+## Quest Tables
+- Quest Location Table (D100)
+- Quest Task Table (D100)
+- Quest Additional Opposition Table (task number)
+- Quest Find Table (D100)
+- Quest Talent Table (D100)
+
+## Encounter Setup Tables
+- Terrain Theme Table (D100)
+- Terrain Features Number Table
+- Enemy Leadership Type Table (D100)
+- Unique Foe Table (D100) - special enemy individuals
+- Unique Foe Motivation Table (D100)
+- Unknown Enemy Numbers Table (D6)
+- Scenario Objective Table (D100)
+- Scenario Objective Item Table
+- Scenario Objective Search Table
+
+## Enemy Tables (D100 each)
+- Ruin Within Enemy Table
+- Whispers from Beyond Enemy Table
+- Gnawling Horde Enemy Table
+- Ice-heart Court Enemy Table
+- Duskling Warband Enemy Table
+- Oldest Kin Enemy Table
+- Curse of War Enemy Table
+- Faceless Kingdom Enemy Table
+- Roadside Enemy Table
+- Lurking Foes Enemy Table
+
+## Aberration Table (D100)
+
+## Spell Table (D100) - random spell selection
+
+## Resolution Tables
+- Injury Table - Heroes (D100)
+- Injury Table - Followers (D100)
+- Flight in the Dark Table - Heroes (D100)
+- Flight in the Dark Table - Followers (D100)
+- Advancement Table (XP thresholds)
+- Advancement Subtable - non-Mystic (D100)
+- Advancement Subtable - Mystic (D100)
+- Flash of Insight Table - Followers (D100)
+- Unusual Finds Table (D100, by scenario type)
+- News Table (D100)
+- Enemy Plans Table (D100)
+
+## Loot Tables
+- Loot Table (D100) - main category
+- Valuables Subtable (D100)
+- Weapons Subtable (D100)
+- Armor Subtable (D100)
+- Tools Subtable (D100)
+- Consumables Subtable (D100)
+- Enchanted Items Table (D100) - category
+- Enchanted Weapon Subtable (D100)
+- Enchanted Armor Subtable (D100)
+- Enchanted Clothing Subtable (D100)
+- Enchanted Jewelry Subtable (D100)
+- Enchanted Potions Subtable (D100)
+- Magical Apparatus Subtable (D100)
+- Magical Unique Items Subtable (D100)
+
+## Trade Tables
+- Common Goods Table (item, cost, availability)
+- Rare Goods Table (D100)
+
+## Miscellaneous
+- Distance Fallen Table
+- Battered Weapons Table (D6)
+- Excellent Weapon Table (D6)
+- Hidden Location Placement Table (D6)
+- Site Finds Table
+- Site Reaction Table
+- Site Trap Table
+- Curious Location Table

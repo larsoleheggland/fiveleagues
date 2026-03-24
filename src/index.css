@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Crimson Text', serif;
+  --color-parchment: #f5e6c8;
+  --color-parchment-dark: #d4c4a0;
+  --color-rust: #c45a3c;
+  --color-rust-light: #e07858;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e0c068;
+  --color-sky-accent: #5b98b0;
+  --color-sky-light: #7bb8d0;
+  --color-forest: #4a7c59;
+  --color-ink: #1a1a1a;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #292524;
+}
+::-webkit-scrollbar-thumb {
+  background: #57534e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
+}

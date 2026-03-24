@@ -1,0 +1,41 @@
+// Spell table from Five Leagues from the Borderlands rulebook (pp.47-50)
+// * = Simple (no Strand cost), † = Taxing (once per battle)
+
+const SPELL_TABLE = [
+  { roll: '01-03', name: 'Antidote', incantation: '7+', target: '1 ally', duration: 'Battle', effects: 'Target is unaffected by Poison or Venom traits.' },
+  { roll: '04-06', name: 'Barrier', incantation: '6+', target: 'Ground', duration: 'Full round', effects: 'Place a line of fire 4" long and 0.5" wide without touching any characters. Prevents all movement across it, except by figures with the Flying trait. May be shot across, but provides Cover.' },
+  { roll: '07-09', name: 'Bind', incantation: '8+', target: 'Up to 3 enemies within 1" of each other', duration: 'Activation', effects: 'Each targeted figure rolls D6, adding any Monster Point total to the roll, breaking free on a 6+. If failing, the figure cannot move but may fight and shoot normally.' },
+  { roll: '10-12', name: 'Bleed', incantation: '8+', target: '1 enemy', duration: 'Battle', effects: 'The target loses the Regeneration trait if they have it. If Wounded, roll D6 in each Tracking Phase. On a 6, they die.' },
+  { roll: '13-15', name: 'Compel*', incantation: '7+', target: '1 enemy', duration: 'Activation', effects: 'When the target next activates, they must move directly towards the Mystic as fast as possible. They will not move in any way that would risk taking damage from dangerous terrain.' },
+  { roll: '16-18', name: 'Confuse', incantation: '7+', target: '1 enemy', duration: 'Full round', effects: 'Target loses the Parry and Counter Attack traits.' },
+  { roll: '19-21', name: 'Darts\u2020', incantation: '6+', target: '1 ally', duration: 'Immediate', effects: 'Target a character that is out of ranged weapon ammunition. They immediately restock their ammunition. Does not work on single-use weapons.' },
+  { roll: '22-24', name: 'Distract', incantation: '7+', target: '1 enemy Ranged Trooper', duration: 'Activation', effects: 'The target will remain in place and will not shoot.' },
+  { roll: '25-27', name: 'Escape', incantation: '6+', target: '1 ally', duration: 'Immediate', effects: 'Remove the target character from the battle. No roll for "Flight in the Dark" is needed.' },
+  { roll: '28-30', name: 'Explore\u2020', incantation: '7+', target: '1 marker', duration: 'Immediate', effects: 'Select an Unknown Enemy Marker, Exploration Marker, Unusual Location Marker, or similar marker, and roll to resolve what it is. Does not require Line of Sight.' },
+  { roll: '31-33', name: 'Fog', incantation: '6+', target: 'Ground', duration: 'Full round', effects: 'Place a fog cloud circle 3" across. Figures can move into, out of, and through it, but it blocks all Lines of Sight.' },
+  { roll: '34-36', name: 'Foresee\u2020', incantation: '7+', target: '\u2014', duration: 'Immediate', effects: 'If a time limit applies to Achieving the Objective, increase the limit by 1 battle round.' },
+  { roll: '37-39', name: 'Fortune*', incantation: '5+', target: 'Personal', duration: 'Full round', effects: 'The Mystic may reroll: a ranged roll to Hit, melee roll to Hit, a proficiency test, and may force an enemy to reroll a successful Overcome Armor roll against them.' },
+  { roll: '40-42', name: 'Frighten', incantation: '7+', target: '\u2014', duration: 'Next Tracking Phase', effects: 'If the enemy took any casualties this turn, they must roll 1 additional Morale die. No Line of Sight required.' },
+  { roll: '43-45', name: 'Guidance', incantation: '7+', target: '1 ally', duration: 'Full round', effects: 'The ally may reroll one of: a shooting roll to Hit, melee roll to Hit, proficiency test, or force an enemy to reroll a successful Overcome Armor roll. No Line of Sight required; once cast, any ally may use the reroll.' },
+  { roll: '46-48', name: 'Heal\u2020', incantation: '6+', target: '1 ally', duration: 'Immediate', effects: 'Remove a Wound.' },
+  { roll: '49-51', name: 'Illuminate*', incantation: '6+', target: 'Personal', duration: 'Battle', effects: 'All characters, features, and items within 12" of the Mystic are visible from any distance.' },
+  { roll: '52-54', name: 'Infuse', incantation: '6+', target: '1 ally (not Wounded)', duration: 'Until Wounded', effects: 'As long as the target remains un-Wounded, they receive the Counter Attack ability.' },
+  { roll: '55-57', name: 'Manipulate*', incantation: '6+', target: '1 item', duration: 'Immediate', effects: 'An item on the ground, in the Mystic\'s or an ally\'s possession may be moved up to 8". If moved into contact with a character, they may pick it up without an Action or roll. Must happen within Line of Sight.' },
+  { roll: '58-60', name: 'Mark', incantation: '7+', target: '1 enemy', duration: 'Full round', effects: 'All ranged attacks on the selected target receive a +1 bonus to Hit.' },
+  { roll: '61-63', name: 'Meekness', incantation: '7+', target: '1 enemy', duration: 'Full round', effects: 'Enemy melee attacks do +0 / +0 damage.' },
+  { roll: '64-66', name: 'Mobility', incantation: '7+', target: '1 ally', duration: 'Battle', effects: 'The character ignores all movement reductions due to Difficult terrain.' },
+  { roll: '67-69', name: 'Premonition', incantation: '7+', target: '\u2014', duration: 'Next Initiative Roll', effects: 'When rolling for Initiative, 2 dice may be rerolled.' },
+  { roll: '70-72', name: 'Repel', incantation: '7+', target: '1 enemy', duration: 'Immediate', effects: 'The enemy is pushed directly away D6+1". Aberrations subtract their current Monster Points from the roll. Can push a figure into danger.' },
+  { roll: '73-75', name: 'Shadows', incantation: '6+', target: '1 ally', duration: 'Immediate', effects: 'Target may immediately move to any location within 4" of their current position. Can move through Impassable obstacles or walls, but both positions must be visible to the Mystic.' },
+  { roll: '76-78', name: 'Shield', incantation: '6+', target: '1 ally', duration: 'Full round', effects: 'All ranged attacks aimed at the target or a character within 3" of them will Hit only on a natural 6.' },
+  { roll: '79-81', name: 'Slow', incantation: '8+', target: 'Up to 3 enemies within 1" of each other', duration: 'Full round', effects: 'Reduce the enemy Speed by -2" and Dashing becomes impossible. Negates Flying and Slippery traits.' },
+  { roll: '82-84', name: 'Spellbreak\u2020', incantation: '7+', target: '1 enemy', duration: 'Full round', effects: 'The enemy is unable to cast any spells.' },
+  { roll: '85-87', name: 'Steelbreak\u2020', incantation: '7+', target: '1 enemy', duration: 'Full round', effects: 'Enemy counts as Armor 0.' },
+  { roll: '88-90', name: 'Summon\u2020', incantation: '7+', target: 'Ground', duration: 'Battle', effects: 'Summon a creature in base contact with the Mystic (Agility 2, Speed 6"/+0", Combat +0, Toughness 4, Armor 0, +0/+0 damage, no equipment). Acts immediately. Only usable with fewer than 6 warband members and allies on the table.' },
+  { roll: '91-93', name: 'Tinker', incantation: '6+', target: '1 ally', duration: 'Full round', effects: 'Add +2 to any proficiency test.' },
+  { roll: '94-96', name: 'Torment', incantation: '8+', target: '1 enemy', duration: 'Battle', effects: 'If the enemy is engaged in melee while Wounded, their opponent receives a Combat Bonus.' },
+  { roll: '97-98', name: 'Waylay', incantation: '8+', target: '1 enemy patrol', duration: 'Full round', effects: 'The patrol does not move this round. When next activated, they move towards a random Exploration Marker. No effect on Aware figures.' },
+  { roll: '99-100', name: 'Weaken', incantation: '8+', target: '1 enemy', duration: 'Battle', effects: 'Negates the Tough trait.' },
+]
+
+export default SPELL_TABLE

@@ -1,0 +1,132 @@
+# Enchanted Items
+
+## General Rules
+- Cannot be Damaged (except consumed potions)
+- Can be sold for D6 GM in town only
+- Usable by any character (Hero or Follower)
+
+## Abbreviations
+(S) Single-use | (R) Ranged weapon | (M) Melee weapon | (DB) During battle only | (OC) Out of combat or during battle | (W) Worn item | (B) Backpack item | (C) Campaign item
+
+## Enchanted Items Table (D100)
+01-15: Weapon | 16-35: Potion | 36-50: Clothing | 51-65: Armor | 66-80: Jewelry | 81-95: Magical Apparatus | 96-100: Unique Items
+
+---
+
+## Enchanted Weapons
+Any character can use. Hit +0/+0 unless noted. Subject to ammo rules. Physical form doesn't matter - only grants described benefits, never normal weapon effects.
+
+### Enchanted Weapon Subtable (D100)
+01-07: Battering Storm - Wielder loses melee on draw. All Hits +1/+2.
+08-15: Champion's Will - Enemies can't gain Combat Bonus from allies vs wielder.
+16-23: Finding Knife - Melee normally. Can throw (Range 9", -1/+0), returns.
+24-31: Fury Biter - Ignore Stun in melee. If would roll Flight in Dark, roll Injury Table instead.
+32-36: Fury of Life - Vs Undead: gain Parry and Counter Attack.
+37-43: Gleaming Friend - Draw = won by wielder instead.
+44-50: Hate Strike - When losing melee exchange, inflict Hit on enemy simultaneously.
+51-58: Heart Seeker - Natural 6 as Attacker in melee = auto bypass Armor.
+59-65: Mountain's Bane - Failed Armor penetration = target Stunned.
+66-71: Penetrating Dart - Range 24". Kill = auto Hit another target within 4" (max 1 extra).
+72-78: Ruin Edge - Reduce Aberration MP by 1 additional when reducing MP.
+79-83: Shadow Flight - Range 24". Target always counted as in the open. Shoot through forest/bushes. Can't shoot through solid obstacles.
+84-90: Soul Render - All Hits +1/+1.
+91-95: Swift Eagle - Unlimited range. +1 to Hit when shooting.
+96-100: Venom Fang - Wounding opponent in melee = slain (unless Fey or Undead).
+
+---
+
+## Enchanted Armor (W)
+No movement/Dash penalties. One suit only. Can combine with helmet/shield.
+
+### Enchanted Armor Subtable (D100)
+01-12: Bird Maille - Armor 2. +2" Dash, no terrain movement reductions. Never roll Flight in Dark.
+13-22: Bright Maille - Armor 3. +1 melee vs Undead, -1 vs Fey.
+23-30: Curative Harness - Armor 2. Tracking Phase: if didn't fight melee, heal Wound.
+31-43: Harness of Vengeance - Armor 2. If Wounded/casualty from melee, striker suffers same fate.
+44-50: Impervious Plate - Armor 3. No Overcome Armor bonuses from any source.
+51-62: Maille of Shadows - Armor 2. Ranged troops ignore wearer unless within 9". Making ranged attack nullifies for rest of battle.
+63-69: Plate of Never-Ending Dreams - Armor 3. Can't be Stunned, enemies no Combat Bonus in melee.
+70-80: Radiant Chest-plate - Armor 2. Ranged attacks vs wearer or within 2" Hit only on natural 6.
+81-92: Stout Defender - Armor 3. Can Parry in melee.
+93-100: Traitor's Harness - No Armor value. When struck D6: on 6 = casualty (becomes non-magic partial armor). On 1-5 = deflected. Armor bonuses don't apply, but Armor-ignoring effects work normally.
+
+---
+
+## Potions (S, B)
+All single-use. Used before battle or as Use Action. Must be in Backpack for battle use.
+
+### Potions Subtable (D100)
+01-13: Bear Draught - One battle: recover Wound each Tracking Phase, can't be Stunned, can't Dash.
+14-25: Ferret's Drink - One battle: +3"/+0" Speed, no terrain reductions. No Flight in Dark roll.
+26-33: Fiery Wine - One battle: ranged 9" fire attack, unlimited ammo. +1/+0 (+1/+1 vs Undead).
+34-45: Potion of Valley Mist - Reduce injury recovery by 3 turns.
+46-51: Serpent Water - Permanently immune to venom/Poison trait.
+52-58: Shadowy Ale - Incorporeal for current + next 2 rounds. Can't attack/interact, can't be attacked. No terrain penalties, move through solid. No Flight in Dark if leaves table.
+59-74: Spring Vial - Heal any Injury Table result including death. Companion can administer. May roll all injuries first.
+75-83: Wasp Mead - One battle: all melee/ranged attacks have Poison (natural 6 = auto knockout unless Armor saves).
+84-89: Winter Flask - Roll on Injury Table immediately. If survive: +2D6 XP. Hero only.
+90-100: Wolf Potion - One battle: all melee Hits +1/+1 (replaces normal weapon).
+
+---
+
+## Enchanted Jewelry (W)
+One enchanted jewelry item per character. Any form (ring, necklace, etc.).
+
+### Enchanted Jewelry Subtable (D100)
+01-12: Curing Ward - Tracking Phase: if Wounded, heal.
+13-25: Evasive Silver - Ranged attacks Hit only on natural 6. Ends if wearer makes ranged attack.
+26-32: Eyes of the Rat - Ignore range/Hit penalties from darkness, fog, smoke.
+33-42: Gentle Illumination - Use Action to activate. Negates visibility limits from fog/darkness (both sides) for battle.
+43-54: Nullification Token - First spell targeting character each battle is negated (no effects on any target).
+55-61: Old King's Dominion - Temporary allies, freed captives etc. gain +1 Agility, +1 Toughness (max 6).
+62-72: Spell Breaker's Seal - Immune to all magic/spells (friendly or hostile). Can be returned to Backpack via Ready Weapon Action.
+73-80: Token of Sacrifice - If Injury/Flight in Dark = death/disappearance, character saved. Token destroyed permanently.
+81-91: Uncontested Fury - When slaying enemy in melee, must full move toward nearest enemy. If contact, melee immediately. Once per round.
+92-100: Wolf's Fury - Use Action: transform to wolf. Heal Wounds. Profile: Agility 3, Speed 7"/+4", CS +1, Damage +0/+1, Toughness 4, Armor 1. No weapons/items. Auto-recover at battle end. No Flight in Dark.
+
+---
+
+## Enchanted Clothing (W)
+One enchanted clothing per character. No same type doubling (e.g., two cloaks).
+
+### Enchanted Clothing Subtable (D100)
+01-09: Belt of Closed Mind - 1 Will point per battle (additional to existing).
+10-16: Belt of True Warrior - +1 melee if no ally within 3".
+17-29: Boots of Fey Dancing - If no shoot/melee this Action: +2"/+2" Speed.
+30-40: Boots of Deep Woods - No terrain movement reductions (still can't cross Impassable).
+41-51: Boots of the Thief - Use Action: escape battle unharmed. Never roll Flight in Dark.
+52-63: Cloak of Ancient Times - Reduce injury recovery by 1 turn.
+64-73: Cloak of Mist - Not deployed normally. Tracking Phase Round 1: place within D6" of any warband member. Acts normally on arrival.
+72-82: Cloak of Wasp Denial - +1 Armor vs ranged. Ignore Poison on enemy ranged.
+83-91: Gauntlets of Iron Grip - Opponents can't Parry, can't negate wearer's Parry. Can't Ready weapons, can't use found weapons (can Backpack them).
+92-100: Gauntlets of Unerring Flight - +1 to Hit when stationary and shooting.
+
+---
+
+## Magical Apparatus
+Used by Mystics for spellcasting.
+
+### Magical Apparatus Subtable (D100 - exact ranges from rulebook)
+- Arcane Notes: Read In Camp/Town. Select known spell, reduce Incantation by -1 permanently.
+- Ensorcelled Scroll: Random spell from table. Cast by Mystic as if known (normal roll). If already known: +2 to Casting roll.
+- Congealed Strands: D3+1 Strands found. Use in place of normal, don't expire.
+- Mystic Crystal: Use Action. Cast known spell without Strand or Casting roll.
+- Runestone: +1 to all Casting rolls.
+- Spellbook Tome: Read In Camp/Town. Random spell learned. If known: +3 XP.
+
+---
+
+## Unique Items (C, S)
+Campaign items. Single-use. OC items usable anytime in campaign turn or as Use Action in battle.
+
+### Magical Unique Items Subtable (D100)
+01-07: Bone Knife (S,C,DB) - Before battle: D6 characters start Wounded. Per Wound = 1 Skeleton minion (Speed 4"/0", CS +0, T4, Armor 1, can't Dash, Tough, Fearless, immune to Poison/Terrifying). Act in Slow Actions Phase.
+08-19: Dragon's Spite (S,C,DB) - Ranged attack at target point within 6". All within 2" struck (no Hit roll). +1/+1 Hit. Survivors flee D6" away. Undead: +1/+2, don't flee.
+20-30: Orb of Winter Fog (S,C,DB) - Thick fog. Retreat any characters without Flight in Dark. If battle continues: 6" visibility rest of battle.
+31-43: Seeds of Spring (S,C,OC) - Start of turn: Camp event = "Nothing happens" option. Injured reduce by 1 turn. No Upkeep.
+44-50: Soul Sphere (S,C,OC) - Revive any character slain this campaign turn.
+51-62: Spider Whispers (S,C,DB) - Summon Hero (Agility 1, Speed 4"/+3", CS +1, T4, bastard sword, partial armor). Place 9"+ from all figures. Fights for battle then leaves.
+63-69: Talisman of Oldest Mother (S,C,DB) - Roll on Aberration Table. Arrives at nearest battlefield edge in Tracking Phase. Acts in Slow Actions Phase, player-controlled.
+70-80: Teeth of the Stalker (S,C,DB) - Immediately move 9" (ignore rough terrain). Can enter melee. If so, roll twice pick best in first exchange.
+81-88: Thorn of Ice (S,C,DB) - Select point within 9" and LoS. Any Wounded character within 3" = casualty.
+89-100: Tiny Offering (S,C,DB) - Before battle: every Follower gets +1 CS, +1 Toughness for battle.

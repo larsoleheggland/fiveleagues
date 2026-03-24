@@ -1,0 +1,148 @@
+================================================================================
+THE CROWS OF ASHWICK — Custom Mini-Campaign
+================================================================================
+
+A focused campaign for Five Leagues from the Borderlands (approx. 6 sessions).
+Uses standard rules with the modifications listed below.
+
+--------------------------------------------------------------------------------
+CONCEPT
+--------------------------------------------------------------------------------
+A single enemy faction (The Ruin Within) at Threat Level 2. The crow-masked
+bandits have taken hold of the Ashlands, choking trade and terrorizing the
+settlements. The warband's goal: find and destroy their leader's hideout.
+
+Campaign ends when:
+- Threat Level is reduced to 0 AND the Hideout is destroyed.
+- Or the warband is wiped out / players decide to move on.
+
+Threat Level 2 means two successful reductions (each requiring a victorious
+battle + Adventure Milestone) plus destroying the hidden Hideout. This leaves
+room for contracts, patrols, delves, and exploration between threat battles.
+
+--------------------------------------------------------------------------------
+REGION: THE ASHLANDS
+--------------------------------------------------------------------------------
+Historically a burned-down section of forest that became a clearing. A river
+runs through it. Some sections of dead wood remain, but the area is mostly
+open land where people have settled. The fire happened long ago — no ash
+remains.
+
+Settlements:
+- Ashwick     — village, Market Town (+1 AP on first visit), 1 Rare Goods roll
+- Woodborough — town, Trading Hub (2 Rare Goods rolls, pay 1GM for a third)
+- Pine Farms  — hamlet, Scattered Farming Community (max 2GM upkeep)
+
+Wilderness:
+- The Dead Woods — across the river from the settlements. Contains the crow
+  camp and an unexplored location.
+
+--------------------------------------------------------------------------------
+MODIFICATIONS TO STANDARD RULES
+--------------------------------------------------------------------------------
+1. Single threat faction only (The Ruin Within at TL2 instead of three factions
+   at TL5-6). No other threats on the map.
+
+2. Turn 1 travel result is scripted as an Obstacle -> Toll Post manned by the
+   crows (see Session 1 Plan below).
+
+3. First fight drops the Defensive Battle +1 enemy modifier. Can be added back
+   if the numbers roll was kind.
+
+4. Ashwick has a custom contract table replacing the standard Connections roll
+   (see below). All contracts tie to the crow storyline.
+
+5. Everything else runs by the book.
+
+--------------------------------------------------------------------------------
+CUSTOM CONTRACT TABLE — ASHWICK TOWN COUNCIL
+--------------------------------------------------------------------------------
+Available when arriving in Ashwick. Roll D6. Reward: D6 Gold Marks.
+Use the standard contract rules from the book for the chosen type.
+
+D6  Type                Story Hook
+--  ------------------  ---------------------------------------------------
+1   Chase Off Group     The crows have a forward camp near Pine Farms,
+                        raiding root cellars at night.
+                        Time limit: 3 turns.
+
+2   Deliver Goods       A medicine shipment for Woodborough — no trader
+                        will risk the road.
+                        Time limit: 4 turns.
+
+3   Aid Community       Pine Farms is losing livestock. Farmers need a
+                        visible armed presence.
+                        Time limit: 5 turns.
+
+4   Rescue Individual   A woodcutter went into the Dead Woods three days
+                        ago. The crows probably have him.
+                        Time limit: 2 turns to visit.
+
+5   Escort Individual   A merchant needs safe passage to Woodborough —
+                        too many crow sightings on the road.
+                        Time limit: 3 turns to pick up.
+
+6   Gather Information  The council suspects someone in town is fencing
+                        stolen goods for the crows. They need proof.
+                        Time limit: 2 turns.
+
+--------------------------------------------------------------------------------
+SESSION 1 PLAN — ARRIVAL IN THE ASHLANDS
+--------------------------------------------------------------------------------
+
+TURN 1 — Travel to Ashwick
+  First turn rule: skip all Preparation, go straight to Adventuring Stage.
+
+  Scripted result: Obstacle -> Toll Post, manned by the crows.
+
+  Narrative:
+    Crow-masked figures lounge on the side of the road. Tattered black cloaks,
+    jagged blades resting on shoulders. One steps forward, head cocked birdlike,
+    and holds up two fingers. "Toll to enter the Ashlands. Two gold. The
+    Mistress demands her due."
+
+  The players choose:
+  - Pay 2 GM — arrive at Ashwick broke (1 GM left) but unharmed.
+  - 9+ [Speech] test (Sigrid has Speech) — bluff past. Failure: they attack.
+  - Fight — Defensive Battle vs Ruin Within (escalating: Desperate Mob).
+
+  The Desperate Mob:
+  - Numbers: Roll 2D6 keep highest, then +3 (range 4-9).
+    Defensive Battle normally adds +1 more but we are dropping it.
+    If the roll was kind, add it back.
+  - Stats: Speed 4"/+2" | CS +0 | Dmg +0 | Tough 3 | Armor 0 | 2 slingers
+  - Break point: No normal Morale dice. They flee when total casualties
+    exceed half their starting number. At 7 enemies: breaks after 4 kills.
+    At 8: after 5.
+
+  After the battle (if fought):
+  - Resolve normally (injuries, XP, loot).
+  - This is a travel encounter, NOT a Threat battle — no threat reduction,
+    no threat AP.
+
+TURN 2 — Ashwick (full Preparation turn)
+  Run Steps 1-7 from the book.
+  - Ashwick is a village (Market Town): first visit +1 AP, 1 Rare Goods roll.
+  - A contract is available from the Town Council. Roll D6 on the custom
+    contract table above (skip or replace the Connections roll).
+  - Pick an adventure for this turn: Battle Threat, Ride Patrol, Carry out
+    Contract, or Explore.
+
+Session goal: Arrive in the Ashlands, encounter the crows, complete a full
+preparation turn in Ashwick, pick up a contract.
+
+--------------------------------------------------------------------------------
+CAMPAIGN ARC (ROUGH OUTLINE)
+--------------------------------------------------------------------------------
+Sessions 1-2:  Arrive, establish in Ashwick, first encounters with the crows.
+               Pick up contracts, do patrols, earn AP.
+
+Sessions 3-4:  Raid the crow camp (Scenario C). Earn Vital Information.
+               Explore the unexplored location or a delve. Start spending AP
+               on threat reductions and locating the hidden Hideout.
+
+Sessions 5-6:  Hideout Raid (Scenario D) — the climactic battle. Destroy the
+               hideout and reduce the threat to 0. Wrap up any loose contracts.
+
+This is a rough guide, not a script. Let the dice and player choices shape the
+actual pace.

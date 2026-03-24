@@ -1,0 +1,210 @@
+# Combat Rules
+
+## The Battle Round
+Battles are a series of battle rounds, each with 5 phases:
+1. The Initiative Roll
+2. Quick Actions Phase
+3. Enemy Actions Phase
+4. Slow Actions Phase
+5. Tracking Phase
+
+## The Initiative Roll
+Roll D6 per warband character/ally on table, assign each to a character:
+- Die result ≤ Agility = Quick Actions Phase
+- All enemies = Enemy Actions Phase
+- Die result > Agility = Slow Actions Phase
+Every character acts every round - roll just determines phase.
+
+## Actions
+During a phase, player characters activate in any order. Enemy phase: ranged before melee.
+When activated: Move Action, then Combat Action OR Non-Combat Action.
+- Combat Actions: melee combat or ranged attack
+- Non-Combat Actions: Dash, Use, Ready Weapon, Casting, Interact, Keep Down!, Anticipate
+Cannot change sequence to take Move last. Can skip any action.
+
+## Non-Combat Actions Table
+- Dash (full move): Move additional distance = Dash portion of Speed. Cannot enter melee by Dashing. Enemies Dash if in open reaching Cover or advancing on foe. Undead/Monster/Aberration cannot Dash.
+- Use (full move): Use one item per Action.
+- Ready Weapon (full move): Retrieve/return Backpack weapon.
+- Casting (full move): Mystic casts spell.
+- Interact (half move): Scenario objectives, cut rope, pick lock, search, etc.
+- Keep Down! (1"): Cover from ranged attacks >6" away until next activation.
+- Anticipate (1"): Place marker. Next round, roll one less die for initiative. This character auto-acts in Quick Actions Phase.
+
+## Tracking Phase
+End-of-round activities including enemy Morale checks. Resolve in order:
+1. Warband-related features
+2. Enemy-related features
+3. Scenario/event features
+4. Anything else
+Within each step, player chooses order.
+
+## Movement
+- Movement allowance = Speed in inches
+- Difficult terrain: 1" moved costs 2" of allowance
+- Opening door/window: 1" of movement
+- Cannot move through another figure unless rule permits
+
+### Moving and Shooting
+Ranged attack = max half movement Speed. Crossbow = must be stationary.
+
+### Dash
+Non-Combat Action. Additional distance = Dash bonus. Cannot enter melee by Dashing.
+
+### Movement Modifiers
+Expressed as +X"/+Y" (base/Dash). Example: Speed 4"/+3" = 4" normal, 7" when Dashing.
+
+### Moving into Base Contact
+Contact = bases touching (or within 0.5" for dramatic poses). Triggers melee immediately. Dashing figures cannot enter melee.
+
+### Moving Vertically
+Pay vertical height in inches. Can't end mid-climb. Drop ≤1" = free. Drop >1" = must climb down or jump.
+
+#### Distance Fallen Table
+- Up to 3": +1/+0 damage
+- Up to 5": +2/+1 damage
+- Up to 8": +3/+2 damage
+- Over 8": Automatic casualty
+Jumping/falling >1" = no more Actions this round. Can leap 2" gap as normal movement.
+
+### Dungeon Floor Tiles
+Individual debris costs 1" to cross. Rubble/water = Difficult. Height difference = 1" up, free down.
+
+### Taking Damage while Moving
+Possible from falls, traps, etc. Resolve per damage rules.
+
+## Enemy Movements
+
+### Order of Activation
+Ranged before melee. Within each type: closest to player's battlefield edge first, work backwards.
+
+### Ranged Troops
+Move to Cover where they can shoot. Only advance to maintain range/sight. Won't leave Cover if visible to opposing ranged. Won't enter positions preventing shooting (water, etc.). Out of ammo = become melee.
+
+### Melee Troops
+Advance toward nearest opponents staying in Cover from ranged. If can't advance without leaving Cover, take fastest/most direct path. If can't reach nearest, target closest reachable opponent.
+
+### Leaders
+Given choice, attack Hero over Follower.
+
+### Monsters and Undead
+Ignore tactics, advance directly toward closest opponent. Won't enter dangerous terrain.
+
+### Sensible Foes
+Player judgment: enemies aren't suicidal. Don't make obviously suicidal moves.
+
+## Unknown Enemy Markers
+Token roughly figure-base sized. Move 5"/round toward center, then random direction.
+Spotted when warband figure within: 6" (partially obscured) or 9" (unobscured LoS).
+When spotted, roll D6: 1=1 foe, 2=2, 3-4=3, 5=4, 6=5. Always melee. Place in/behind Cover.
+
+## Terrain
+### Types
+- Linear: long features (hedgerows, fences, walls)
+- Area: cover space, figures placed within (forest, bushes, rubble). May be Difficult.
+- Field: ground-level area (mud, water, lava). May be Difficult or Impassable.
+- Individual: single piece, can't climb (barrels, trees, statues)
+- Block: can be climbed but not entered (boulders, locked buildings)
+- Interior: enclosed, can be entered (buildings, tunnels, caves)
+
+### Lines of Sight
+True Line of Sight. Blocked by Block/Individual features.
+- Area terrain: LoS passes through up to 3" only
+- Linear: LoS blocked 3" beyond, unless shooter or target within 1" of crossing point
+- When in doubt about visibility: allow shot. When in doubt about Cover: count as Cover.
+
+### Cover
+A figure is in Cover if:
+- LoS crosses terrain >1" from shooter
+- Target within Area feature
+- Target in contact with corner of Block terrain
+
+### Location and Item Markers
+Don't block LoS, provide Cover, or interfere with ranged. Enemies don't interact with them. Can't be spell targets.
+
+## Ranged Attacks
+Select visible target in range. If visible opponents within 3", must shoot nearest.
+
+### Enemy targeting priorities:
+1. Closest within 8"
+2. Nearest with ranged weapon
+3. Closest target
+
+### To Hit (D6):
+- Within 6", in open: 3+
+- Within weapon range, in open: 5+
+- Within range, concealed/Cover: 6+
+- Stationary shooter adds Combat Skill
+- Natural 1 always misses
+- Limited Ammunition: natural 1 to Hit = out of ammo (unless first shot in battle)
+
+## Melee Combat
+Series of 3 exchanges. Initiator = attacker in first exchange.
+
+### Each exchange has 5 steps:
+1. Select weapon (1st exchange only) - choose one melee weapon for all exchanges
+2. Select tactic (optional) - one tactic for all exchanges. Enemy doesn't use tactics.
+   - Fight defensively: roll twice pick best, inflict no Hits, negates Counter Attack
+   - Fight evasively: roll normally, inflict no Hits, may move 2" ending melee, negates Counter Attack
+   - Fight furiously (attacker only): roll normally; win = +1 to Overcome Armor OR Toughness (player's choice); lose = suffer Hit
+3. Resolve exchange: D6 + Combat Skill each.
+   - Attacker higher: strikes blow, remains Attacker
+   - Defender higher: avoids harm, becomes Attacker
+   - Draw: Defender retreats 1", Attacker stays, melee ends
+4. The Push: If Defender lost, retreats 1". Attacker may stay (end melee) or step up 1" (continue). Enemies always step up. Back to the Wall: if Defender can't retreat, stay in place, become Stunned, fight extra exchange.
+5. Next Exchange: Winner has Initiative. After 3rd exchange, melee ends, each moves 1" apart.
+
+### Counter Attack
+Character with Counter Attack may strike Hit when winning exchange even as Defender.
+Conditions: higher ground, fighting across obstacle, opponent in Difficult/water, or weapon/trait grants it.
+
+### Parry
+If character with Parry rolls natural 1 defending in melee, deflects blow (no damage/Stun/effects). Multiple Parry sources no additional effect.
+
+### Combat Bonus
++1 Combat Skill if: opponent Stunned, OR character has ally within 1". In confined space/doorway: neither side gets ally bonus. Only one Combat Bonus per character.
+
+## Hits
+Damage from any source = a Hit. Always resolved same way:
+Hit written as +x/+y (Overcome Armor bonus / Overcome Toughness bonus). Default +0/+0.
+
+### Step 1: Overcome Armor
+Skip if Armor 0. Roll D6 + Armor bonus.
+- Total > Armor: proceed to Step 2
+- Total = Armor: Stunned, attack fails
+- Total < Armor: attack fails
+
+### Step 2: Overcome Toughness
+Roll D6.
+- Natural 1: Stunned
+- 2-6: add Toughness bonus
+  - Total > Toughness: casualty (removed from table)
+  - Total ≤ Toughness: Wounded and Stunned
+
+### Stunned
+Lost balance/knocked senseless. Must fight as Defender, opponent gets +1 Combat Bonus. Recovers after exchange unless Stunned again. Auto-recovers end of phase.
+
+### Wounded
+May continue acting normally. Wounded a second time = removed as casualty. Wounds don't carry to future battles.
+
+## Running Away
+
+### Character Morale
+Player forces don't test. Character within 1" of battlefield edge may retreat (remove from table, can't return). May need Flight in the Dark roll.
+
+### Enemy Morale
+Tracking Phase: Roll D6 per enemy removed as casualty this round. Natural 1s and 2s = Morale Failures. Per failure, remove one enemy (closest to enemy edge first).
+- Leaders don't run unless <4 enemy figures remaining
+- Aberrations and Undead fight to death
+- Unknown Enemy markers and Unaware enemies unaffected
+
+## Proficiency Tests
+Roll 2D6 vs target number. Applicable skill adds +2. Equal or above = success.
+Multiple listed skills: any works, only one bonus applies.
+Mystics: only +1 from skills (except Alchemy).
+Equipment bonus: only one per test. Single-use must declare before rolling.
+
+## Story Points
+Begin with some, earn more over campaign. Two uses:
+- Narrative: Pay 1 to make something happen (fight specific enemy, old friend shows up, add location). Should not award magic items.
+- Mechanical: Avoid attack/spell just struck by, OR reroll any die (keep either result, no third roll).

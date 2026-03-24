@@ -1,0 +1,76 @@
+# Aberrations & Bestiary
+
+## What Are Aberrations
+Catch-all for creatures so powerful they transcend normal rules. Use Monster Points to track damage. Have restrictions on Actions and movement.
+
+## Monster Points (MP)
+When striking an Aberration, Armor works normally, but Overcome Toughness modified:
+- Natural 1 or below Toughness = no effect
+- Equal to Toughness = -1 MP
+- Above Toughness: -1 MP if currently 3 or less; -2 MP if currently 4+
+Destroyed at 0 MP. Ignore direct Wound effects. Cannot be Stunned.
+
+## Engaging in Combat
+- Cannot receive Combat Bonus from allies (but opponents can)
+- All Aberrations may Counter Attack
+- Profile lists melee damage values
+
+## Aberration Actions
+- Can't Dash but move as fast as possible by most direct route toward closest target
+- Push aside Human-sized allies while moving
+- Completely unaffected by Morale
+
+## Slayer's Rewards
+Reward Rating in profile. Multiple Aberrations: highest Rating +1 per additional.
+- Gold Marks = Reward Rating
+- Bonus XP = Reward Rating (distribute evenly among surviving Heroes)
+- Loot rolls = Reward Rating
+Per Aberration slain: +1 Story Point, +1 Adventure Point
+
+## Unique Creatures
+Each entry encountered only once per campaign as random monster. If re-rolled, use first unencountered. Events can cause repeats. List resets at campaign end.
+
+## Aberration Table
+Roll | Aberration | Speed | Combat | Melee | Armor | Tough. | MP | Reward
+1-8 | Ogre | 5" | +2 | +1/+1 | 2 | 5 | 3 | 2 | Traits: None
+9-15 | Troll | 5" | +1 | +1/+1 | 1 | 4 | 5 | 2 | Traits: Difficult to Kill
+16-18 | Minotaur | 5" | +2 | +2/+2 | 1 | 5 | 5 | 3 | Traits: Knock Back, Magic Resistant
+19-25 | Werewolf | 7" | +3 | +1/+1 | 1 | 5 | 4 | 3 | Traits: Cruel Wounds, Difficult to Kill, Charge
+26-29 | Golem | 3" | +1 | +3/+2 | 4 | 6 | 3 | 2 | Traits: Knock Back
+30-36 | Giant lizard | 6" | +2 | +1/+1 | 2 | 6 | 3 | 2 | Traits: None
+37-42 | Spitting lizard | 4" | +1 | +0/+1 | 2 | 2 | 3 | 2 | Traits: Area Attack (9", +0/+1), Venom (melee+range)
+43-47 | Manticore | 5" | +2 | +2/+1 | 1 | 4 | 4 | 3 | Traits: Ranged Attack (9", +1/+0), Lash
+48-53 | Griffon | 9" | +2 | +1/+1 | 1 | 5 | 3 | 2 | Traits: Wings, Charge
+54-57 | Giant | 8" | +1 | +2/+3 | 1 | 5 | 6 | 3 | Traits: Size, Knock Back
+58-63 | Wraith | 5" | +1 | +1/+0 | 0 | 3 | 3 | 2 | Traits: Ethereal, Terror, Undead
+64-68 | Wight | 5" | +2 | +1/+0 | 1 | 4 | 4 | 3 | Traits: Cruel Wounds, Ethereal, Fell Touch, Terror, Undead
+69-72 | Death knight | 5" | +3 | +1/+1 | 4 | 5 | 4 | 3 | Traits: Terror, Magic Resistant, Undead
+73-76 | Fiend | 6" | +3 | +0/+1 | 3 | 6 | 6 | 3 | Traits: Cruel Wounds, Magic Resistant, Terror, Size
+77-79 | Undead construct | 5" | +2 | +1/+2 | 2 | 5 | 7 | 4 | Traits: Difficult to Kill, Terror, Size, Undead
+80-82 | Elemental | 5" | +1 | +2/+2 | 4 | 6 | 3 | 2 | Traits: Fell Touch
+83-87 | Giant spider | 6" | +2 | +0/+1 | 2 | 4 | 4 | 2 | Traits: Size, Terror, Venom
+88-91 | Wyvern | 6" | +2 | +1/+1 | 1 | 5 | 5 | 3 | Traits: Size, Venom, Wings
+92-94 | Hydra | 5" | +2 | +1/+0 | 1 | 5 | 8 | 3 | Traits: Lash, Size, Difficult to Kill
+95-97 | Monster lizard | 6" | +3 | +2/+2 | 2 | 6 | 8 | 4 | Traits: Size, Terror, Charge
+98-100 | Drake | 8" | +4 | +3/+3 | 4 | 6 | 10 | 5 | Traits: Area Attack (12", +1/+2), Size, Terror, Wings
+
+## Aberration Traits
+- Area Attack: After move (no melee), ranged at closest warband in range. Hit on 4+. Within 2" of target hit on 5+. Cover/protections don't apply. Can hit allies.
+- Charge: Combat Bonus in first melee exchange if moved into melee.
+- Cruel Wounds: Casualty adds 1 turn to Injury Table recovery.
+- Difficult to Kill: Each Tracking Phase if didn't fight melee, D6 5-6 = regain 1 MP.
+- Ethereal: Never lose more than 1 MP to a single strike.
+- Fell Touch: Blows always penetrate non-enchanted Armor.
+- Lash: When losing MP, pushes all melee opponents 3" back, ends melee immediately.
+- Knock Back: Melee strike flings character D6" back. Collision with character = stop. Ends melee.
+- Magic Resistant: Unaffected by spells; enchanted weapons provide no advantage. Character-affecting effects still apply.
+- Ranged Attack: If not in melee after move, ranged attack like archer. Own damage score. No ammo limit.
+- Size: Ranged attacks get +1 to Hit.
+- Terror: Follower losing melee exchange flees full move away, no Actions next round. If engaged, fights normally.
+- Venom: Natural 6 on combat roll knocks out target, bypassing Armor.
+- Wings: Ignore terrain penalties, cross obstacles/Impassable. Land at end of move.
+- Undying: Counts as Undead for items/spells.
+
+## Creating New Monsters
+Use existing profile and rename, swap traits, or create from scratch.
+Reward Rating formula: (+1 per MP, +1 per Combat Skill point, +1 per highest melee damage bonus, +1 per trait except Size) ÷ 4 rounded up.

@@ -1,0 +1,131 @@
+# Adventures & Travel
+
+## The Adventuring Stage
+
+### Explore a Location
+Visit any location on map (Delve, Settlement, Hideout, Camp, Monster Lair, Unexplored Location, etc.). Requires Travel if not in same Map Area. Hidden locations can't be visited.
+
+### Rest Up
+Must be in settlement. No battle, no Travel, no XP or rewards. Useful for injured recovery.
+
+### Battle the Enemy Threat
+Select Threat to fight. Roll on 3 tables:
+
+Enemy Threat Location Table (D6):
+1-3: Current Map Area
+4: Near largest settlement
+5: Near random settlement
+6: Wilderness (new location, Travel required)
+
+Enemy Threat Activity Table (D6):
+1: Preparing to attack villagers (+1 AP if Hold Field)
+2: Waiting in ambush (all enemies gain Awareness)
+3: Returning from raid (+1 to Seize Initiative)
+4: Passing through (Unknown Enemy rule)
+5: Counting pillage (+1 GM if Hold Field)
+6: Hunting your warband (Ranged get Poison)
+
+Enemy Threat End Goal Table (D6):
+1: Establish larger presence (fail: D6 4-6 build Camp/upgrade to Hideout)
+2: Undermine progress (fail: no Adventure Milestones next turn)
+3: Cause chaos (fail: -3 AP)
+4: Overall scheme (fail: roll Enemy Plans)
+5: Gather information (fail: +1 enemies next fight this Threat)
+6: Entrench (fail: D6 > Threat level = increase by 1)
+
+Must reach within current or next turn. Next turn = +1 enemy. Can't reach = treated as loss.
+
+### Ride Patrol
+Lower-risk. No Travel roll. Roll D100:
+01-15: Traveler Encounter
+16-65: Meeting Engagement vs Roadside Enemies (Unknown Enemy)
+66-80: Traveler Encounter; if no battle/Contract/Quest, then Meeting Engagement vs Roadside
+81-90: Signs of danger - choose to fight random Threat (Meeting Engagement, Unknown Enemy) or roll Enemy Plans
+91-100: Wanderer says something odd - add Unexplored Location, may explore now
+
+### Encounter Locations
+- Enemy Camps: Staging grounds. Scenario C: Camp Raid. Can become Hidden.
+- Enemy Hideouts: Coordinate efforts. Scenario D: Hideout Raid. Can be Hidden.
+- Delves: Multiple battles (Depths). Scenario E: Site Battle. Lurking Foes table unless stated otherwise. Depth completion: roll D6, below Depth number = Delve cleared. Delve Depth adjustments table for deeper levels.
+- Monster Lairs: 8+ [Scouting] test to breach (once breached, stays). Scenario F: Monster Lair.
+- Unexplored Locations: Roll D100 on table when reached.
+
+### Unexplored Locations Table (D100)
+01-05: Trouble brewing (Enemy Plans roll)
+06-15: Old ruin (Traveler Encounter + add Delve)
+16-25: Wilderness (nothing)
+26-35: Suspected monster haunt (8+ [Pathwise] = Monster Lair)
+36-43: Tunnel complex (add Delve)
+44-50: Small community (add hamlet)
+51-58: Monster lair
+59-63: Enemy camp (random Threat)
+64-70: Natural resources (+3 GM)
+71-75: Fey woods (optional Site Battle vs Ice-heart Court, +Loot roll if Hold Field, reroll on table)
+76-83: Tracks leading to lair (optional Site Battle vs Roadside, +2 AP if Hold Field)
+84-89: Haunted site (optional Site Battle vs Whispers, +1 SP + Loot roll if Hold Field)
+90-94: Isolated community (hamlet, begin next turn In Town, optional Contract)
+95-100: Treasure site (optional Site Battle vs Lurking Foes, 3 extra Loot rolls if Hold Field)
+
+## Travel
+Roll D100 on Travel Events Table when moving between Map Areas:
+01-30: Uneventful
+31-50: Meet someone (Traveler Encounter)
+51-65: See something (add Unexplored Location, may go there instead)
+66-75: Waylaid (Defensive Battle vs Roadside Enemies, then continue or Camp)
+76-85: Miserable weather (9+ [Traveling] or forced to Camp)
+86-95: Obstacle (roll on Obstacle Table)
+96-100: Lost (Traveler Encounter, Camp, Travel again next turn)
+
+### Obstacle Table (D100)
+01-20: River crossing (8+ [Traveling] or lose random Backpack item)
+21-35: Marsh (9+ [Scouting] or lose random weapon/shield)
+36-50: Broken ground (arrive but can't act further; 8+ [Traveling] to reach settlement)
+51-65: Toll post (9+ [Speech], pay 2GM, or re-roll Travel)
+66-90: Deep woods (8+ [Pathwise] or lost, Camp, Travel again)
+91-100: Unnatural terrain (Meeting Engagement vs Lurking Foes, Unknown Enemy, no Loot/AP, arrive but must Camp)
+
+## Contracts
+Generate with two D100 rolls (source + type). Can see details before accepting. Multiple active Contracts OK if from different sources.
+
+### Contract Source Table (D100)
+01-14: Individual (1GM + villager Friend)
+15-25: Friend/Individual (D3 GM, +1 SP if from Friend)
+26-45: Townsfolk (D3+1 GM)
+46-70: Town council (D6 GM)
+71-80: Secretive group (+3 AP)
+81-90: Local noble (D6+2 GM)
+91-100: Local clergy (D6 GM + 1 AP)
+
+### Contract Type Table (D100)
+01-09: Chase off group | 10-19: Locate item | 20-28: Deliver goods | 29-38: Retrieve item | 39-46: Aid community | 47-56: Rescue individual | 57-65: Escort individual | 66-75: Negotiate deal | 76-83: Gather information | 84-92: Explore area | 93-100: Slay beast
+
+(Each type has detailed rules for location, activity, success condition, and time limit - see main rulebook)
+
+### Secondary Characters
+Temporary Followers from contracts: no equipment, may be outfitted. Profile: Agility 1, Speed 4"/+2", CS +0, Toughness 3. Don't count for Upkeep.
+
+## Quests
+Multi-encounter connected adventures. Not time sensitive.
+
+### Structure
+Series of tasks. After each, roll D6: below completed count = ready for Finale.
+
+### Step 1: Generate Quest Task
+Location (D100): 01-20 random existing Map Area, 21-40 new location in existing area, 41-70 new in Wilderness, 71-100 Unexplored Location in Wilderness.
+
+Task types (D100): Various including combat encounters, exploration, rituals, monster hunting, negotiations. Max 2 of same type.
+
+### Step 2: Quest Foes
+From unused Threat tables. Each Threat once, then Site Battle Table.
+
+### Step 3: Failures
+Failed battle = tally Quest Failure, roll new task. 3 failures = Quest ends.
+
+### Step 4: Quest Finds
+After tasks 2, 4, 6 - roll on Quest Find Table (D100) for special rewards.
+
+### Step 5: Quest Finale
+Always in Wilderness. Site Battle. Enemy = random current Threat. 6 + Numbers + all leader types. Must defeat Captain+Unique Foe OR center ritual (9+ [Devotion]). 2 attempts allowed.
+
+### Step 6: Quest Rewards
+3 Loot rolls, all Heroes +2 XP, Boon of gods (D6: 1-3 +1Luck, 4-6 +1Will), Quest Talent (D100 table with powerful permanent abilities).
