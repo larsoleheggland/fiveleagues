@@ -3,25 +3,7 @@ import WEAPON_TABLE, { lookupWeapon } from '../data/weaponTable'
 import SPELL_TABLE from '../data/spellTable'
 import { lookupOrigin } from '../data/originTraits'
 import StatBlock from '../components/StatBlock'
-
-function Toggle({ label, open, onToggle, accent = 'text-rust-light', children }) {
-  return (
-    <div className="bg-stone-800/30 border border-stone-700 rounded-lg overflow-hidden">
-      <button
-        onClick={onToggle}
-        className="w-full flex items-center justify-between px-4 py-3 hover:bg-stone-800/50 transition-colors"
-      >
-        <span className={`font-display text-sm ${accent} tracking-wider`}>{label}</span>
-        <span className="text-stone-500 text-xs">{open ? '▲' : '▼'}</span>
-      </button>
-      {open && (
-        <div className="px-4 pb-4 border-t border-stone-700/50 pt-3">
-          {children}
-        </div>
-      )}
-    </div>
-  )
-}
+import CollapsibleSection from '../components/CollapsibleSection'
 
 function HeroCombatCard({ hero, casualty, onToggle }) {
   const weapons = []
@@ -145,7 +127,7 @@ export default function Combat({ campaign }) {
       <h2 className="font-display text-xl text-rust tracking-wider">Combat Reference</h2>
 
       {/* Warband Combat Stats — open by default */}
-      <Toggle label="Your Warband — Combat Stats" open={showWarband} onToggle={() => setShowWarband(!showWarband)} accent="text-forest">
+      <CollapsibleSection title="Your Warband — Combat Stats" open={showWarband} onToggle={() => setShowWarband(!showWarband)} accent="text-forest">
         {activeHeroes.length === 0 ? (
           <p className="text-stone-500 italic text-sm">No active heroes.</p>
         ) : (
@@ -155,11 +137,11 @@ export default function Combat({ campaign }) {
             ))}
           </div>
         )}
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Mystic Spells */}
       {knownSpells.length > 0 && (
-        <Toggle label={`Mystic Spells (${knownSpells.length})`} open={showSpells} onToggle={() => setShowSpells(!showSpells)} accent="text-rust-light">
+        <CollapsibleSection title={`Mystic Spells (${knownSpells.length})`} open={showSpells} onToggle={() => setShowSpells(!showSpells)} accent="text-rust-light">
           <div className="space-y-1">
             <p className="text-xs text-stone-500 mb-2">3 Strands per battle. Roll 2D6 + Casting. Natural 2 = fail (−1 Strand). Natural 12 = free success.</p>
             {knownSpells.map(spell => (
@@ -172,11 +154,11 @@ export default function Combat({ campaign }) {
               </div>
             ))}
           </div>
-        </Toggle>
+        </CollapsibleSection>
       )}
 
       {/* Battle Round Structure */}
-      <Toggle label="Battle Round — 5 Phases" open={showRound} onToggle={() => setShowRound(!showRound)}>
+      <CollapsibleSection title="Battle Round — 5 Phases" open={showRound} onToggle={() => setShowRound(!showRound)} accent="text-rust-light">
         <ol className="space-y-2 text-sm text-stone-400">
           <li><strong className="text-stone-200">1. Initiative Roll</strong> — Roll D6 per character. Roll ≤ Agility → Quick Actions; otherwise Slow Actions.</li>
           <li><strong className="text-stone-200">2. Quick Actions Phase</strong> — Player characters that qualified activate in any order.</li>
@@ -184,10 +166,10 @@ export default function Combat({ campaign }) {
           <li><strong className="text-stone-200">4. Slow Actions Phase</strong> — Remaining player characters activate.</li>
           <li><strong className="text-stone-200">5. Tracking Phase</strong> — Morale checks, Stun recovery, scenario effects.</li>
         </ol>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Actions Reference */}
-      <Toggle label="Character Actions" open={showActions} onToggle={() => setShowActions(!showActions)}>
+      <CollapsibleSection title="Character Actions" open={showActions} onToggle={() => setShowActions(!showActions)} accent="text-rust-light">
         <div className="text-sm text-stone-400 space-y-3">
           <p>Each activation: <strong className="text-stone-200">Move Action</strong> (up to Speed) + <strong className="text-stone-200">Combat Action</strong> or <strong className="text-stone-200">Non-Combat Action</strong>.</p>
           <div className="space-y-1.5">
@@ -201,10 +183,10 @@ export default function Combat({ campaign }) {
           </div>
           <p className="text-xs text-stone-500">Ranged attack: max half Speed movement. Crossbows must be stationary.</p>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Ranged Combat */}
-      <Toggle label="Ranged Combat" open={showRanged} onToggle={() => setShowRanged(!showRanged)}>
+      <CollapsibleSection title="Ranged Combat" open={showRanged} onToggle={() => setShowRanged(!showRanged)} accent="text-rust-light">
         <div className="text-sm text-stone-400 space-y-3">
           <table className="w-full text-left">
             <thead>
@@ -223,10 +205,10 @@ export default function Combat({ campaign }) {
           <p><strong className="text-stone-200">Natural 1</strong> always misses.</p>
           <p><strong className="text-stone-200">Limited Ammo:</strong> Natural 1 to Hit = out of ammo (unless first shot of battle).</p>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Melee Combat */}
-      <Toggle label="Melee Combat — 3 Exchanges" open={showMelee} onToggle={() => setShowMelee(!showMelee)}>
+      <CollapsibleSection title="Melee Combat — 3 Exchanges" open={showMelee} onToggle={() => setShowMelee(!showMelee)} accent="text-rust-light">
         <div className="text-sm text-stone-400 space-y-3">
           <p>Bases touching (within 0.5″) triggers melee. Series of <strong className="text-stone-200">3 exchanges</strong>.</p>
           <div className="space-y-2">
@@ -248,10 +230,10 @@ export default function Combat({ campaign }) {
             </div>
           </div>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Damage Resolution */}
-      <Toggle label="Damage Resolution (Hits)" open={showDamage} onToggle={() => setShowDamage(!showDamage)}>
+      <CollapsibleSection title="Damage Resolution (Hits)" open={showDamage} onToggle={() => setShowDamage(!showDamage)} accent="text-rust-light">
         <div className="text-sm text-stone-400 space-y-3">
           <p>Hit format: <strong className="text-gold">+X/+Y</strong> (Overcome Armor / Overcome Toughness)</p>
           <div>
@@ -279,10 +261,10 @@ export default function Combat({ campaign }) {
             <p><strong className="text-gold">Wounded</strong> — May act normally. Second Wound = casualty. Doesn't carry between battles.</p>
           </div>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Weapon Reference */}
-      <Toggle label="Weapon Reference" open={showWeapons} onToggle={() => setShowWeapons(!showWeapons)} accent="text-gold">
+      <CollapsibleSection title="Weapon Reference" open={showWeapons} onToggle={() => setShowWeapons(!showWeapons)} accent="text-gold">
         <div className="space-y-4 text-sm">
           {[
             { label: 'Basic Weapons', desc: 'Followers can use', weapons: WEAPON_TABLE.basic },
@@ -322,10 +304,10 @@ export default function Combat({ campaign }) {
             </div>
           </div>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Armor Reference */}
-      <Toggle label="Armor Reference" open={showArmor} onToggle={() => setShowArmor(!showArmor)} accent="text-gold">
+      <CollapsibleSection title="Armor Reference" open={showArmor} onToggle={() => setShowArmor(!showArmor)} accent="text-gold">
         <div className="space-y-3 text-sm">
           <table className="w-full text-left">
             <thead>
@@ -348,27 +330,27 @@ export default function Combat({ campaign }) {
             <p><strong className="text-stone-200">Helmet</strong> — Doubles on Injury Table = knocked out (helmet Damaged), no negative effect.</p>
           </div>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Combat Modifiers */}
-      <Toggle label="Combat Modifiers & Special Rules" open={showModifiers} onToggle={() => setShowModifiers(!showModifiers)}>
+      <CollapsibleSection title="Combat Modifiers & Special Rules" open={showModifiers} onToggle={() => setShowModifiers(!showModifiers)} accent="text-rust-light">
         <div className="text-sm text-stone-400 space-y-2">
           <p><strong className="text-stone-200">Combat Bonus (+1)</strong> — Opponent is Stunned OR you have an ally within 1″.</p>
           <p><strong className="text-stone-200">Parry</strong> — Natural 1 when defending deflects the blow (no damage, no stun).</p>
           <p><strong className="text-stone-200">Counter Attack</strong> — Even as defender, if you win the exchange you may strike.</p>
           <p><strong className="text-stone-200">Difficult Terrain</strong> — 1″ of movement costs 2″ of allowance.</p>
         </div>
-      </Toggle>
+      </CollapsibleSection>
 
       {/* Enemy Morale */}
-      <Toggle label="Enemy Morale" open={showMorale} onToggle={() => setShowMorale(!showMorale)}>
+      <CollapsibleSection title="Enemy Morale" open={showMorale} onToggle={() => setShowMorale(!showMorale)} accent="text-rust-light">
         <div className="text-sm text-stone-400 space-y-2">
           <p>In the <strong className="text-stone-200">Tracking Phase</strong>, roll D6 per enemy casualty this round:</p>
           <p className="ml-2"><strong className="text-gold">1–2</strong> = Morale Failure → remove one enemy (closest to table edge first).</p>
           <p className="ml-2"><strong className="text-stone-200">Leaders</strong> don't flee unless fewer than 4 enemies remain.</p>
           <p className="ml-2"><strong className="text-stone-200">Aberrations / Undead</strong> fight to the death.</p>
         </div>
-      </Toggle>
+      </CollapsibleSection>
     </div>
   )
 }

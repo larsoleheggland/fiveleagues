@@ -50,7 +50,8 @@ function createDefaultCampaign() {
       }
     ],
     campaignLog: [],
-    encountersLog: []
+    encountersLog: [],
+    turns: []
   }
 }
 

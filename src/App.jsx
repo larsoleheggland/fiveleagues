@@ -3,8 +3,7 @@ import { useCampaign } from './hooks/useCampaign'
 import Warband from './pages/Warband'
 import Mystics from './pages/Mystics'
 import Region from './pages/Region'
-import CampaignLog from './pages/CampaignLog'
-import Encounters from './pages/Encounters'
+import TurnTracker from './pages/TurnTracker'
 import Threats from './pages/Threats'
 import Combat from './pages/Combat'
 import StarsOfTheStory from './pages/StarsOfTheStory'
@@ -16,8 +15,7 @@ const TABS = [
   { id: 'threats', label: 'Threats', color: 'text-rust' },
   { id: 'region', label: 'Region', color: 'text-gold' },
   { id: 'stars', label: 'Stars of the Story', color: 'text-gold' },
-  { id: 'log', label: "Campaign Log", color: 'text-sky-accent' },
-  { id: 'encounters', label: 'Encounters', color: 'text-sky-accent' }
+  { id: 'turns', label: 'Turn Tracker', color: 'text-sky-accent' }
 ]
 
 export default function App() {
@@ -75,8 +73,7 @@ export default function App() {
         {activeTab === 'threats' && <Threats {...pageProps} />}
         {activeTab === 'region' && <Region {...pageProps} />}
         {activeTab === 'stars' && <StarsOfTheStory {...pageProps} />}
-        {activeTab === 'log' && <CampaignLog {...pageProps} />}
-        {activeTab === 'encounters' && <Encounters {...pageProps} />}
+        {activeTab === 'turns' && <TurnTracker {...pageProps} />}
       </main>
     </div>
   )

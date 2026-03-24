@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import EditableField from '../components/EditableField'
 import ItemList from '../components/ItemList'
+import CollapsibleSection from '../components/CollapsibleSection'
 
 export default function Region({ campaign, updateCampaign }) {
   const [openSections, setOpenSections] = useState({})
@@ -18,23 +19,6 @@ export default function Region({ campaign, updateCampaign }) {
   const toggleSection = (key) => {
     setOpenSections(prev => ({ ...prev, [key]: !prev[key] }))
   }
-
-  const CollapsibleSection = ({ id, title, children }) => (
-    <div className="bg-stone-800/40 border border-stone-700 rounded-lg overflow-hidden">
-      <button
-        onClick={() => toggleSection(id)}
-        className="w-full flex items-center justify-between px-4 py-3 hover:bg-stone-800/60 transition-colors"
-      >
-        <span className="font-display text-sm text-gold tracking-wider">{title}</span>
-        <span className="text-stone-500 text-xs">{openSections[id] ? '▲' : '▼'}</span>
-      </button>
-      {openSections[id] && (
-        <div className="px-4 pb-4 border-t border-stone-700/50 pt-3">
-          {children}
-        </div>
-      )}
-    </div>
-  )
 
   return (
     <div className="space-y-6">
@@ -74,31 +58,31 @@ export default function Region({ campaign, updateCampaign }) {
 
       {/* Collapsible Sections */}
       <div className="space-y-3">
-        <CollapsibleSection id="friends" title="Friends">
+        <CollapsibleSection title="Friends" open={openSections.friends} onToggle={() => toggleSection('friends')}>
           <ItemList items={region.friends} onChange={v => updateRegion({ friends: v })} placeholder="Add friend..." />
         </CollapsibleSection>
 
-        <CollapsibleSection id="meetings" title="Unique Meetings">
+        <CollapsibleSection title="Unique Meetings" open={openSections.meetings} onToggle={() => toggleSection('meetings')}>
           <ItemList items={region.uniqueMeetings} onChange={v => updateRegion({ uniqueMeetings: v })} placeholder="Add meeting..." />
         </CollapsibleSection>
 
-        <CollapsibleSection id="locations" title="Special Locations">
+        <CollapsibleSection title="Special Locations" open={openSections.locations} onToggle={() => toggleSection('locations')}>
           <ItemList items={region.specialLocations} onChange={v => updateRegion({ specialLocations: v })} placeholder="Add location..." />
         </CollapsibleSection>
 
-        <CollapsibleSection id="quests" title="Quests">
+        <CollapsibleSection title="Quests" open={openSections.quests} onToggle={() => toggleSection('quests')}>
           <ItemList items={region.quests} onChange={v => updateRegion({ quests: v })} placeholder="Add quest..." />
         </CollapsibleSection>
 
-        <CollapsibleSection id="delves" title="Delves">
+        <CollapsibleSection title="Delves" open={openSections.delves} onToggle={() => toggleSection('delves')}>
           <ItemList items={region.delves} onChange={v => updateRegion({ delves: v })} placeholder="Add delve..." />
         </CollapsibleSection>
 
-        <CollapsibleSection id="contracts" title="Contracts">
+        <CollapsibleSection title="Contracts" open={openSections.contracts} onToggle={() => toggleSection('contracts')}>
           <ItemList items={region.contracts} onChange={v => updateRegion({ contracts: v })} placeholder="Add contract..." />
         </CollapsibleSection>
 
-        <CollapsibleSection id="notes" title="Player Notes">
+        <CollapsibleSection title="Player Notes" open={openSections.notes} onToggle={() => toggleSection('notes')}>
           <EditableField
             value={region.playerNotes}
             onChange={v => updateRegion({ playerNotes: v })}
