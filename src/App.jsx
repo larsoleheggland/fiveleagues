@@ -1,26 +1,40 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useCampaign } from './hooks/useCampaign'
+import ItemSearch from './components/ItemSearch'
 import Warband from './pages/Warband'
 import Mystics from './pages/Mystics'
 import Region from './pages/Region'
 import TurnTracker from './pages/TurnTracker'
-import Threats from './pages/Threats'
 import Combat from './pages/Combat'
 import StarsOfTheStory from './pages/StarsOfTheStory'
 
 const TABS = [
   { id: 'warband', label: 'Warband', color: 'text-rust' },
   { id: 'combat', label: 'Combat', color: 'text-rust' },
-  { id: 'mystics', label: 'Mystics', color: 'text-rust' },
-  { id: 'threats', label: 'Threats', color: 'text-rust' },
   { id: 'region', label: 'Region', color: 'text-gold' },
-  { id: 'stars', label: 'Stars of the Story', color: 'text-gold' },
-  { id: 'turns', label: 'Turn Tracker', color: 'text-sky-accent' }
+  { id: 'turns', label: 'Campaign Tracker', color: 'text-sky-accent' },
+  { id: 'mystics', label: 'Mystics', color: 'text-rust' },
+  { id: 'stars', label: 'Stars of the Story', color: 'text-gold' }
 ]
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('warband')
+  const [searchOpen, setSearchOpen] = useState(false)
   const { campaign, loading, saveStatus, updateCampaign } = useCampaign()
+
+  const closeSearch = useCallback(() => setSearchOpen(false), [])
+
+  // Ctrl+K / Cmd+K shortcut
+  useEffect(() => {
+    const handler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault()
+        setSearchOpen(prev => !prev)
+      }
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [])
 
   if (loading) {
     return (
@@ -42,12 +56,10 @@ export default function App() {
               <span className="text-stone-100">FIVE LEAGUES</span>
               <span className="text-stone-400 text-sm md:text-base ml-2">from the Borderlands</span>
             </h1>
-            <div className="flex items-center gap-3">
-              <SaveIndicator status={saveStatus} />
-            </div>
+            <SaveIndicator status={saveStatus} />
           </div>
-          {/* Tab Navigation */}
-          <nav className="flex gap-1 -mb-px overflow-x-auto">
+          {/* Tab Navigation + Search */}
+          <nav className="flex items-center gap-1 -mb-px overflow-x-auto">
             {TABS.map(tab => (
               <button
                 key={tab.id}
@@ -61,19 +73,29 @@ export default function App() {
                 {tab.label}
               </button>
             ))}
+            <div className="ml-auto flex-shrink-0 pb-1">
+              <button
+                onClick={() => setSearchOpen(true)}
+                className="flex items-center gap-2 bg-stone-800/60 border border-stone-700 hover:border-stone-500 rounded-lg px-3 py-1.5 text-stone-500 hover:text-stone-300 transition-colors cursor-text"
+              >
+                <span className="text-sm">🔍</span>
+                <span className="text-sm">Search items, rules, enemies...</span>
+              </button>
+            </div>
           </nav>
         </div>
       </header>
+
+      <ItemSearch open={searchOpen} onClose={closeSearch} />
 
       {/* Page Content */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6">
         {activeTab === 'warband' && <Warband {...pageProps} />}
         {activeTab === 'combat' && <Combat {...pageProps} />}
-        {activeTab === 'mystics' && <Mystics {...pageProps} />}
-        {activeTab === 'threats' && <Threats {...pageProps} />}
-        {activeTab === 'region' && <Region {...pageProps} />}
-        {activeTab === 'stars' && <StarsOfTheStory {...pageProps} />}
         {activeTab === 'turns' && <TurnTracker {...pageProps} />}
+        {activeTab === 'region' && <Region {...pageProps} />}
+        {activeTab === 'mystics' && <Mystics {...pageProps} />}
+        {activeTab === 'stars' && <StarsOfTheStory {...pageProps} />}
       </main>
     </div>
   )

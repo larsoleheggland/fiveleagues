@@ -39,7 +39,7 @@ function OriginTooltip({ origin }) {
   )
 }
 
-export default function HeroCard({ hero, onChange, onRemove, onStatusChange }) {
+export default function HeroCard({ hero, onChange, onRemove, onStatusChange, onMoveUp, onMoveDown }) {
   const update = (field, value) => {
     onChange({ ...hero, [field]: value })
   }
@@ -90,40 +90,50 @@ export default function HeroCard({ hero, onChange, onRemove, onStatusChange }) {
             <option value="injured">Injured</option>
             <option value="dead">Dead</option>
           </select>
-          <button
-            onClick={onRemove}
-            className="text-stone-600 hover:text-rust text-xs"
-          >
-            Remove
-          </button>
+          <div className="flex items-center gap-1">
+            {(onMoveUp || onMoveDown) && (
+              <>
+                <button
+                  onClick={onMoveUp}
+                  disabled={!onMoveUp}
+                  className={`text-xs w-5 h-5 flex items-center justify-center rounded ${onMoveUp ? 'text-stone-400 hover:text-stone-200 hover:bg-stone-700' : 'text-stone-700 cursor-default'}`}
+                  title="Move up"
+                >
+                  ▲
+                </button>
+                <button
+                  onClick={onMoveDown}
+                  disabled={!onMoveDown}
+                  className={`text-xs w-5 h-5 flex items-center justify-center rounded ${onMoveDown ? 'text-stone-400 hover:text-stone-200 hover:bg-stone-700' : 'text-stone-700 cursor-default'}`}
+                  title="Move down"
+                >
+                  ▼
+                </button>
+              </>
+            )}
+            <button
+              onClick={onRemove}
+              className="text-stone-600 hover:text-rust text-xs"
+            >
+              Remove
+            </button>
+          </div>
         </div>
       </div>
 
-      {/* Mystic Toggle + Stats */}
-      <div className="flex items-center gap-2 mb-1">
-        <label className="flex items-center gap-1.5 text-xs cursor-pointer select-none">
-          <input
-            type="checkbox"
-            checked={!!hero.isMystic}
-            onChange={e => update('isMystic', e.target.checked)}
-            className="accent-rust rounded"
-          />
-          <span className={hero.isMystic ? 'text-rust-light font-display tracking-wider' : 'text-stone-500'}>Mystic</span>
-        </label>
-      </div>
-      <StatBlock stats={hero.stats} onChange={s => update('stats', s)} isMystic={hero.isMystic} equipment={hero.equipment} />
-
-      {/* XP / Advances */}
-      <div className="flex gap-4">
-        <EditableField value={hero.xp} onChange={v => update('xp', v)} label="XP" type="number" className="text-sm" />
-        <EditableField value={hero.advances} onChange={v => update('advances', v)} label="Advances" type="number" className="text-sm" />
+      {/* Stats Panel */}
+      <div className="bg-stone-900/50 border border-stone-700/50 rounded-md px-3 py-2.5 -mx-1 space-y-2">
+        <StatBlock stats={hero.stats} onChange={s => update('stats', s)} isMystic={true} equipment={hero.equipment} />
+        <div className="flex gap-2 pt-1 border-t border-stone-700/40">
+          <EditableField value={hero.xp} onChange={v => update('xp', v)} label="XP" type="number" className="text-xs text-gold" />
+          <EditableField value={hero.advances} onChange={v => update('advances', v)} label="Advances" type="number" className="text-xs text-gold" />
+        </div>
       </div>
 
       {/* Equipment, Skills & Traits */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         <ItemList items={hero.equipment} onChange={v => update('equipment', v)} label="Equipment" placeholder="Add equipment..." />
         <ItemList items={hero.skills} onChange={v => update('skills', v)} label="Skills & Proficiencies" placeholder="Add skill..." />
-        <ItemList items={hero.traits || []} onChange={v => update('traits', v)} label="Traits" placeholder="Add trait..." />
       </div>
 
       {/* Notes */}
