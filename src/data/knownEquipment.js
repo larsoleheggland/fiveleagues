@@ -43,6 +43,7 @@ const KNOWN_EQUIPMENT = [
   'lockpick',
   'lantern',
   'torch',
+  'ration',
   'travel rations',
   'waterskin',
 
@@ -62,7 +63,9 @@ const SUPERIOR_PREFIXES = ['fine', 'balanced', 'quick', 'fey steel']
  */
 export function isKnownEquipment(itemName) {
   if (!itemName) return false
-  const n = itemName.toLowerCase().trim()
+  // Strip quantity prefix (e.g. "2 x silvertree leaf" -> "silvertree leaf")
+  const stripped = itemName.replace(/^\d+\s*x\s*/i, '')
+  const n = stripped.toLowerCase().trim()
 
   // Strip superior prefix if present
   let searchName = n
@@ -73,7 +76,7 @@ export function isKnownEquipment(itemName) {
     }
   }
 
-  return KNOWN_EQUIPMENT.some(known => searchName.includes(known))
+  return KNOWN_EQUIPMENT.some(known => searchName.includes(known) || known.includes(searchName))
 }
 
 export default KNOWN_EQUIPMENT

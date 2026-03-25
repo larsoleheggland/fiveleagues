@@ -1,7 +1,38 @@
 import { useState, useRef, useEffect } from 'react'
 import { isKnownEquipment } from '../data/knownEquipment'
+import { lookupEquipmentInfo, parseItemQuantity } from '../data/equipmentInfo'
 
-function EditableItem({ value, onSave, onRemove, recognized }) {
+function ItemInfoButton({ itemName }) {
+  const [open, setOpen] = useState(false)
+  const result = lookupEquipmentInfo(itemName)
+  if (!result) return null
+
+  const { info, superiorNote } = result
+  if (!info.desc && !info.stats && !superiorNote) return null
+
+  return (
+    <span className="relative inline-block"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <span
+        className="text-sky-accent/60 hover:text-sky-accent text-xs w-4 h-4 rounded-full border border-sky-accent/30 hover:border-sky-accent/60 inline-flex items-center justify-center transition-colors leading-none cursor-help"
+      >i</span>
+      {open && (
+        <div className="absolute left-0 bottom-full mb-1 z-50 bg-stone-900 border border-stone-600 rounded-lg p-3 shadow-xl min-w-[240px] max-w-[320px]">
+          <div className="text-xs space-y-1">
+            <p className="text-gold font-display tracking-wider font-semibold">{info.type}</p>
+            {info.stats && <p className="text-stone-300 font-bold">{info.stats}</p>}
+            {info.desc && <p className="text-stone-400">{info.desc}</p>}
+            {superiorNote && <p className="text-forest italic">{superiorNote}</p>}
+          </div>
+        </div>
+      )}
+    </span>
+  )
+}
+
+function EditableItem({ value, onSave, onRemove, recognized, onMove, moveLabel, moveTitle }) {
   const [editing, setEditing] = useState(false)
   const [draft, setDraft] = useState(value)
   const inputRef = useRef(null)
@@ -53,6 +84,16 @@ function EditableItem({ value, onSave, onRemove, recognized }) {
       >
         {value}
       </span>
+      {recognized && <ItemInfoButton itemName={value} />}
+      {onMove && (
+        <button
+          onClick={() => onMove()}
+          title={moveTitle}
+          className="text-stone-500 hover:text-gold text-xs opacity-0 group-hover:opacity-100 transition-opacity"
+        >
+          {moveLabel}
+        </button>
+      )}
       <button
         onClick={() => onRemove()}
         className="text-stone-600 hover:text-rust text-xs opacity-0 group-hover:opacity-100 transition-opacity"
@@ -63,7 +104,17 @@ function EditableItem({ value, onSave, onRemove, recognized }) {
   )
 }
 
-export default function ItemList({ items, onChange, label, placeholder = 'Add item...' }) {
+/**
+ * Count total items accounting for quantity prefixes like "2 x silvertree leaf".
+ */
+export function countItems(items) {
+  return items.reduce((total, item) => {
+    const { quantity } = parseItemQuantity(item)
+    return total + quantity
+  }, 0)
+}
+
+export default function ItemList({ items, onChange, label, placeholder = 'Add item...', onMoveItem, moveLabel, moveTitle }) {
   const [newItem, setNewItem] = useState('')
 
   const add = () => {
@@ -95,6 +146,9 @@ export default function ItemList({ items, onChange, label, placeholder = 'Add it
             onSave={(val) => update(i, val)}
             onRemove={() => remove(i)}
             recognized={isKnownEquipment(item)}
+            onMove={onMoveItem ? () => onMoveItem(i) : undefined}
+            moveLabel={moveLabel}
+            moveTitle={moveTitle}
           />
         ))}
         <div className="flex gap-1">

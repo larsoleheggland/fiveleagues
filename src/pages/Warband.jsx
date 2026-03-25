@@ -1,7 +1,8 @@
 import { v4 as uuidv4 } from 'uuid'
 import EditableField from '../components/EditableField'
 import HeroCard from '../components/HeroCard'
-import ItemList from '../components/ItemList'
+import ItemList, { countItems } from '../components/ItemList'
+import { parseItemQuantity } from '../data/equipmentInfo'
 
 function createHero() {
   return {
@@ -66,6 +67,24 @@ export default function Warband({ campaign, updateCampaign }) {
     updateWarband({ heroes, infirmary, fallen })
   }
 
+  const moveHero = (heroId, direction) => {
+    const heroes = [...wb.heroes]
+    const idx = heroes.findIndex(h => h.id === heroId)
+    if (idx < 0) return
+    const status = heroes[idx].status
+    // Find indices of heroes with the same status
+    const sameStatus = heroes.reduce((acc, h, i) => {
+      if (h.status === status) acc.push(i)
+      return acc
+    }, [])
+    const posInGroup = sameStatus.indexOf(idx)
+    const swapPos = posInGroup + direction
+    if (swapPos < 0 || swapPos >= sameStatus.length) return
+    const swapIdx = sameStatus[swapPos]
+    ;[heroes[idx], heroes[swapIdx]] = [heroes[swapIdx], heroes[idx]]
+    updateWarband({ heroes })
+  }
+
   const activeHeroes = wb.heroes.filter(h => h.status === 'active')
   const injuredHeroes = wb.heroes.filter(h => h.status === 'injured')
   const fallenHeroes = wb.heroes.filter(h => h.status === 'dead')
@@ -117,14 +136,16 @@ export default function Warband({ campaign, updateCampaign }) {
         {activeHeroes.length === 0 ? (
           <p className="text-stone-500 italic text-center py-8">No active heroes. Add your first hero to begin.</p>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {activeHeroes.map(hero => (
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+            {activeHeroes.map((hero, i) => (
               <HeroCard
                 key={hero.id}
                 hero={hero}
                 onChange={updated => updateHero(hero.id, updated)}
                 onRemove={() => removeHero(hero.id)}
                 onStatusChange={status => changeHeroStatus(hero.id, status)}
+                onMoveUp={i > 0 ? () => moveHero(hero.id, -1) : null}
+                onMoveDown={i < activeHeroes.length - 1 ? () => moveHero(hero.id, 1) : null}
               />
             ))}
           </div>
@@ -135,8 +156,8 @@ export default function Warband({ campaign, updateCampaign }) {
       {injuredHeroes.length > 0 && (
         <section>
           <h2 className="font-display text-lg text-gold tracking-wider mb-4">Infirmary</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {injuredHeroes.map(hero => {
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+            {injuredHeroes.map((hero, i) => {
               const inf = wb.infirmary.find(e => e.heroId === hero.id)
               return (
                 <div key={hero.id}>
@@ -145,6 +166,8 @@ export default function Warband({ campaign, updateCampaign }) {
                     onChange={updated => updateHero(hero.id, updated)}
                     onRemove={() => removeHero(hero.id)}
                     onStatusChange={status => changeHeroStatus(hero.id, status)}
+                    onMoveUp={i > 0 ? () => moveHero(hero.id, -1) : null}
+                    onMoveDown={i < injuredHeroes.length - 1 ? () => moveHero(hero.id, 1) : null}
                   />
                   {inf && (
                     <div className="mt-1 ml-5">
@@ -174,8 +197,8 @@ export default function Warband({ campaign, updateCampaign }) {
       {fallenHeroes.length > 0 && (
         <section>
           <h2 className="font-display text-lg text-rust tracking-wider mb-4">Fallen Memorial</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {fallenHeroes.map(hero => {
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+            {fallenHeroes.map((hero, i) => {
               const f = wb.fallen.find(e => e.heroId === hero.id)
               return (
                 <div key={hero.id} className="opacity-70">
@@ -184,6 +207,8 @@ export default function Warband({ campaign, updateCampaign }) {
                     onChange={updated => updateHero(hero.id, updated)}
                     onRemove={() => removeHero(hero.id)}
                     onStatusChange={status => changeHeroStatus(hero.id, status)}
+                    onMoveUp={i > 0 ? () => moveHero(hero.id, -1) : null}
+                    onMoveDown={i < fallenHeroes.length - 1 ? () => moveHero(hero.id, 1) : null}
                   />
                   {f && (
                     <div className="mt-1 ml-5">
@@ -217,14 +242,34 @@ export default function Warband({ campaign, updateCampaign }) {
             onChange={v => updateWarband({ equipmentStash: v })}
             label="Equipment Stash"
             placeholder="Add to stash..."
+            onMoveItem={(index) => {
+              const item = wb.equipmentStash[index]
+              const itemCount = parseItemQuantity(item).quantity
+              if (countItems(wb.backpack) + itemCount > 8) return
+              updateWarband({
+                equipmentStash: wb.equipmentStash.filter((_, i) => i !== index),
+                backpack: [...wb.backpack, item]
+              })
+            }}
+            moveLabel="→"
+            moveTitle="Move to backpack"
           />
         </div>
         <div className="bg-stone-800/40 border border-stone-700 rounded-lg p-4">
           <ItemList
             items={wb.backpack}
             onChange={v => updateWarband({ backpack: v })}
-            label="Backpack"
+            label={`Backpack (${countItems(wb.backpack)}/8)`}
             placeholder="Add to backpack..."
+            onMoveItem={(index) => {
+              const item = wb.backpack[index]
+              updateWarband({
+                backpack: wb.backpack.filter((_, i) => i !== index),
+                equipmentStash: [...wb.equipmentStash, item]
+              })
+            }}
+            moveLabel="←"
+            moveTitle="Move to stash"
           />
         </div>
       </div>
