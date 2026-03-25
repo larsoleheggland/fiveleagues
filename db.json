@@ -1,0 +1,468 @@
+{
+  "campaigns": [
+    {
+      "id": "dc939e2d-60c2-4080-b85c-bf1f77bf457a",
+      "name": "New Campaign",
+      "createdAt": "2026-03-21T14:42:47.283Z",
+      "updatedAt": "2026-03-25T19:03:21.396Z",
+      "warband": {
+        "name": "Sigrid and the six ",
+        "goldMarks": 1,
+        "storyPoints": 3,
+        "equipmentStash": [
+          "standard weapon",
+          "self bow",
+          "3 x rations"
+        ],
+        "backpack": [
+          "1 x bandages",
+          "2 x silvertree leaf"
+        ],
+        "heroes": [
+          {
+            "id": "e3c21ec7-4560-4972-8f02-2f18f1e2f678",
+            "name": "Sigrid",
+            "origin": "Halfling",
+            "title": "",
+            "background": "Frontier",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 1,
+              "combatSkill": 1,
+              "armor": 0,
+              "toughness": 4,
+              "will": 2,
+              "luck": 2,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": false,
+            "equipment": [
+              "crossbow",
+              "light weapon",
+              "partial armor"
+            ],
+            "skills": [
+              "crafting",
+              "speech"
+            ],
+            "traits": [],
+            "xp": 1,
+            "advances": 0,
+            "status": "active",
+            "role": "avatar",
+            "warbandRole": "RANGE"
+          },
+          {
+            "id": "9e28401e-65aa-4c79-83ba-2dbfe98bdc28",
+            "name": "Olafur",
+            "origin": "Human",
+            "title": "",
+            "background": "Mystic",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 1,
+              "combatSkill": 0,
+              "armor": 0,
+              "toughness": 4,
+              "will": 0,
+              "luck": 0,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": true,
+            "equipment": [
+              "staff (fine)",
+              "light weapon",
+              "partial armor"
+            ],
+            "skills": [],
+            "traits": [],
+            "xp": 2,
+            "advances": 0,
+            "status": "active",
+            "role": "hero",
+            "warbandRole": "MAGE"
+          },
+          {
+            "id": "9d714eee-0973-4ba6-af41-ab43845660e3",
+            "name": "Gutn",
+            "origin": "Duskling",
+            "title": "Follower",
+            "background": "Outsider",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 1,
+              "combatSkill": 0,
+              "armor": 0,
+              "toughness": 3,
+              "will": 0,
+              "luck": 0,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": false,
+            "equipment": [
+              "Standard weapon",
+              "light armor"
+            ],
+            "skills": [],
+            "traits": [],
+            "xp": 1,
+            "advances": 0,
+            "status": "active",
+            "role": "follower",
+            "followerType": "Hired guide"
+          },
+          {
+            "id": "04837dde-4c6a-4cb2-b23f-d2fcbbb18cf4",
+            "name": "Hilmir",
+            "origin": "Human",
+            "title": "",
+            "background": "Frontier",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 1,
+              "combatSkill": 1,
+              "armor": 0,
+              "toughness": 4,
+              "will": 0,
+              "luck": 0,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": false,
+            "equipment": [
+              "partial armor",
+              "war spear",
+              "Ranger's cloak (wilderness + scouting bonus)",
+              "shield"
+            ],
+            "skills": [
+              "battlewise"
+            ],
+            "traits": [],
+            "xp": 2,
+            "advances": 0,
+            "status": "active",
+            "role": "hero",
+            "warbandRole": "-"
+          },
+          {
+            "id": "9bba8aef-23e0-475e-84eb-ffc2a9a1ea3d",
+            "name": "Laufa",
+            "origin": "Human",
+            "title": "",
+            "background": "Noble",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 2,
+              "combatSkill": 1,
+              "armor": 0,
+              "toughness": 3,
+              "will": 1,
+              "luck": 0,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": false,
+            "equipment": [
+              "self bow",
+              "light weapon",
+              "light armor"
+            ],
+            "skills": [],
+            "traits": [],
+            "xp": 2,
+            "advances": 0,
+            "status": "active",
+            "role": "hero",
+            "warbandRole": "-"
+          },
+          {
+            "id": "ffc6c6ea-7e85-4bc0-904a-42de1175652b",
+            "name": "SKvag",
+            "origin": "Duskling",
+            "title": "Follower",
+            "background": "Outsider",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 1,
+              "combatSkill": 0,
+              "armor": 0,
+              "toughness": 3,
+              "will": 0,
+              "luck": 0,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": false,
+            "equipment": [
+              "Standard weapon",
+              "light armor"
+            ],
+            "skills": [],
+            "traits": [],
+            "xp": 1,
+            "advances": 0,
+            "status": "active",
+            "role": "follower",
+            "followerType": "Hired guide"
+          }
+        ],
+        "infirmary": [],
+        "fallen": [],
+        "adventurePoints": 3
+      },
+      "mystics": {
+        "spells": [
+          {
+            "id": "26e375c3-3430-4758-a6bc-3b302f68a829",
+            "name": "Shield",
+            "school": "",
+            "target": "1 ally",
+            "duration": "Full round",
+            "effects": "All ranged attacks aimed at the target or a character within 3\" of them will Hit only on a natural 6.",
+            "incantation": "6+",
+            "roll": "76-78"
+          },
+          {
+            "id": "686265cb-838c-43cd-a189-46fa02c81ba0",
+            "name": "Confuse",
+            "school": "",
+            "target": "1 enemy",
+            "duration": "Full round",
+            "effects": "Target loses the Parry and Counter Attack traits.",
+            "incantation": "7+",
+            "roll": "16-18"
+          },
+          {
+            "id": "0375bdbb-9b48-4c3e-a719-4c9c25175642",
+            "name": "Repel",
+            "school": "",
+            "target": "1 enemy",
+            "duration": "Immediate",
+            "effects": "The enemy is pushed directly away D6+1\". Aberrations subtract their current Monster Points from the roll. Can push a figure into danger.",
+            "incantation": "7+",
+            "roll": "70-72"
+          },
+          {
+            "id": "3ca72cb4-1860-43c5-a079-7492af27476f",
+            "name": "Spellbreak†",
+            "school": "",
+            "target": "1 enemy",
+            "duration": "Full round",
+            "effects": "The enemy is unable to cast any spells.",
+            "incantation": "7+",
+            "roll": "82-84"
+          },
+          {
+            "id": "f8e33172-2dbd-4053-b220-10416038a460",
+            "name": "Guidance",
+            "school": "",
+            "target": "1 ally",
+            "duration": "Full round",
+            "effects": "The ally may reroll one of: a shooting roll to Hit, melee roll to Hit, proficiency test, or force an enemy to reroll a successful Overcome Armor roll. No Line of Sight required; once cast, any ally may use the reroll.",
+            "incantation": "7+",
+            "roll": "43-45"
+          }
+        ]
+      },
+      "regions": [
+        {
+          "id": "ce0d8a07-3fc5-4d5b-8c95-85579f21bc43",
+          "name": "Ashlands",
+          "settlement": {
+            "name": "3",
+            "size": "",
+            "type": "",
+            "notes": ""
+          },
+          "adventurePoints": 3,
+          "threatLevels": [
+            false,
+            false,
+            false
+          ],
+          "encounterLevels": {
+            "theRuinWithin": 0,
+            "theWhispersFromBeyond": 0,
+            "theGnawlingHorde": 0,
+            "theIceCourt": 0,
+            "dusklingWarbands": 0,
+            "theOledtKin": 0,
+            "theCurseOfWar": 0,
+            "theFacelessKingdom": 0,
+            "roadsideEncounters": 0,
+            "lurkingFoes": 0
+          },
+          "friends": [
+            "Sir Marrow (knight)"
+          ],
+          "uniqueMeetings": [],
+          "specialLocations": [],
+          "quests": [],
+          "delves": [],
+          "contracts": [
+            "Aid community (local clergy): 4 Gold Marks ,+1 adventure point. (1/3) - 4 turns left",
+            "Locate item (Townsfolk): Roll on table if: Successfull delve, raid camp / hideout, defeat uniqe foe, arrive at unexplored location -unlimited time"
+          ],
+          "playerNotes": ""
+        }
+      ],
+      "campaignLog": [
+        {
+          "id": "fb5d331b-37e7-4154-8ea7-6eea80dcc7d3",
+          "turnNumber": 3,
+          "sessionPlan": "",
+          "location": "",
+          "event": "Ride patrol",
+          "actions": "",
+          "goal": "",
+          "notes": "",
+          "travelEncounters": ""
+        },
+        {
+          "id": "f65b47ac-094f-4cf8-94df-b9dd67390166",
+          "turnNumber": 2,
+          "sessionPlan": "",
+          "location": "",
+          "event": "Ride Patrol",
+          "actions": "",
+          "goal": "",
+          "notes": "",
+          "travelEncounters": ""
+        },
+        {
+          "id": "56236b13-e4d3-45e8-bc98-6c7b38ddd978",
+          "turnNumber": 1,
+          "sessionPlan": "### Session 1 — Arrival in the Ashlands\n\n**Campaign:** The Crows of Ashwick. Goal: find and destroy their leader's hideout.\n\n---\n\n### Turn 1 — Travel to Ashwick\n\n*First turn: skip Preparation, go straight to Adventuring Stage.*\n\nScripted travel result: **Obstacle → Toll Post**, manned by the crows.\n\n#### The Toll\n*Crow-masked figures lounge on the side of the road. Tattered black cloaks, jagged blades resting on shoulders. One steps forward, head cocked birdlike, and holds up two fingers. \"Toll to enter the Ashlands. Two gold. The Mistress demands her due.\"*\n\n- **Pay 2 GM** — arrive at Ashwick broke (1 GM left) but unharmed.\n- **9+ [Speech] test** (Sigrid has Speech) — bluff past. Failure: they attack.\n- **Fight** — Defensive Battle vs Ruin Within, first encounter: **Desperate Mob.**\n\n#### The Desperate Mob\n- **Numbers:** Roll 2D6 keep highest, then +3 (range 4–9). Normally Defensive Battle adds +1 more, but we're dropping that. If the roll was kind, add it back.\n- **Stats:** Speed 4\"/+2\" | CS +0 | Dmg +0 | Tough 3 | Armor 0 | 2 slingers\n- **Break point:** No normal Morale. They flee when casualties exceed half. At 7 enemies: breaks after 4 kills. At 8: after 5.\n\n#### After the Battle\nResolve normally (injuries, XP, loot). This is a travel encounter, not a Threat battle — no threat reduction or threat AP.\n\n---\n\n### Turn 2 — Ashwick (full Preparation turn)\n\nRun Steps 1–7 from the book. Key notes:\n- Ashwick is a **village (Market Town)** — first visit grants **+1 AP**, 1 Rare Goods roll.\n- A **contract is available** from the Town Council (skip or replace the Connections roll).\n\n#### Ashwick Contract Table (D6)\n\n| D6 | Type | Story hook | Time limit |\n|----|------|-----------|------------|\n| 1 | Chase Off Group | The crows have a forward camp near Pine Farms, raiding root cellars at night. | 3 turns |\n| 2 | Deliver Goods | A medicine shipment for Woodborough — no trader will risk the road. | 4 turns |\n| 3 | Aid Community | Pine Farms is losing livestock. Farmers need a visible armed presence. | 5 turns |\n| 4 | Rescue Individual | A woodcutter went into the Dead Woods three days ago. The crows probably have him. | 2 turns to visit |\n| 5 | Escort Individual | A merchant needs safe passage to Woodborough — too many crow sightings. | 3 turns pickup |\n| 6 | Gather Information | The council suspects someone in town is fencing stolen goods for the crows. | 2 turns |\n\n**Reward:** D6 Gold Marks. Use the standard contract rules from the book for the chosen type.\n\n---\n\n### Session Goal\nArrive in the Ashlands, encounter the crows, do a full preparation turn in Ashwick, pick up a contract.",
+          "location": "",
+          "event": "Travel combat",
+          "actions": "",
+          "goal": "",
+          "notes": "",
+          "travelEncounters": ""
+        }
+      ],
+      "encountersLog": [
+        {
+          "id": "7d1088ea-45a0-4e00-8368-0a55f57824eb",
+          "turnNumber": 1,
+          "enemy": "",
+          "threat": "",
+          "combat": "",
+          "damage": "",
+          "speed": "",
+          "type": "",
+          "clues": "",
+          "hitRange": "",
+          "earned": "",
+          "extras": ""
+        }
+      ],
+      "threats": [
+        {
+          "factionId": "theRuinWithin",
+          "isPrimary": true,
+          "threatLevel": 3,
+          "encounterLevel": 0,
+          "campDiscovered": false,
+          "hideoutDiscovered": false,
+          "description": "Crow-masked figures draped in tattered black feathers and ragged cloaks. \nThey stalk the ruins in eerie silence, wielding jagged blades and cruel hooked weapons. \nTheir leader wears a towering beaked helm and carries a staff of gnarled bone.",
+          "notes": ""
+        }
+      ],
+      "turns": [
+        {
+          "id": "fb5d331b-0001-4154-8ea7-6eea80dcc7d3",
+          "turnNumber": 3,
+          "location": "Ash Wick",
+          "locationType": "",
+          "localEvent": "",
+          "upkeep": "",
+          "activities": "",
+          "trade": "",
+          "research": "",
+          "adventureDecision": "Ride patrol",
+          "travelEvent": "",
+          "enemies": [],
+          "scenarioType": "",
+          "scenarioNotes": "",
+          "heldField": false,
+          "achievedObjective": false,
+          "threatCleared": false,
+          "regionCleared": false,
+          "adventurePointsEarned": "",
+          "heroOutcomes": [],
+          "loot": "",
+          "unusualFinds": "",
+          "newsAndEvents": "",
+          "notes": ""
+        },
+        {
+          "id": "f65b47ac-0002-4cf8-94df-b9dd67390166",
+          "turnNumber": 2,
+          "location": "Ash wick",
+          "locationType": "",
+          "localEvent": "",
+          "upkeep": "",
+          "activities": "",
+          "trade": "",
+          "research": "",
+          "adventureDecision": "Ride Patrol",
+          "travelEvent": "",
+          "enemies": [],
+          "scenarioType": "",
+          "scenarioNotes": "",
+          "heldField": false,
+          "achievedObjective": false,
+          "threatCleared": false,
+          "regionCleared": false,
+          "adventurePointsEarned": "",
+          "heroOutcomes": [],
+          "loot": "",
+          "unusualFinds": "",
+          "newsAndEvents": "",
+          "notes": ""
+        },
+        {
+          "id": "56236b13-0003-45e8-bc98-6c7b38ddd978",
+          "turnNumber": 1,
+          "location": "Entering region",
+          "locationType": "",
+          "localEvent": "",
+          "upkeep": "",
+          "activities": "",
+          "trade": "",
+          "research": "",
+          "adventureDecision": "Travel combat",
+          "travelEvent": "",
+          "enemies": [],
+          "scenarioType": "",
+          "scenarioNotes": "",
+          "heldField": false,
+          "achievedObjective": false,
+          "threatCleared": false,
+          "regionCleared": false,
+          "adventurePointsEarned": "",
+          "heroOutcomes": [],
+          "loot": "",
+          "unusualFinds": "",
+          "newsAndEvents": "",
+          "notes": "### Session 1 — Arrival in the Ashlands\n\n**Campaign:** The Crows of Ashwick. Goal: find and destroy their leader's hideout.\n\n---\n\n### Turn 1 — Travel to Ashwick\n\n*First turn: skip Preparation, go straight to Adventuring Stage.*\n\nScripted travel result: **Obstacle → Toll Post**, manned by the crows.\n\n#### The Toll\n*Crow-masked figures lounge on the side of the road. Tattered black cloaks, jagged blades resting on shoulders. One steps forward, head cocked birdlike, and holds up two fingers. \"Toll to enter the Ashlands. Two gold. The Mistress demands her due.\"*\n\n- **Pay 2 GM** — arrive at Ashwick broke (1 GM left) but unharmed.\n- **9+ [Speech] test** (Sigrid has Speech) — bluff past. Failure: they attack.\n- **Fight** — Defensive Battle vs Ruin Within, first encounter: **Desperate Mob.**\n\n#### The Desperate Mob\n- **Numbers:** Roll 2D6 keep highest, then +3 (range 4–9). Normally Defensive Battle adds +1 more, but we're dropping that. If the roll was kind, add it back.\n- **Stats:** Speed 4\"/+2\" | CS +0 | Dmg +0 | Tough 3 | Armor 0 | 2 slingers\n- **Break point:** No normal Morale. They flee when casualties exceed half. At 7 enemies: breaks after 4 kills. At 8: after 5.\n\n#### After the Battle\nResolve normally (injuries, XP, loot). This is a travel encounter, not a Threat battle — no threat reduction or threat AP.\n\n---\n\n### Turn 2 — Ashwick (full Preparation turn)\n\nRun Steps 1–7 from the book. Key notes:\n- Ashwick is a **village (Market Town)** — first visit grants **+1 AP**, 1 Rare Goods roll.\n- A **contract is available** from the Town Council (skip or replace the Connections roll).\n\n#### Ashwick Contract Table (D6)\n\n| D6 | Type | Story hook | Time limit |\n|----|------|-----------|------------|\n| 1 | Chase Off Group | The crows have a forward camp near Pine Farms, raiding root cellars at night. | 3 turns |\n| 2 | Deliver Goods | A medicine shipment for Woodborough — no trader will risk the road. | 4 turns |\n| 3 | Aid Community | Pine Farms is losing livestock. Farmers need a visible armed presence. | 5 turns |\n| 4 | Rescue Individual | A woodcutter went into the Dead Woods three days ago. The crows probably have him. | 2 turns to visit |\n| 5 | Escort Individual | A merchant needs safe passage to Woodborough — too many crow sightings. | 3 turns pickup |\n| 6 | Gather Information | The council suspects someone in town is fencing stolen goods for the crows. | 2 turns |\n\n**Reward:** D6 Gold Marks. Use the standard contract rules from the book for the chosen type.\n\n---\n\n### Session Goal\nArrive in the Ashlands, encounter the crows, do a full preparation turn in Ashwick, pick up a contract."
+        }
+      ],
+      "starsOfTheStory": {
+        "betterPartOfValor": false
+      },
+      "campaignNotes": "Current: Rolled \"Unsavory types\" on Ride Patrol adventure (prepare for battle!)"
+    }
+  ]
+}
