@@ -1,0 +1,14 @@
+services:
+  fiveleagues:
+    build: .
+    container_name: fiveleagues
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./db.json:/app/db.json
+      - ./backups:/app/backups
+      - ./.backup:/app/.backup
+    environment:
+      - TZ=Europe/Oslo
+      - NODE_ENV=production
+    restart: unless-stopped

@@ -75,4 +75,11 @@ function onShutdown() {
 process.on('SIGINT', onShutdown)
 process.on('SIGTERM', onShutdown)
 
-app.listen(3001, '0.0.0.0', () => console.log('API server on http://localhost:3001'))
+// Serve Vite build in production
+const distPath = join(__dirname, 'dist')
+if (existsSync(distPath)) {
+  app.use(express.static(distPath))
+  app.get('*', (_req, res) => res.sendFile(join(distPath, 'index.html')))
+}
+
+app.listen(3001, '0.0.0.0', () => console.log('Server on http://localhost:3001'))
