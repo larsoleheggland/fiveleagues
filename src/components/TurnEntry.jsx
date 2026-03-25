@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import EditableField from './EditableField'
 import CollapsibleSection from './CollapsibleSection'
-import EnemyTable from './EnemyTable'
-import HeroOutcomeTable from './HeroOutcomeTable'
 import { SETTLEMENT_ACTIVITIES, CAMP_ACTIVITIES } from '../data/campaignActivities'
 
 function Checkbox({ label, checked, onChange }) {
@@ -65,18 +63,14 @@ function ActivitiesReference({ locationType }) {
 
 export default function TurnEntry({ entry, onChange, onRemove }) {
   const [expanded, setExpanded] = useState(false)
-  const [openPhases, setOpenPhases] = useState({ prep: true, adventure: false, resolution: false })
   const [showActivitiesRef, setShowActivitiesRef] = useState(false)
 
   const update = (field, value) => {
     onChange({ ...entry, [field]: value })
   }
 
-  const togglePhase = (phase) => {
-    setOpenPhases(prev => ({ ...prev, [phase]: !prev[phase] }))
-  }
-
-  const summary = entry.location || entry.localEvent || entry.adventureDecision || 'Empty turn'
+  const parts = [entry.adventureDecision, entry.location].filter(Boolean)
+  const summary = parts.length > 0 ? parts.join(' — ') : 'Empty turn'
 
   return (
     <div className="bg-stone-800/40 border border-stone-700 rounded-lg overflow-hidden">
@@ -101,89 +95,47 @@ export default function TurnEntry({ entry, onChange, onRemove }) {
 
       {/* Expanded content */}
       {expanded && (
-        <div className="px-4 pb-4 space-y-3 border-t border-stone-700/50 pt-3">
-          {/* Turn number edit */}
+        <div className="px-4 pb-4 space-y-4 border-t border-stone-700/50 pt-3">
           <EditableField value={entry.turnNumber} onChange={v => update('turnNumber', v)} label="Turn #" type="number" />
 
-          {/* === PREPARATION PHASE === */}
-          <CollapsibleSection
-            title="Preparation"
-            accent="text-gold"
-            open={openPhases.prep}
-            onToggle={() => togglePhase('prep')}
-          >
-            <div className="space-y-3">
-              <div className="flex items-start gap-4">
-                <EditableField value={entry.location} onChange={v => update('location', v)} label="Location" className="flex-1" />
-                <LocationTypeToggle value={entry.locationType} onChange={v => update('locationType', v)} />
-              </div>
-              <EditableField value={entry.localEvent} onChange={v => update('localEvent', v)} label="Local Event" />
-              <EditableField value={entry.upkeep} onChange={v => update('upkeep', v)} label="Hard Times / Upkeep" />
-              <EditableField value={entry.activities} onChange={v => update('activities', v)} label="Campaign Activities" multiline />
-
-              {/* Activities Reference */}
-              <CollapsibleSection
-                title="Activities Reference"
-                accent="text-stone-500"
-                open={showActivitiesRef}
-                onToggle={() => setShowActivitiesRef(!showActivitiesRef)}
-              >
-                <ActivitiesReference locationType={entry.locationType} />
-              </CollapsibleSection>
-
-              <EditableField value={entry.trade} onChange={v => update('trade', v)} label="Trade" />
-              <EditableField value={entry.research} onChange={v => update('research', v)} label="Research" />
+          {/* Preparation */}
+          <div className="space-y-2">
+            <h3 className="font-display text-sm text-gold tracking-wider">Preparation</h3>
+            <div className="flex items-start gap-4">
+              <EditableField value={entry.location} onChange={v => update('location', v)} label="Location" className="flex-1" />
+              <LocationTypeToggle value={entry.locationType} onChange={v => update('locationType', v)} />
             </div>
-          </CollapsibleSection>
+            <EditableField value={entry.activities} onChange={v => update('activities', v)} label="Activities" multiline />
+            <CollapsibleSection
+              title="Activities Reference"
+              accent="text-stone-500"
+              open={showActivitiesRef}
+              onToggle={() => setShowActivitiesRef(!showActivitiesRef)}
+            >
+              <ActivitiesReference locationType={entry.locationType} />
+            </CollapsibleSection>
+          </div>
 
-          {/* === ADVENTURE PHASE === */}
-          <CollapsibleSection
-            title="Adventure"
-            accent="text-rust"
-            open={openPhases.adventure}
-            onToggle={() => togglePhase('adventure')}
-          >
-            <div className="space-y-3">
-              <EditableField value={entry.adventureDecision} onChange={v => update('adventureDecision', v)} label="Adventure Decision" />
-              <EditableField value={entry.travelEvent} onChange={v => update('travelEvent', v)} label="Travel Event" />
-              <EditableField value={entry.scenarioType} onChange={v => update('scenarioType', v)} label="Scenario Type" />
-              <EnemyTable
-                enemies={entry.enemies || []}
-                onChange={v => update('enemies', v)}
-              />
-              <EditableField value={entry.scenarioNotes} onChange={v => update('scenarioNotes', v)} label="Scenario Notes" multiline />
+          {/* Adventure */}
+          <div className="space-y-2">
+            <h3 className="font-display text-sm text-rust tracking-wider">Adventure</h3>
+            <EditableField value={entry.adventureDecision} onChange={v => update('adventureDecision', v)} label="Adventure Decision" />
+            <EditableField value={entry.travelEvent} onChange={v => update('travelEvent', v)} label="Travel Event" />
+          </div>
+
+          {/* Resolution */}
+          <div className="space-y-2">
+            <h3 className="font-display text-sm text-sky-accent tracking-wider">Resolution</h3>
+            <div className="grid grid-cols-2 gap-2">
+              <Checkbox label="Held the Field" checked={entry.heldField} onChange={v => update('heldField', v)} />
+              <Checkbox label="Achieved Objective" checked={entry.achievedObjective} onChange={v => update('achievedObjective', v)} />
+              <Checkbox label="Threat Cleared" checked={entry.threatCleared} onChange={v => update('threatCleared', v)} />
+              <Checkbox label="Region Cleared" checked={entry.regionCleared} onChange={v => update('regionCleared', v)} />
             </div>
-          </CollapsibleSection>
+          </div>
 
-          {/* === RESOLUTION PHASE === */}
-          <CollapsibleSection
-            title="Resolution"
-            accent="text-sky-accent"
-            open={openPhases.resolution}
-            onToggle={() => togglePhase('resolution')}
-          >
-            <div className="space-y-3">
-              {/* Outcome flags */}
-              <div className="grid grid-cols-2 gap-2">
-                <Checkbox label="Held the Field" checked={entry.heldField} onChange={v => update('heldField', v)} />
-                <Checkbox label="Achieved Objective" checked={entry.achievedObjective} onChange={v => update('achievedObjective', v)} />
-                <Checkbox label="Threat Cleared" checked={entry.threatCleared} onChange={v => update('threatCleared', v)} />
-                <Checkbox label="Region Cleared" checked={entry.regionCleared} onChange={v => update('regionCleared', v)} />
-              </div>
-
-              <EditableField value={entry.adventurePointsEarned} onChange={v => update('adventurePointsEarned', v)} label="Adventure Points Earned" />
-
-              <HeroOutcomeTable
-                outcomes={entry.heroOutcomes || []}
-                onChange={v => update('heroOutcomes', v)}
-              />
-
-              <EditableField value={entry.loot} onChange={v => update('loot', v)} label="Loot" />
-              <EditableField value={entry.unusualFinds} onChange={v => update('unusualFinds', v)} label="Unusual Finds" />
-              <EditableField value={entry.newsAndEvents} onChange={v => update('newsAndEvents', v)} label="News & Events" />
-              <EditableField value={entry.notes} onChange={v => update('notes', v)} label="Notes" multiline />
-            </div>
-          </CollapsibleSection>
+          {/* Turn Notes */}
+          <EditableField value={entry.notes} onChange={v => update('notes', v)} label="Turn Notes" multiline />
         </div>
       )}
     </div>

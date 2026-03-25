@@ -5,36 +5,22 @@ function createTurn(turnNumber) {
   return {
     id: uuidv4(),
     turnNumber,
-    // Preparation
     location: '',
     locationType: '',
-    localEvent: '',
-    upkeep: '',
     activities: '',
-    trade: '',
-    research: '',
-    // Adventure
     adventureDecision: '',
     travelEvent: '',
-    enemies: [],
-    scenarioType: '',
-    scenarioNotes: '',
-    // Resolution
     heldField: false,
     achievedObjective: false,
     threatCleared: false,
     regionCleared: false,
-    adventurePointsEarned: '',
-    heroOutcomes: [],
-    loot: '',
-    unusualFinds: '',
-    newsAndEvents: '',
     notes: ''
   }
 }
 
 export default function TurnTracker({ campaign, updateCampaign }) {
   const turns = campaign.turns || []
+  const notes = campaign.campaignNotes || ''
 
   const updateTurns = (newTurns) => {
     updateCampaign(c => ({ ...c, turns: newTurns }))
@@ -55,8 +41,21 @@ export default function TurnTracker({ campaign, updateCampaign }) {
 
   return (
     <div className="space-y-6">
+      {/* Campaign Notes */}
+      <div className="bg-stone-800/40 border border-stone-700 rounded-lg p-4">
+        <label className="block font-display text-sm text-stone-400 tracking-wider mb-2">Campaign Notes</label>
+        <textarea
+          value={notes}
+          onChange={e => updateCampaign(c => ({ ...c, campaignNotes: e.target.value }))}
+          placeholder="General notes, house rules, campaign goals..."
+          rows={4}
+          className="w-full bg-transparent border border-stone-600 rounded px-3 py-2 text-stone-200 placeholder-stone-600 focus:outline-none focus:border-sky-accent resize-y text-sm"
+        />
+      </div>
+
+      {/* Turns */}
       <div className="flex items-center justify-between">
-        <h2 className="font-display text-xl text-sky-accent tracking-wider">Turn Tracker</h2>
+        <h2 className="font-display text-xl text-sky-accent tracking-wider">Turns</h2>
         <button
           onClick={addTurn}
           className="bg-sky-accent/20 text-sky-accent hover:bg-sky-accent/30 px-3 py-1 rounded text-sm font-display tracking-wider transition-colors"

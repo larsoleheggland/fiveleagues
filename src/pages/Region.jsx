@@ -38,26 +38,16 @@ export default function Region({ campaign, updateCampaign }) {
         </div>
       </div>
 
-      {/* Adventure Points */}
-      <div className="bg-stone-800/40 border border-stone-700 rounded-lg p-4">
-        <h3 className="font-display text-sm text-gold tracking-wider mb-2">Adventure Points</h3>
-        <div className="flex items-center gap-3">
-          <button
-            onClick={() => updateRegion({ adventurePoints: Math.max(0, region.adventurePoints - 1) })}
-            className="w-8 h-8 rounded bg-stone-700 hover:bg-stone-600 text-stone-300 font-bold transition-colors"
-          >-</button>
-          <span className="text-2xl font-display font-bold text-gold min-w-[3rem] text-center">
-            {region.adventurePoints}
-          </span>
-          <button
-            onClick={() => updateRegion({ adventurePoints: region.adventurePoints + 1 })}
-            className="w-8 h-8 rounded bg-stone-700 hover:bg-stone-600 text-stone-300 font-bold transition-colors"
-          >+</button>
-        </div>
-      </div>
-
       {/* Collapsible Sections */}
       <div className="space-y-3">
+        <CollapsibleSection title="Contracts" open={openSections.contracts} onToggle={() => toggleSection('contracts')}>
+          <ItemList items={region.contracts} onChange={v => updateRegion({ contracts: v })} placeholder="Add contract..." />
+        </CollapsibleSection>
+
+        <CollapsibleSection title="Quests" open={openSections.quests} onToggle={() => toggleSection('quests')}>
+          <ItemList items={region.quests} onChange={v => updateRegion({ quests: v })} placeholder="Add quest..." />
+        </CollapsibleSection>
+
         <CollapsibleSection title="Friends" open={openSections.friends} onToggle={() => toggleSection('friends')}>
           <ItemList items={region.friends} onChange={v => updateRegion({ friends: v })} placeholder="Add friend..." />
         </CollapsibleSection>
@@ -70,16 +60,8 @@ export default function Region({ campaign, updateCampaign }) {
           <ItemList items={region.specialLocations} onChange={v => updateRegion({ specialLocations: v })} placeholder="Add location..." />
         </CollapsibleSection>
 
-        <CollapsibleSection title="Quests" open={openSections.quests} onToggle={() => toggleSection('quests')}>
-          <ItemList items={region.quests} onChange={v => updateRegion({ quests: v })} placeholder="Add quest..." />
-        </CollapsibleSection>
-
         <CollapsibleSection title="Delves" open={openSections.delves} onToggle={() => toggleSection('delves')}>
           <ItemList items={region.delves} onChange={v => updateRegion({ delves: v })} placeholder="Add delve..." />
-        </CollapsibleSection>
-
-        <CollapsibleSection title="Contracts" open={openSections.contracts} onToggle={() => toggleSection('contracts')}>
-          <ItemList items={region.contracts} onChange={v => updateRegion({ contracts: v })} placeholder="Add contract..." />
         </CollapsibleSection>
 
         <CollapsibleSection title="Player Notes" open={openSections.notes} onToggle={() => toggleSection('notes')}>
