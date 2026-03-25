@@ -35,8 +35,22 @@ export default function CampaignLog({ campaign, updateCampaign }) {
     updateEntries(entries.filter(e => e.id !== entryId))
   }
 
+  const notes = campaign.campaignNotes || ''
+
   return (
     <div className="space-y-6">
+      {/* General Notes */}
+      <div className="bg-stone-800/40 border border-stone-700 rounded-lg p-4">
+        <label className="block font-display text-sm text-stone-400 tracking-wider mb-2">Campaign Notes</label>
+        <textarea
+          value={notes}
+          onChange={e => updateCampaign(c => ({ ...c, campaignNotes: e.target.value }))}
+          placeholder="General notes, house rules, campaign goals..."
+          rows={4}
+          className="w-full bg-transparent border border-stone-600 rounded px-3 py-2 text-stone-200 placeholder-stone-600 focus:outline-none focus:border-sky-accent resize-y text-sm"
+        />
+      </div>
+
       <div className="flex items-center justify-between">
         <h2 className="font-display text-xl text-sky-accent tracking-wider">Campaign Log</h2>
         <button

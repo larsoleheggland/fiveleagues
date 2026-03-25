@@ -94,6 +94,13 @@ export default function Warband({ campaign, updateCampaign }) {
           type="number"
           className="text-sky-accent font-bold"
         />
+        <EditableField
+          value={wb.adventurePoints}
+          onChange={v => updateWarband({ adventurePoints: v })}
+          label="Adventure Points"
+          type="number"
+          className="text-forest font-bold"
+        />
       </div>
 
       {/* Active Heroes */}

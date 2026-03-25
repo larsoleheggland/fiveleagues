@@ -12,6 +12,7 @@ function createDefaultCampaign() {
       name: '',
       goldMarks: 0,
       storyPoints: 0,
+      adventurePoints: 0,
       equipmentStash: [],
       backpack: [],
       heroes: [],
