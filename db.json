@@ -4,15 +4,16 @@
       "id": "dc939e2d-60c2-4080-b85c-bf1f77bf457a",
       "name": "New Campaign",
       "createdAt": "2026-03-21T14:42:47.283Z",
-      "updatedAt": "2026-03-25T19:03:21.396Z",
+      "updatedAt": "2026-04-08T19:53:20.884Z",
       "warband": {
         "name": "Sigrid and the six ",
-        "goldMarks": 1,
-        "storyPoints": 3,
+        "goldMarks": 4,
+        "storyPoints": 0,
         "equipmentStash": [
-          "standard weapon",
+          "light weapon (damaged)",
           "self bow",
-          "3 x rations"
+          "3 x rations",
+          "Jar of spices (4G)"
         ],
         "backpack": [
           "1 x bandages",
@@ -40,19 +41,21 @@
             "isMystic": false,
             "equipment": [
               "crossbow",
-              "light weapon",
+              "standard weapon",
               "partial armor"
             ],
             "skills": [
               "crafting",
-              "speech"
+              "speech",
+              "leadership"
             ],
             "traits": [],
-            "xp": 1,
+            "xp": 4,
             "advances": 0,
             "status": "active",
             "role": "avatar",
-            "warbandRole": "RANGE"
+            "warbandRole": "RANGE",
+            "notes": ""
           },
           {
             "id": "9e28401e-65aa-4c79-83ba-2dbfe98bdc28",
@@ -69,7 +72,7 @@
               "toughness": 4,
               "will": 0,
               "luck": 0,
-              "casting": 0,
+              "casting": 1,
               "dmg": 0
             },
             "isMystic": true,
@@ -80,7 +83,7 @@
             ],
             "skills": [],
             "traits": [],
-            "xp": 2,
+            "xp": 5,
             "advances": 0,
             "status": "active",
             "role": "hero",
@@ -111,7 +114,7 @@
             ],
             "skills": [],
             "traits": [],
-            "xp": 1,
+            "xp": 4,
             "advances": 0,
             "status": "active",
             "role": "follower",
@@ -138,19 +141,20 @@
             "isMystic": false,
             "equipment": [
               "partial armor",
-              "war spear",
               "Ranger's cloak (wilderness + scouting bonus)",
-              "shield"
+              "shield",
+              "war spear"
             ],
             "skills": [
               "battlewise"
             ],
             "traits": [],
-            "xp": 2,
+            "xp": 3,
             "advances": 0,
             "status": "active",
             "role": "hero",
-            "warbandRole": "-"
+            "warbandRole": "-",
+            "notes": ""
           },
           {
             "id": "9bba8aef-23e0-475e-84eb-ffc2a9a1ea3d",
@@ -162,7 +166,7 @@
               "speed": 4,
               "dash": 3,
               "agility": 2,
-              "combatSkill": 1,
+              "combatSkill": 2,
               "armor": 0,
               "toughness": 3,
               "will": 1,
@@ -178,17 +182,18 @@
             ],
             "skills": [],
             "traits": [],
-            "xp": 2,
+            "xp": 5,
             "advances": 0,
             "status": "active",
             "role": "hero",
-            "warbandRole": "-"
+            "warbandRole": "-",
+            "notes": ""
           },
           {
             "id": "ffc6c6ea-7e85-4bc0-904a-42de1175652b",
             "name": "SKvag",
             "origin": "Duskling",
-            "title": "Follower",
+            "title": "Hero",
             "background": "Outsider",
             "stats": {
               "speed": 4,
@@ -207,9 +212,11 @@
               "Standard weapon",
               "light armor"
             ],
-            "skills": [],
+            "skills": [
+              "Scholar"
+            ],
             "traits": [],
-            "xp": 1,
+            "xp": 4,
             "advances": 0,
             "status": "active",
             "role": "follower",
@@ -218,7 +225,7 @@
         ],
         "infirmary": [],
         "fallen": [],
-        "adventurePoints": 3
+        "adventurePoints": 2
       },
       "mystics": {
         "spells": [
@@ -303,17 +310,17 @@
             "lurkingFoes": 0
           },
           "friends": [
-            "Sir Marrow (knight)"
+            "Sir Marrow (knight) | Ashwick"
           ],
           "uniqueMeetings": [],
           "specialLocations": [],
           "quests": [],
           "delves": [],
           "contracts": [
-            "Aid community (local clergy): 4 Gold Marks ,+1 adventure point. (1/3) - 4 turns left",
-            "Locate item (Townsfolk): Roll on table if: Successfull delve, raid camp / hideout, defeat uniqe foe, arrive at unexplored location -unlimited time"
+            "Locate item (Townsfolk): Roll on table if: Successfull delve, raid camp / hideout, defeat uniqe foe, arrive at unexplored location -unlimited time",
+            "Chase off group (doggos) | 2 Gold + 1 story point | 1 turns left"
           ],
-          "playerNotes": ""
+          "playerNotes": "Done quests:\nAid community (local clergy): 4 Gold Marks ,+1 adventure point. (patrol 3/3) - 1 turns left"
         }
       ],
       "campaignLog": [
@@ -381,6 +388,20 @@
       ],
       "turns": [
         {
+          "id": "9350b84d-2cb7-43b2-ab03-363da392ae63",
+          "turnNumber": 4,
+          "location": "Ashwick",
+          "locationType": "",
+          "activities": "",
+          "adventureDecision": "Ride patrol",
+          "travelEvent": "",
+          "heldField": false,
+          "achievedObjective": false,
+          "threatCleared": false,
+          "regionCleared": false,
+          "notes": "Unsavory types\n"
+        },
+        {
           "id": "fb5d331b-0001-4154-8ea7-6eea80dcc7d3",
           "turnNumber": 3,
           "location": "Ash Wick",
@@ -404,7 +425,7 @@
           "loot": "",
           "unusualFinds": "",
           "newsAndEvents": "",
-          "notes": ""
+          "notes": "Unsavory types (fetch quest, hounds)"
         },
         {
           "id": "f65b47ac-0002-4cf8-94df-b9dd67390166",
@@ -430,7 +451,7 @@
           "loot": "",
           "unusualFinds": "",
           "newsAndEvents": "",
-          "notes": ""
+          "notes": "Met sir marrow"
         },
         {
           "id": "56236b13-0003-45e8-bc98-6c7b38ddd978",
@@ -460,9 +481,11 @@
         }
       ],
       "starsOfTheStory": {
-        "betterPartOfValor": false
+        "betterPartOfValor": false,
+        "luckyBreak": false
       },
-      "campaignNotes": "Current: Rolled \"Unsavory types\" on Ride Patrol adventure (prepare for battle!)"
+      "campaignNotes": "",
+      "combatNotes": "4"
     }
   ]
 }

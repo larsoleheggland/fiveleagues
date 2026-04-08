@@ -96,7 +96,7 @@ function HeroCombatCard({ hero, casualty, onToggle }) {
   )
 }
 
-export default function Combat({ campaign }) {
+export default function Combat({ campaign, updateCampaign }) {
   const [showWarband, setShowWarband] = useState(true)
   const [showSpells, setShowSpells] = useState(false)
   const [showRound, setShowRound] = useState(false)
@@ -125,6 +125,18 @@ export default function Combat({ campaign }) {
   return (
     <div className="space-y-4">
       <h2 className="font-display text-xl text-rust tracking-wider">Combat Reference</h2>
+
+      {/* Combat Notes */}
+      <div className="space-y-2">
+        <h3 className="font-display text-lg text-rust-light tracking-wide">Combat Notes</h3>
+        <textarea
+          className="w-full bg-stone-800/50 border border-stone-700 rounded-lg p-3 text-sm text-stone-300 placeholder-stone-600 resize-y min-h-24 focus:outline-none focus:border-rust/50"
+          placeholder="Jot down battle plans, enemy positions, ongoing effects..."
+          rows={5}
+          value={campaign.combatNotes || ''}
+          onChange={e => updateCampaign(prev => ({ ...prev, combatNotes: e.target.value }))}
+        />
+      </div>
 
       {/* Warband Combat Stats — open by default */}
       <CollapsibleSection title="Your Warband — Combat Stats" open={showWarband} onToggle={() => setShowWarband(!showWarband)} accent="text-forest">
@@ -351,6 +363,7 @@ export default function Combat({ campaign }) {
           <p className="ml-2"><strong className="text-stone-200">Aberrations / Undead</strong> fight to the death.</p>
         </div>
       </CollapsibleSection>
+
     </div>
   )
 }

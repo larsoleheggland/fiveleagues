@@ -27,8 +27,18 @@ function search(query, activeTag) {
   if (!query.trim() && !activeTag) return []
   let results = RULES_DB
   if (activeTag) results = results.filter(e => e.tag === activeTag)
-  if (query.trim()) results = results.filter(e => fuzzyMatch(query, e))
-  return results.slice(0, 12)
+  if (query.trim()) {
+    results = results.filter(e => fuzzyMatch(query, e))
+    const q = query.toLowerCase()
+    results.sort((a, b) => {
+      const aInName = a.name.toLowerCase().includes(q)
+      const bInName = b.name.toLowerCase().includes(q)
+      if (aInName && !bInName) return -1
+      if (!aInName && bInName) return 1
+      return 0
+    })
+  }
+  return results.slice(0, 4)
 }
 
 function ResultCard({ entry }) {
@@ -122,8 +132,8 @@ export default function ItemSearch({ open, onClose }) {
             {results.map(entry => (
               <ResultCard key={entry.id} entry={entry} />
             ))}
-            {hasQuery && results.length === 12 && (
-              <p className="text-stone-600 text-xs text-center py-1">Showing first 12 results — refine your search</p>
+            {hasQuery && results.length === 4 && (
+              <p className="text-stone-600 text-xs text-center py-1">Showing first 4 results — refine your search</p>
             )}
           </div>
         </div>
