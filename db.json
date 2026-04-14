@@ -4,20 +4,20 @@
       "id": "dc939e2d-60c2-4080-b85c-bf1f77bf457a",
       "name": "New Campaign",
       "createdAt": "2026-03-21T14:42:47.283Z",
-      "updatedAt": "2026-04-08T19:53:20.884Z",
+      "updatedAt": "2026-04-14T16:14:57.603Z",
       "warband": {
         "name": "Sigrid and the six ",
-        "goldMarks": 4,
+        "goldMarks": 8,
         "storyPoints": 0,
         "equipmentStash": [
-          "light weapon (damaged)",
           "self bow",
           "3 x rations",
-          "Jar of spices (4G)"
+          "light armor",
+          "standard weapon"
         ],
         "backpack": [
-          "1 x bandages",
-          "2 x silvertree leaf"
+          "2 x silvertree leaf",
+          "2 x bandages"
         ],
         "heroes": [
           {
@@ -50,8 +50,8 @@
               "leadership"
             ],
             "traits": [],
-            "xp": 4,
-            "advances": 0,
+            "xp": 6,
+            "advances": 1,
             "status": "active",
             "role": "avatar",
             "warbandRole": "RANGE",
@@ -83,8 +83,8 @@
             ],
             "skills": [],
             "traits": [],
-            "xp": 5,
-            "advances": 0,
+            "xp": 7,
+            "advances": 1,
             "status": "active",
             "role": "hero",
             "warbandRole": "MAGE"
@@ -114,8 +114,8 @@
             ],
             "skills": [],
             "traits": [],
-            "xp": 4,
-            "advances": 0,
+            "xp": 6,
+            "advances": 1,
             "status": "active",
             "role": "follower",
             "followerType": "Hired guide"
@@ -132,7 +132,7 @@
               "agility": 1,
               "combatSkill": 1,
               "armor": 0,
-              "toughness": 4,
+              "toughness": 5,
               "will": 0,
               "luck": 0,
               "casting": 0,
@@ -149,8 +149,8 @@
               "battlewise"
             ],
             "traits": [],
-            "xp": 3,
-            "advances": 0,
+            "xp": 5,
+            "advances": 1,
             "status": "active",
             "role": "hero",
             "warbandRole": "-",
@@ -182,8 +182,8 @@
             ],
             "skills": [],
             "traits": [],
-            "xp": 5,
-            "advances": 0,
+            "xp": 7,
+            "advances": 1,
             "status": "active",
             "role": "hero",
             "warbandRole": "-",
@@ -209,23 +209,52 @@
             },
             "isMystic": false,
             "equipment": [
-              "Standard weapon",
-              "light armor"
+              "knight armor",
+              "heart seeker (on 6: ignore armor)"
             ],
             "skills": [
               "Scholar"
             ],
             "traits": [],
-            "xp": 4,
-            "advances": 0,
+            "xp": 6,
+            "advances": 1,
             "status": "active",
             "role": "follower",
             "followerType": "Hired guide"
+          },
+          {
+            "id": "5ad0949c-90b3-4a73-9bf7-0536bab3b018",
+            "name": "Arran",
+            "origin": "",
+            "title": "",
+            "background": "wandering monk",
+            "stats": {
+              "speed": 4,
+              "dash": 3,
+              "agility": 1,
+              "combatSkill": 0,
+              "armor": 0,
+              "toughness": 3,
+              "will": 0,
+              "luck": 0,
+              "casting": 0,
+              "dmg": 0
+            },
+            "isMystic": false,
+            "equipment": [
+              "staff"
+            ],
+            "skills": [],
+            "traits": [],
+            "xp": 0,
+            "advances": 0,
+            "status": "active",
+            "role": "avatar"
           }
         ],
         "infirmary": [],
         "fallen": [],
-        "adventurePoints": 2
+        "adventurePoints": 0
       },
       "mystics": {
         "spells": [
@@ -310,7 +339,8 @@
             "lurkingFoes": 0
           },
           "friends": [
-            "Sir Marrow (knight) | Ashwick"
+            "Sir Marrow the coward (knight) |  Now in: Ashwick",
+            "Lucas the squire (Sir marrows squire) | From pine farm | Now in : Ashwick"
           ],
           "uniqueMeetings": [],
           "specialLocations": [],
@@ -318,7 +348,8 @@
           "delves": [],
           "contracts": [
             "Locate item (Townsfolk): Roll on table if: Successfull delve, raid camp / hideout, defeat uniqe foe, arrive at unexplored location -unlimited time",
-            "Chase off group (doggos) | 2 Gold + 1 story point | 1 turns left"
+            "Chase off group (doggos) | 2 Gold + 1 story point | 1 turns left",
+            "Deliver letter from woodborough to pine farms | 1 Adventure point + 1 GP"
           ],
           "playerNotes": "Done quests:\nAid community (local clergy): 4 Gold Marks ,+1 adventure point. (patrol 3/3) - 1 turns left"
         }
@@ -482,10 +513,11 @@
       ],
       "starsOfTheStory": {
         "betterPartOfValor": false,
-        "luckyBreak": false
+        "luckyBreak": true,
+        "learnedToDoThis": true
       },
-      "campaignNotes": "",
-      "combatNotes": "4"
+      "campaignNotes": "- Negate the next Enemy Plans Table result in the campaign (vital information)",
+      "combatNotes": ""
     }
   ]
 }
