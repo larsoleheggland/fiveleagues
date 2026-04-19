@@ -4,20 +4,22 @@
       "id": "dc939e2d-60c2-4080-b85c-bf1f77bf457a",
       "name": "New Campaign",
       "createdAt": "2026-03-21T14:42:47.283Z",
-      "updatedAt": "2026-04-14T16:14:57.603Z",
+      "updatedAt": "2026-04-14T20:37:07.005Z",
       "warband": {
         "name": "Sigrid and the six ",
-        "goldMarks": 8,
+        "goldMarks": 12,
         "storyPoints": 0,
         "equipmentStash": [
           "self bow",
-          "3 x rations",
+          "4 x rations",
           "light armor",
-          "standard weapon"
+          "2 x standard weapon",
+          "warhammer",
+          "0 x silvertree leaf",
+          "repair kit"
         ],
         "backpack": [
-          "2 x silvertree leaf",
-          "2 x bandages"
+          "1 x bandages"
         ],
         "heroes": [
           {
@@ -50,12 +52,12 @@
               "leadership"
             ],
             "traits": [],
-            "xp": 6,
+            "xp": 8,
             "advances": 1,
             "status": "active",
             "role": "avatar",
             "warbandRole": "RANGE",
-            "notes": ""
+            "notes": "Injured (2)"
           },
           {
             "id": "9e28401e-65aa-4c79-83ba-2dbfe98bdc28",
@@ -81,10 +83,12 @@
               "light weapon",
               "partial armor"
             ],
-            "skills": [],
+            "skills": [
+              "alchemy"
+            ],
             "traits": [],
-            "xp": 7,
-            "advances": 1,
+            "xp": 9,
+            "advances": 2,
             "status": "active",
             "role": "hero",
             "warbandRole": "MAGE"
@@ -109,16 +113,17 @@
             },
             "isMystic": false,
             "equipment": [
-              "Standard weapon",
-              "light armor"
+              "light armor",
+              "warhammer"
             ],
             "skills": [],
             "traits": [],
-            "xp": 6,
+            "xp": 8,
             "advances": 1,
             "status": "active",
             "role": "follower",
-            "followerType": "Hired guide"
+            "followerType": "Hired guide",
+            "notes": "(11 DC hero)"
           },
           {
             "id": "04837dde-4c6a-4cb2-b23f-d2fcbbb18cf4",
@@ -149,12 +154,12 @@
               "battlewise"
             ],
             "traits": [],
-            "xp": 5,
+            "xp": 7,
             "advances": 1,
             "status": "active",
             "role": "hero",
             "warbandRole": "-",
-            "notes": ""
+            "notes": "Hilmir (6)"
           },
           {
             "id": "9bba8aef-23e0-475e-84eb-ffc2a9a1ea3d",
@@ -168,7 +173,7 @@
               "agility": 2,
               "combatSkill": 2,
               "armor": 0,
-              "toughness": 3,
+              "toughness": 4,
               "will": 1,
               "luck": 0,
               "casting": 0,
@@ -178,12 +183,13 @@
             "equipment": [
               "self bow",
               "light weapon",
-              "light armor"
+              "light armor",
+              "heart seeker (on 6: ignore armor)"
             ],
             "skills": [],
             "traits": [],
-            "xp": 7,
-            "advances": 1,
+            "xp": 9,
+            "advances": 2,
             "status": "active",
             "role": "hero",
             "warbandRole": "-",
@@ -210,13 +216,13 @@
             "isMystic": false,
             "equipment": [
               "knight armor",
-              "heart seeker (on 6: ignore armor)"
+              "warspear"
             ],
             "skills": [
               "Scholar"
             ],
             "traits": [],
-            "xp": 6,
+            "xp": 8,
             "advances": 1,
             "status": "active",
             "role": "follower",
@@ -254,7 +260,7 @@
         ],
         "infirmary": [],
         "fallen": [],
-        "adventurePoints": 0
+        "adventurePoints": 7
       },
       "mystics": {
         "spells": [
@@ -348,8 +354,8 @@
           "delves": [],
           "contracts": [
             "Locate item (Townsfolk): Roll on table if: Successfull delve, raid camp / hideout, defeat uniqe foe, arrive at unexplored location -unlimited time",
-            "Chase off group (doggos) | 2 Gold + 1 story point | 1 turns left",
-            "Deliver letter from woodborough to pine farms | 1 Adventure point + 1 GP"
+            "Deliver letter from woodborough to pine farms | 1 Adventure point + 1 GP",
+            "COMPLETED: Chase off group (doggos) | 2 Gold + 1 story point | 1 turns left"
           ],
           "playerNotes": "Done quests:\nAid community (local clergy): 4 Gold Marks ,+1 adventure point. (patrol 3/3) - 1 turns left"
         }
@@ -516,7 +522,7 @@
         "luckyBreak": true,
         "learnedToDoThis": true
       },
-      "campaignNotes": "- Negate the next Enemy Plans Table result in the campaign (vital information)",
+      "campaignNotes": "- Negate the next Enemy Plans Table result in the campaign (vital information x 2)\n- do not have to roll on travel table next campaign turn",
       "combatNotes": ""
     }
   ]
